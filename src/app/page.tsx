@@ -21,24 +21,28 @@ const features = [
     title: "Sıralamana göre ara",
     description:
       "TYT, SAY, EA, SÖZ veya DİL sıralamanı girerek sana uygun programları bul.",
+    href: "/programlar",
   },
   {
     icon: BarChart3,
     title: "Geçmiş yılları karşılaştır",
     description:
       "Programların taban sıralamalarını, puanlarını ve kontenjan değişimlerini incele.",
+    href: "/programlar",
   },
   {
     icon: Home,
     title: "Yurtları incele",
     description:
       "KYK ve özel yurtların oda tiplerini, kapasitelerini ve kampüse uzaklığını gör.",
+    href: "/yurtlar",
   },
   {
     icon: Heart,
     title: "Tercih listeni oluştur",
     description:
       "Beğendiğin programları kaydet, karşılaştır ve 24 tercihlik listeni hazırla.",
+    href: "/tercihlerim",
   },
 ];
 
@@ -291,18 +295,28 @@ export default function HomePage() {
             const Icon = feature.icon;
 
             return (
-              <article
+              <Link
                 key={feature.title}
-                className="rounded-3xl border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:border-indigo-200 hover:shadow-xl"
+                href={feature.href}
+                aria-label={feature.title}
+                className="group block rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 transition hover:-translate-y-1 hover:border-indigo-200 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-indigo-200"
               >
-                <div className="flex size-12 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+                <div className="flex size-12 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600 transition group-hover:bg-indigo-600 group-hover:text-white">
                   <Icon size={23} />
                 </div>
-                <h3 className="mt-5 text-lg font-black">{feature.title}</h3>
+
+                <h3 className="mt-5 text-lg font-black">
+                  {feature.title}
+                </h3>
+
                 <p className="mt-2 leading-7 text-slate-600">
                   {feature.description}
                 </p>
-              </article>
+
+                <span className="mt-5 inline-flex text-sm font-black text-indigo-600">
+                  İncele →
+                </span>
+              </Link>
             );
           })}
         </div>
