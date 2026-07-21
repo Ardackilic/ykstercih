@@ -52,6 +52,9 @@ const programs = data.programs as Program[];
 
 const SITE_URL = "https://ykstercih.site";
 
+export const dynamic = "force-dynamic";
+export const dynamicParams = true;
+
 export const dynamicParams = true;
 export const revalidate = 86400;
 
@@ -61,11 +64,7 @@ type ProgramPageProps = {
   }>;
 };
 
-export function generateStaticParams() {
-  return programs.map((program) => ({
-    id: program.code,
-  }));
-}
+
 
 export async function generateMetadata({
   params,
