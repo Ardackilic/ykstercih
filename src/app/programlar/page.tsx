@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import FavoriteButton from "@/components/favorite-button";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
   Building2,
@@ -13,6 +13,12 @@ import {
   Search,
   SlidersHorizontal,
 } from "lucide-react";
+
+const PROGRAMS_SCROLL_KEY =
+  "yks-tercih-programs-scroll-position";
+
+const PROGRAMS_RETURN_KEY =
+  "yks-tercih-programs-return-pending";
 
 type HistoryItem = {
   ranking: number | null;
@@ -49,6 +55,8 @@ type ApiResponse = {
 };
 
 export default function ProgramsPage() {
+  const scrollRestoredRef = useRef(false);
+
   const [programs, setPrograms] = useState<Program[]>([]);
   const [query, setQuery] = useState("");
   const [scoreType, setScoreType] = useState("");
@@ -112,6 +120,74 @@ export default function ProgramsPage() {
       controller.abort();
     };
   }, [query, scoreType, universityType, level, ranking, page]);
+
+  useEffect(() => {
+    if (
+      loading ||
+      scrollRestoredRef.current ||
+      typeof window === "undefined"
+    ) {
+      return;
+    }
+
+    const shouldRestore =
+      window.sessionStorage.getItem(
+        PROGRAMS_RETURN_KEY
+      ) === "1";
+
+    if (!shouldRestore) {
+      scrollRestoredRef.current = true;
+      return;
+    }
+
+    const savedPosition = Number(
+      window.sessionStorage.getItem(
+        PROGRAMS_SCROLL_KEY
+      ) ?? 0
+    );
+
+    scrollRestoredRef.current = true;
+
+    window.sessionStorage.removeItem(
+      PROGRAMS_RETURN_KEY
+    );
+
+    /*
+     * Sonuç kartlarının DOM'a tamamen yerleşmesini bekle.
+     * Mobil tarayıcılarda iki frame beklemek zıplamayı önler.
+     */
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        window.scrollTo({
+          top: savedPosition,
+          behavior: "auto",
+        });
+
+        window.setTimeout(() => {
+          window.scrollTo({
+            top: savedPosition,
+            behavior: "auto",
+          });
+        }, 100);
+      });
+    });
+  }, [loading, programs]);
+
+  function saveProgramsPosition() {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    window.sessionStorage.setItem(
+      PROGRAMS_SCROLL_KEY,
+      String(window.scrollY)
+    );
+
+    window.sessionStorage.setItem(
+      PROGRAMS_RETURN_KEY,
+      "1"
+    );
+  }
 
   function resetFilters() {
     setQuery("");
@@ -309,6 +385,7 @@ export default function ProgramsPage() {
                             key={program.code}
                             program={program}
                             studentRanking={studentRanking}
+                            onOpenProgram={saveProgramsPosition}
                           />
                         )
                       )}
@@ -326,6 +403,7 @@ export default function ProgramsPage() {
                             key={program.code}
                             program={program}
                             studentRanking={studentRanking}
+                            onOpenProgram={saveProgramsPosition}
                           />
                         )
                       )}
@@ -343,6 +421,7 @@ export default function ProgramsPage() {
                             key={program.code}
                             program={program}
                             studentRanking={studentRanking}
+                            onOpenProgram={saveProgramsPosition}
                           />
                         )
                       )}
@@ -361,6 +440,7 @@ export default function ProgramsPage() {
                               key={program.code}
                               program={program}
                               studentRanking={studentRanking}
+                              onOpenProgram={saveProgramsPosition}
                             />
                           )
                         )}
@@ -373,6 +453,7 @@ export default function ProgramsPage() {
                       key={program.code}
                       program={program}
                       studentRanking={0}
+                      onOpenProgram={saveProgramsPosition}
                     />
                   ))
                 )}
@@ -478,9 +559,11 @@ function PreferenceGroup({
 function ProgramCard({
   program,
   studentRanking,
+  onOpenProgram,
 }: {
   program: Program;
   studentRanking: number;
+  onOpenProgram: () => void;
 }) {
   const evaluation = getEvaluation(studentRanking, program.latestRanking);
   const years = Object.keys(program.history)
@@ -582,6 +665,7 @@ function ProgramCard({
 
         <Link
           href={`/programlar/${program.code}`}
+          onClick={onOpenProgram}
           className="flex items-center justify-center gap-2 rounded-xl bg-slate-950 px-5 py-3 text-sm font-bold !text-white transition hover:bg-indigo-600 hover:!text-white"
         >
           Programı incele

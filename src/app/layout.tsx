@@ -2,6 +2,15 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+};
+
+
 const SITE_URL = "https://ykstercih.site";
 const SITE_NAME = "YKS Tercih";
 
