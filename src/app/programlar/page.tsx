@@ -105,7 +105,7 @@ export default function ProgramsPage() {
       }
     }
 
-    const timeout = setTimeout(loadPrograms, 250);
+    const timeout = setTimeout(loadPrograms, 300);
 
     return () => {
       clearTimeout(timeout);
@@ -121,6 +121,16 @@ export default function ProgramsPage() {
     setRanking("");
     setPage(1);
   }
+
+  const studentRanking = Number(ranking);
+
+  const groupedPrograms =
+    studentRanking > 0
+      ? groupProgramsByPreference(
+          programs,
+          studentRanking
+        )
+      : null;
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
@@ -284,14 +294,88 @@ export default function ProgramsPage() {
 
           {!loading && !error && (
             <>
-              <div className="space-y-4">
-                {programs.map((program) => (
-                  <ProgramCard
-                    key={program.code}
-                    program={program}
-                    studentRanking={Number(ranking)}
-                  />
-                ))}
+              <div className="space-y-6">
+                {groupedPrograms ? (
+                  <>
+                    <PreferenceGroup
+                      title="Zor tercihler"
+                      description="Geçen yıl senden daha iyi başarı sırasıyla öğrenci alan programlar."
+                      count={groupedPrograms.difficult.length}
+                      className="border-rose-200 bg-rose-50 text-rose-800"
+                    >
+                      {groupedPrograms.difficult.map(
+                        (program) => (
+                          <ProgramCard
+                            key={program.code}
+                            program={program}
+                            studentRanking={studentRanking}
+                          />
+                        )
+                      )}
+                    </PreferenceGroup>
+
+                    <PreferenceGroup
+                      title="Sıralamana yakın tercihler"
+                      description="Başarı sırana yakın olan ve tercih listende dengeli şekilde bulunabilecek programlar."
+                      count={groupedPrograms.near.length}
+                      className="border-amber-200 bg-amber-50 text-amber-800"
+                    >
+                      {groupedPrograms.near.map(
+                        (program) => (
+                          <ProgramCard
+                            key={program.code}
+                            program={program}
+                            studentRanking={studentRanking}
+                          />
+                        )
+                      )}
+                    </PreferenceGroup>
+
+                    <PreferenceGroup
+                      title="Daha güvenli tercihler"
+                      description="Geçen yıl senin başarı sırandan daha geride kapatan programlar."
+                      count={groupedPrograms.safe.length}
+                      className="border-emerald-200 bg-emerald-50 text-emerald-800"
+                    >
+                      {groupedPrograms.safe.map(
+                        (program) => (
+                          <ProgramCard
+                            key={program.code}
+                            program={program}
+                            studentRanking={studentRanking}
+                          />
+                        )
+                      )}
+                    </PreferenceGroup>
+
+                    {groupedPrograms.unranked.length > 0 && (
+                      <PreferenceGroup
+                        title="Sıralama verisi bulunmayanlar"
+                        description="2025 başarı sırası oluşmayan veya kontenjanı dolmayan programlar."
+                        count={groupedPrograms.unranked.length}
+                        className="border-slate-200 bg-slate-100 text-slate-700"
+                      >
+                        {groupedPrograms.unranked.map(
+                          (program) => (
+                            <ProgramCard
+                              key={program.code}
+                              program={program}
+                              studentRanking={studentRanking}
+                            />
+                          )
+                        )}
+                      </PreferenceGroup>
+                    )}
+                  </>
+                ) : (
+                  programs.map((program) => (
+                    <ProgramCard
+                      key={program.code}
+                      program={program}
+                      studentRanking={0}
+                    />
+                  ))
+                )}
 
                 {programs.length === 0 && (
                   <div className="rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-16 text-center">
@@ -344,6 +428,50 @@ export default function ProgramsPage() {
         </section>
       </div>
     </main>
+  );
+}
+
+function PreferenceGroup({
+  title,
+  description,
+  count,
+  className,
+  children,
+}: {
+  title: string;
+  description: string;
+  count: number;
+  className: string;
+  children: React.ReactNode;
+}) {
+  if (count === 0) {
+    return null;
+  }
+
+  return (
+    <section>
+      <div
+        className={`mb-4 rounded-2xl border px-4 py-4 sm:px-5 ${className}`}
+      >
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 className="text-lg font-black sm:text-xl">
+            {title}
+          </h2>
+
+          <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-black">
+            {count} program
+          </span>
+        </div>
+
+        <p className="mt-1 text-sm font-semibold leading-6 opacity-80">
+          {description}
+        </p>
+      </div>
+
+      <div className="space-y-4">
+        {children}
+      </div>
+    </section>
   );
 }
 
@@ -527,7 +655,7 @@ function getEvaluation(
   }
 
   return {
-    label: "Riskli tercih",
+    label: "Zor tercih",
     className: "bg-rose-100 text-rose-700",
   };
 }
@@ -554,6 +682,74 @@ function getLatestRanking(program: Program) {
       ranking: null,
     }
   );
+}
+
+function groupProgramsByPreference(
+  programs: Program[],
+  studentRanking: number
+) {
+  const difficult: Program[] = [];
+  const near: Program[] = [];
+  const safe: Program[] = [];
+  const unranked: Program[] = [];
+
+  for (const program of programs) {
+    const programRanking =
+      program.latestRanking;
+
+    if (programRanking === null) {
+      unranked.push(program);
+      continue;
+    }
+
+    const differenceRatio =
+      (programRanking - studentRanking) /
+      studentRanking;
+
+    /*
+     * Program sırası öğrenciden en az %10 daha iyiyse:
+     * Zor tercih.
+     */
+    if (differenceRatio < -0.1) {
+      difficult.push(program);
+      continue;
+    }
+
+    /*
+     * Öğrenci sırasının %10 önü ile %25 gerisi:
+     * Sıralamaya yakın.
+     */
+    if (differenceRatio < 0.25) {
+      near.push(program);
+      continue;
+    }
+
+    /*
+     * Öğrenciden %25 veya daha geride kapatmışsa:
+     * Daha güvenli tercih.
+     */
+    safe.push(program);
+  }
+
+  const sortByRanking = (
+    first: Program,
+    second: Program
+  ) =>
+    (first.latestRanking ??
+      Number.MAX_SAFE_INTEGER) -
+    (second.latestRanking ??
+      Number.MAX_SAFE_INTEGER);
+
+  difficult.sort(sortByRanking);
+  near.sort(sortByRanking);
+  safe.sort(sortByRanking);
+
+  return {
+    difficult,
+    near,
+    safe,
+    unranked,
+  };
 }
 
 function format(value: number) {
