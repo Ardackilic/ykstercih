@@ -31,7 +31,17 @@ export const metadata: Metadata = {
   description:
     "YKS sıralamana göre üniversite ve bölüm bul, taban puanları karşılaştır, KYK yurtlarını incele ve tercih listeni oluştur.",
 
-  keywords: [
+  icons: {
+    icon: [
+      {
+        url: "/yks-tercih-icon.svg?v=3",
+        type: "image/svg+xml",
+      },
+    ],
+    shortcut: "/yks-tercih-icon.svg?v=3",
+    apple: "/yks-tercih-icon.svg?v=3",
+  },
+keywords: [
     "YKS tercih",
     "YKS tercih robotu",
     "üniversite tercih",
