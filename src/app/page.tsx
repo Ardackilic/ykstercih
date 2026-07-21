@@ -310,7 +310,7 @@ export default function HomePage() {
 
       <footer className="border-t border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-8 text-sm text-slate-500 md:flex-row md:items-center md:justify-between lg:px-8">
-          <p>© 2026 TercihPusula</p>
+          <p>© 2026 YKS Tercih</p>
           <p>
             Gösterilen analizler kesin yerleştirme sonucu değildir.
           </p>

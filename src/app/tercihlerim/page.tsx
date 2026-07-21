@@ -101,7 +101,7 @@ export default function PreferencesPage() {
             </div>
 
             <div>
-              <p className="font-black">TercihPusula</p>
+              <p className="font-black">YKS Tercih</p>
               <p className="text-xs text-slate-500">
                 Tercih listem
               </p>

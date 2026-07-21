@@ -579,7 +579,7 @@ export default function DormitoriesPage() {
             </div>
 
             <div>
-              <p className="font-black">TercihPusula</p>
+              <p className="font-black">YKS Tercih</p>
               <p className="text-xs text-slate-500">
                 Yurt ve konaklama rehberi
               </p>

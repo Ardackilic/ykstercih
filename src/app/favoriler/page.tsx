@@ -80,7 +80,7 @@ export default function FavoritesPage() {
             </div>
 
             <div>
-              <p className="font-black">TercihPusula</p>
+              <p className="font-black">YKS Tercih</p>
               <p className="text-xs text-slate-500">Favorilerim</p>
             </div>
           </Link>

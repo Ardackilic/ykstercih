@@ -132,7 +132,7 @@ export default function ProgramsPage() {
             </div>
 
             <div>
-              <p className="font-black">TercihPusula</p>
+              <p className="font-black">YKS Tercih</p>
               <p className="text-xs text-slate-500">Gerçek ÖSYM verileri</p>
             </div>
           </Link>

@@ -73,7 +73,7 @@ export default function UniversitiesPage() {
             </div>
 
             <div>
-              <p className="font-black">TercihPusula</p>
+              <p className="font-black">YKS Tercih</p>
               <p className="text-xs text-slate-500">Üniversiteler</p>
             </div>
           </Link>
