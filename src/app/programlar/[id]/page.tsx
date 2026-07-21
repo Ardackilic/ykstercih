@@ -353,10 +353,12 @@ export default async function ProgramDetailPage({
 
               <div className="mt-9 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
                 <HeroStat
-                  label={`${program.latestResultYear ?? "Son"} başarı sırası`}
-                  value={formatNullable(program.latestRanking)}
-                  emphasis
-                />
+                    label={`${getLatestRanking(program).year ?? "Son"} başarı sırası`}
+                    value={formatNullable(
+                      getLatestRanking(program).ranking
+                    )}
+                    emphasis
+                  />
 
                 <HeroStat
                   label="Taban puan"
@@ -796,6 +798,30 @@ function formatNullable(value: number | null) {
   }
 
   return new Intl.NumberFormat("tr-TR").format(value);
+}
+
+function getLatestRanking(program: Program) {
+  const rows = Object.entries(program.history)
+    .map(([year, item]) => ({
+      year: Number(year),
+      ranking: item.ranking,
+    }))
+    .filter(
+      (
+        item
+      ): item is {
+        year: number;
+        ranking: number;
+      } => item.ranking !== null
+    )
+    .sort((a, b) => b.year - a.year);
+
+  return (
+    rows[0] ?? {
+      year: null,
+      ranking: null,
+    }
+  );
 }
 
 function getTrend(

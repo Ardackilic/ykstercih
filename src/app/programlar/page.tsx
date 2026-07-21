@@ -532,6 +532,30 @@ function getEvaluation(
   };
 }
 
+function getLatestRanking(program: Program) {
+  const rows = Object.entries(program.history)
+    .map(([year, item]) => ({
+      year: Number(year),
+      ranking: item.ranking,
+    }))
+    .filter(
+      (
+        item
+      ): item is {
+        year: number;
+        ranking: number;
+      } => item.ranking !== null
+    )
+    .sort((a, b) => b.year - a.year);
+
+  return (
+    rows[0] ?? {
+      year: null,
+      ranking: null,
+    }
+  );
+}
+
 function format(value: number) {
   return new Intl.NumberFormat("tr-TR").format(value);
 }
