@@ -159,6 +159,16 @@ export default async function ProgramDetailPage({
 
   const trend = getTrend(historyRows);
 
+  const rankingChartRows = historyRows
+    .filter(
+      (
+        item
+      ): item is typeof item & {
+        ranking: number;
+      } => item.ranking !== null
+    )
+    .sort((a, b) => a.year - b.year);
+
   const programUrl =
     `https://ykstercih.site/programlar/${encodeURIComponent(
       program.code
@@ -469,7 +479,9 @@ export default async function ProgramDetailPage({
             title="Yıllara göre başarı sırası"
             icon={<BarChart3 size={21} />}
           >
-            <div className="overflow-x-auto">
+            <RankingChart rows={rankingChartRows} />
+
+            <div className="mt-6 overflow-x-auto">
               <table className="w-full min-w-[680px] border-separate border-spacing-y-2">
                 <thead>
                   <tr className="text-left text-xs font-black uppercase tracking-wide text-slate-400">
@@ -701,6 +713,176 @@ function HeroStat({
         {label}
       </p>
       <p className="mt-2 break-words text-xl font-black">{value}</p>
+    </div>
+  );
+}
+
+function RankingChart({
+  rows,
+}: {
+  rows: Array<{
+    year: number;
+    ranking: number;
+  }>;
+}) {
+  if (rows.length < 2) {
+    return null;
+  }
+
+  const width = 760;
+  const height = 280;
+  const paddingX = 58;
+  const paddingTop = 32;
+  const paddingBottom = 58;
+
+  const rankings = rows.map((item) => item.ranking);
+  const minimumRanking = Math.min(...rankings);
+  const maximumRanking = Math.max(...rankings);
+
+  const range = Math.max(
+    maximumRanking - minimumRanking,
+    1
+  );
+
+  const chartWidth = width - paddingX * 2;
+  const chartHeight =
+    height - paddingTop - paddingBottom;
+
+  const points = rows.map((item, index) => {
+    const x =
+      rows.length === 1
+        ? width / 2
+        : paddingX +
+          (index / (rows.length - 1)) *
+            chartWidth;
+
+    /*
+     * Başarı sıralamasında küçük sayı daha iyidir.
+     * Bu nedenle küçük değer grafikte yukarıda,
+     * büyük değer aşağıda gösterilir.
+     */
+    const y =
+      paddingTop +
+      ((item.ranking - minimumRanking) / range) *
+        chartHeight;
+
+    return {
+      ...item,
+      x,
+      y,
+    };
+  });
+
+  const polylinePoints = points
+    .map((point) => `${point.x},${point.y}`)
+    .join(" ");
+
+  return (
+    <div className="overflow-hidden rounded-3xl bg-slate-50 p-4 sm:p-6">
+      <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="font-black text-slate-900">
+            Başarı sırası grafiği
+          </p>
+
+          <p className="mt-1 text-xs font-semibold text-slate-500">
+            Grafikte yukarı çıkmak daha iyi başarı sırasını gösterir.
+          </p>
+        </div>
+
+        <span className="mt-2 inline-flex w-fit rounded-full bg-indigo-100 px-3 py-1 text-xs font-black text-indigo-700 sm:mt-0">
+          Küçük sıra daha iyi
+        </span>
+      </div>
+
+      <div className="overflow-x-auto">
+        <svg
+          viewBox={`0 0 ${width} ${height}`}
+          role="img"
+          aria-label="Yıllara göre başarı sırası grafiği"
+          className="min-w-[620px] w-full"
+        >
+          {[0, 0.25, 0.5, 0.75, 1].map(
+            (ratio) => {
+              const y =
+                paddingTop + ratio * chartHeight;
+
+              const ranking = Math.round(
+                minimumRanking + ratio * range
+              );
+
+              return (
+                <g key={ratio}>
+                  <line
+                    x1={paddingX}
+                    y1={y}
+                    x2={width - paddingX}
+                    y2={y}
+                    stroke="currentColor"
+                    strokeOpacity="0.08"
+                    strokeWidth="1"
+                  />
+
+                  <text
+                    x={paddingX - 12}
+                    y={y + 4}
+                    textAnchor="end"
+                    className="fill-slate-400 text-[11px] font-bold"
+                  >
+                    {new Intl.NumberFormat(
+                      "tr-TR"
+                    ).format(ranking)}
+                  </text>
+                </g>
+              );
+            }
+          )}
+
+          <polyline
+            points={polylinePoints}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="text-indigo-600"
+          />
+
+          {points.map((point) => (
+            <g key={point.year}>
+              <circle
+                cx={point.x}
+                cy={point.y}
+                r="8"
+                fill="white"
+                stroke="currentColor"
+                strokeWidth="4"
+                className="text-indigo-600"
+              />
+
+              <text
+                x={point.x}
+                y={point.y - 16}
+                textAnchor="middle"
+                className="fill-slate-900 text-[12px] font-black"
+              >
+                {new Intl.NumberFormat(
+                  "tr-TR"
+                ).format(point.ranking)}
+              </text>
+
+              <text
+                x={point.x}
+                y={height - 20}
+                textAnchor="middle"
+                className="fill-slate-500 text-[12px] font-black"
+              >
+                {point.year}
+              </text>
+            </g>
+          ))}
+        </svg>
+      </div>
     </div>
   );
 }
