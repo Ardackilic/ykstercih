@@ -52,12 +52,8 @@ const programs = data.programs as Program[];
 
 const SITE_URL = "https://ykstercih.site";
 
-export const dynamic = "force-dynamic";
-export const dynamicParams = true;
-
 export const dynamicParams = true;
 export const revalidate = 86400;
-
 type ProgramPageProps = {
   params: Promise<{
     id: string;
