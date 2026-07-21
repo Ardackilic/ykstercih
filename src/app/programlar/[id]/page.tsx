@@ -353,10 +353,8 @@ export default async function ProgramDetailPage({
 
               <div className="mt-9 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
                 <HeroStat
-                    label={`${getLatestRanking(program).year ?? "Son"} başarı sırası`}
-                    value={formatNullable(
-                      getLatestRanking(program).ranking
-                    )}
+                    label={`${program.latestResultYear ?? "Son"} başarı sırası`}
+                    value={formatNullable(program.latestRanking)}
                     emphasis
                   />
 
