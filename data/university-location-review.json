@@ -1,0 +1,114 @@
+{
+  "acibadem-mehmet-ali-aydinlar-universitesi-istanbul": {
+    "universityName": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ (İSTANBUL)",
+    "city": "İstanbul",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T09:58:30.135Z"
+  },
+  "ankara-medipol-universitesi": {
+    "universityName": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "city": "Ankara",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T09:58:54.493Z"
+  },
+  "azerbaycan-devlet-pedagoji-universitesi-baku-azerbaycan": {
+    "universityName": "AZERBAYCAN DEVLET PEDAGOJİ ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)",
+    "city": "Bakü",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:00:21.311Z"
+  },
+  "azerbaycan-diller-universitesi-baku-azerbaycan": {
+    "universityName": "AZERBAYCAN DİLLER ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)",
+    "city": "Bakü",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:00:30.068Z"
+  },
+  "azerbaycan-tip-universitesi-baku-azerbaycan": {
+    "universityName": "AZERBAYCAN TIP ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)",
+    "city": "Bakü",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:00:38.742Z"
+  },
+  "baku-devlet-universitesi-baku-azerbaycan": {
+    "universityName": "BAKÜ DEVLET ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)",
+    "city": "Bakü",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:00:56.787Z"
+  },
+  "bezm-i-alem-vakif-universitesi-istanbul": {
+    "universityName": "BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ (İSTANBUL)",
+    "city": "İstanbul",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:02:44.975Z"
+  },
+  "demiroglu-bilim-universitesi-istanbul": {
+    "universityName": "DEMİROĞLU BİLİM ÜNİVERSİTESİ (İSTANBUL)",
+    "city": "İstanbul",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:04:54.594Z"
+  },
+  "gaziantep-islam-bilim-ve-teknoloji-universitesi": {
+    "universityName": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+    "city": "Gaziantep",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:08:47.126Z"
+  },
+  "istanbul-29-mayis-universitesi": {
+    "universityName": "İSTANBUL 29 MAYIS ÜNİVERSİTESİ",
+    "city": "İstanbul",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:11:34.866Z"
+  },
+  "istanbul-nisantasi-universitesi": {
+    "universityName": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ",
+    "city": "İstanbul",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:13:41.428Z"
+  },
+  "istanbul-okan-universitesi": {
+    "universityName": "İSTANBUL OKAN ÜNİVERSİTESİ",
+    "city": "İstanbul",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:13:49.832Z"
+  },
+  "istanbul-topkapi-universitesi": {
+    "universityName": "İSTANBUL TOPKAPI ÜNİVERSİTESİ",
+    "city": "İstanbul",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:14:43.109Z"
+  },
+  "kilis-7-aralik-universitesi": {
+    "universityName": "KİLİS 7 ARALIK ÜNİVERSİTESİ",
+    "city": "Kilis",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:18:28.832Z"
+  },
+  "kutahya-dumlupinar-universitesi": {
+    "universityName": "KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ",
+    "city": "Kütahya",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:20:13.824Z"
+  },
+  "van-yuzuncu-yil-universitesi": {
+    "universityName": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ",
+    "city": "Van",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:31:07.174Z"
+  }
+}

@@ -1,0 +1,3146 @@
+{
+  "metadata": {
+    "description": "Kaynakla doğrulanmış yurt kapasite kayıtları",
+    "lastUpdatedAt": "2026-07-21T11:33:19.876Z",
+    "recordCount": 392,
+    "lastAutomaticImportAt": "2026-07-21T11:43:47.400Z"
+  },
+  "records": [
+    {
+      "dormitoryId": "adana-adana-ogrenci-yurdu",
+      "capacity": 613,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-ceyhan-yurdu",
+      "capacity": 524,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-cukurova-ogrenci-yurdu",
+      "capacity": 2106,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-fevzi-cakmak-yurdu-adana",
+      "capacity": 2130,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-kozan-ogrenci-yurdu",
+      "capacity": 524,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-kut-ul-amare-ogrenci-yurdu",
+      "capacity": 516,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-mahmut-sami-ramazanoglu-ogrenci-yurdu",
+      "capacity": 1144,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-saricam-ogrenci-yurdu",
+      "capacity": 1524,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "adana-toroslar-ogrenci-yurdu",
+      "capacity": 2150,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-afyon-cigiltepe-kiz-ogrenci-yurdu",
+      "capacity": 1238,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-afyon-tinaztepe-ogrenci-yurdu",
+      "capacity": 938,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-bacim-sultan-ogrenci-yurdu",
+      "capacity": 3000,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-bayat-ogrenci-yurdu",
+      "capacity": 272,
+      "capacityYear": 2019,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — İşletme Yerleri Listesi",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-bolvadin-kiz-ogrenci-yurdu",
+      "capacity": 500,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-bolvadin-ogrenci-yurdu",
+      "capacity": 500,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-cay-ogrenci-yurdu",
+      "capacity": 1152,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-destine-hatun-ogrenci-yurdu",
+      "capacity": 1556,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-dinar-ogrenci-yurdu",
+      "capacity": 1056,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-emirdag-ogrenci-yurdu",
+      "capacity": 536,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-esma-sultan-ogrenci-yurdu",
+      "capacity": 312,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-kamil-miras-ogrenci-yurdu",
+      "capacity": 941,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-prof-dr-remzi-kaya-kiz-ogrenci-yurdu",
+      "capacity": 285,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-safiye-sultan-ogrenci-yurdu",
+      "capacity": 840,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-suhut-ogrenci-yurdu",
+      "capacity": 349,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "afyonkarahisar-sultan-divani-ogrenci-yurdu",
+      "capacity": 328,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "aksaray-aksaray-erkek-yurdu",
+      "capacity": 1507,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "aksaray-alime-hatun-ogrenci-yurdu",
+      "capacity": 1779,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "aksaray-guzelyurt-ogrenci-yurdu",
+      "capacity": 400,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "aksaray-hamid-i-veli-ogrenci-yurdu",
+      "capacity": 1042,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "aksaray-mahperi-hatun-ogrenci-yurdu",
+      "capacity": 1239,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "amasya-amasya-yurdu",
+      "capacity": 1812,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "amasya-gumushacikoy-ogrenci-yurdu",
+      "capacity": 320,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "amasya-husnusah-hatun-ogrenci-yurdu",
+      "capacity": 1064,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "amasya-kara-mustafa-pasa-ogrenci-yurdu",
+      "capacity": 515,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "amasya-merzifon-yurdu",
+      "capacity": 265,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "amasya-suluova-ogrenci-yurdu",
+      "capacity": 75,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-alev-alatli-ogrenci-yurdu",
+      "capacity": 1496,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-baglica-ogrenci-yurdu",
+      "capacity": 558,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-bestepe-yurdu",
+      "capacity": 852,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-beypazari-ogrenci-yurdu",
+      "capacity": 538,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-cebeci-site-ogrenci-yurdu",
+      "capacity": 3606,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-emine-serife-hanim-ogrenci-yurdu",
+      "capacity": 2264,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-fatma-hanim-ogrenci-yurdu",
+      "capacity": 818,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-gazi-yurdu",
+      "capacity": 1043,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-golbasi-eymir-ogrenci-yurdu",
+      "capacity": 2364,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-golbasi-ogrenci-yurdu",
+      "capacity": 1448,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-gsb-baskent-yurtlari-1",
+      "capacity": 6000,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-gsb-baskent-yurtlari-2",
+      "capacity": 1646,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-hafiz-mustafa-sumer-ogrenci-yurdu",
+      "capacity": 80,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-haymana-ogrenci-yurdu",
+      "capacity": 378,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-huseyin-gazi-ogrenci-yurdu",
+      "capacity": 1566,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-mahmut-nedim-zapci-yurdu",
+      "capacity": 536,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-osman-tan-ogrenci-yurdu",
+      "capacity": 1110,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-polatli-yurdu",
+      "capacity": 1152,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-sereflikochisar-yurdu",
+      "capacity": 584,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-taceddin-veli-ogrenci-yurdu",
+      "capacity": 443,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-tahsin-banguoglu-yurdu",
+      "capacity": 2256,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-yenimahalle-ogrenci-yurdu",
+      "capacity": 1310,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ankara-yunus-emre-yurdu",
+      "capacity": 2180,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-alanya-ogrenci-yurdu",
+      "capacity": 1966,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-alanya-terken-hatun-ogrenci-yurdu",
+      "capacity": 1205,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-damlatas-yurdu",
+      "capacity": 2586,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-elmalili-hamdi-yazir-ogrenci-yurdu",
+      "capacity": 1526,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-falez-ogrenci-yurdu",
+      "capacity": 1972,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-gazipasa-ogrenci-yurdu",
+      "capacity": 532,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-korkuteli-ogrenci-yurdu",
+      "capacity": 324,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-kumluca-ogrenci-yurdu",
+      "capacity": 306,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-manavgat-ogrenci-yurdu",
+      "capacity": 487,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-manavgat-selale-ogrenci-yurdu",
+      "capacity": 745,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-sehzade-korkut-ogrenci-yurdu",
+      "capacity": 4832,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "antalya-serik-ogrenci-yurdu",
+      "capacity": 1044,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ardahan-ardahan-yurdu",
+      "capacity": 568,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ardahan-niyazi-misri-ogrenci-yurdu",
+      "capacity": 825,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "artvin-artvin-yurdu",
+      "capacity": 668,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "artvin-cicek-nene-ogrenci-yurdu",
+      "capacity": 2044,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "artvin-hamdi-efendi-ogrenci-yurdu",
+      "capacity": 288,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "artvin-nedime-lutfiye-gunal-ogrenci-yurdu",
+      "capacity": 172,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "artvin-sah-sultan-ogrenci-yurdu",
+      "capacity": 428,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "batman-batman-kiz-ogrenci-yurdu",
+      "capacity": 820,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "batman-seyyid-bilal-ogrenci-yurdu",
+      "capacity": 1062,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "batman-suveybe-ana-ogrenci-yurdu",
+      "capacity": 1000,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bayburt-aglarbaba-ogrenci-yurdu",
+      "capacity": 820,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bayburt-bayburt-ogrenci-yurdu",
+      "capacity": 233,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bayburt-sultan-fahriye-ogrenci-yurdu",
+      "capacity": 2004,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bilecik-bilecik-halime-hatun-ogrenci-yurdu",
+      "capacity": 976,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bilecik-bilecik-yurdu",
+      "capacity": 1382,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bilecik-ertugrulgazi-ogrenci-yurdu",
+      "capacity": 892,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bilecik-pazaryeri-ogrenci-yurdu",
+      "capacity": 238,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bitlis-adilcevaz-ogrenci-yurdu",
+      "capacity": 200,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bitlis-besminare-ogrenci-yurdu",
+      "capacity": 770,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bitlis-bitlis-kiz-ogrenci-yurdu",
+      "capacity": 554,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bolu-bolu-abant-ogrenci-yurdu",
+      "capacity": 616,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bolu-bolu-golkoy-ogrenci-yurdu",
+      "capacity": 1860,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bolu-gerede-yurdu",
+      "capacity": 612,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bolu-hayreddin-tokadi-ogrenci-yurdu",
+      "capacity": 2802,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bolu-seben-izzet-baysal-meslek-yuksekokulu-myo-ogrenci-yurdu",
+      "capacity": 182,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bolu-seyit-avsar-ogrenci-yurdu",
+      "capacity": 2072,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bolu-seyyide-nefise-ogrenci-yurdu",
+      "capacity": 844,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "burdur-asim-in-nesli-ogrenci-yurdu",
+      "capacity": 556,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "burdur-burdur-yurdu",
+      "capacity": 2250,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "burdur-fereli-sinan-efendi-ogrenci-yurdu",
+      "capacity": 1078,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "burdur-golhisar-ogrenci-yurdu",
+      "capacity": 696,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "burdur-safahat-ogrenci-yurdu",
+      "capacity": 1984,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bursa-bursa-emir-sultan-ogrenci-yurdu",
+      "capacity": 2152,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bursa-gemlik-ogrenci-yurdu",
+      "capacity": 562,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bursa-karacabey-ogrenci-yurdu",
+      "capacity": 364,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bursa-nilufer-hatun-ogrenci-yurdu",
+      "capacity": 409,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bursa-sirin-hatun-ogrenci-yurdu",
+      "capacity": 478,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bursa-suleyman-celebi-ogrenci-yurdu",
+      "capacity": 2982,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "bursa-ulu-sehir-ogrenci-yurdu",
+      "capacity": 1661,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-bekilli-yurdu",
+      "capacity": 237,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-buldan-ogrenci-yurdu",
+      "capacity": 266,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-fatma-yildiz-hanim-ogrenci-yurdu",
+      "capacity": 1266,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-honaz-ogrenci-yurdu",
+      "capacity": 451,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-ibn-i-haldun-ogrenci-yurdu",
+      "capacity": 1323,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-pamukkale-yurdu",
+      "capacity": 3078,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-prof-dr-cevat-aksit-ogrenci-yurdu",
+      "capacity": 1758,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "denizli-tavas-ogrenci-yurdu",
+      "capacity": 265,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "edirne-edirne-erkek-ogrenci-yurdu",
+      "capacity": 1455,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "edirne-gazi-evrenos-ogrenci-yurdu",
+      "capacity": 430,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "edirne-selimiye-yurdu",
+      "capacity": 3192,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "edirne-sultan-celebi-mehmet-yurt-mudurlugu",
+      "capacity": 2358,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "edirne-sultan-ii-murat-ogrenci-yurdu",
+      "capacity": 556,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "edirne-uzunkopru-ogrenci-yurdu",
+      "capacity": 558,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzincan-erzincan-mengucek-gazi-ogrenci-yurdu",
+      "capacity": 1026,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzincan-erzincan-ogrenci-yurdu",
+      "capacity": 2139,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzincan-kemaliye-osman-nuri-akin-yurdu",
+      "capacity": 362,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzincan-pir-muhammed-bahaeddin-ogrenci-yurdu",
+      "capacity": 1684,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzincan-piri-sami-ogrenci-yurdu-mudurlugu",
+      "capacity": 1748,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzincan-salih-baba-ogrenci-yurdu",
+      "capacity": 582,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzincan-tercan-m-refik-simsek-yurdu",
+      "capacity": 164,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-askale-yurdu",
+      "capacity": 2036,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-aziziye-ogrenci-yurdu",
+      "capacity": 1335,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-erzurum-alvarli-efe-ogrenci-yurdu",
+      "capacity": 2210,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-erzurum-kiz-ogrenci-yurdu",
+      "capacity": 409,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-hattat-hasan-celebi-yurdu",
+      "capacity": 1034,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-kazim-karabekir-yurdu",
+      "capacity": 2000,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-nurettin-topcu-ogrenci-yurdu",
+      "capacity": 2678,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-pasinler-yurdu",
+      "capacity": 216,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-rabia-hatun-ogrenci-yurdu",
+      "capacity": 2051,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "erzurum-yakutiye-ogrenci-yurdu",
+      "capacity": 4320,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "gaziantep-abdulkadir-gulluoglu-ogrenci-yurdu",
+      "capacity": 1460,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "gaziantep-gaziantep-ogrenci-yurdu",
+      "capacity": 2208,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "gaziantep-sehitkamil-ogrenci-yurdu",
+      "capacity": 986,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "gaziantep-ummu-gulsum-ogrenci-yurdu",
+      "capacity": 3192,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-aziz-huseyin-gokce-ogrenci-yurdu",
+      "capacity": 135,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-esma-serhat-hatun-ogrenci-yurdu",
+      "capacity": 1262,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-eynesil-ogrenci-yurdu",
+      "capacity": 180,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-giresun-sahil-ogrenci-yurdu",
+      "capacity": 1800,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-giresun-yurdu",
+      "capacity": 725,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-sebinkarahisar-ogrenci-yurdu",
+      "capacity": 900,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-seyyid-vakkas-ogrenci-yurdu",
+      "capacity": 858,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "giresun-tirebolu-ogrenci-yurdu",
+      "capacity": 494,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-antakya-yurdu",
+      "capacity": 1028,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-cemil-meric-ogrenci-yurdu",
+      "capacity": 782,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-dortyol-ogrenci-yurdu",
+      "capacity": 500,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-gaziye-hatun-ogrenci-yurdu",
+      "capacity": 290,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-iskenderun-yurdu",
+      "capacity": 360,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-muhyiddin-ibn-i-arabi-ogrenci-yurdu",
+      "capacity": 250,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-reyhanli-ogrenci-yurdu",
+      "capacity": 404,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-tayfur-sokmen-ogrenci-yurdu",
+      "capacity": 2288,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "hatay-yayladagi-ogrenci-yurdu",
+      "capacity": 168,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-akkadin-haci-mustafa-tarman-kiz-yurdu",
+      "capacity": 294,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-ataturk-ogrenci-yurdu",
+      "capacity": 3555,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-avcilar-ataturk-kiz-yurdu",
+      "capacity": 348,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-bagcilar-ogrenci-yurdu",
+      "capacity": 508,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-bahcekoy-ogrenci-yurdu",
+      "capacity": 506,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-basaksehir-ogrenci-yurdu",
+      "capacity": 4016,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-besiktas-ogrenci-yurdu",
+      "capacity": 2926,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-edirnekapi-kiz-ogrenci-yurdu",
+      "capacity": 1452,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-esenyurt-erkek-ogrenci-yurdu",
+      "capacity": 666,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-fatih-sultan-mehmet-ogrenci-yurdu",
+      "capacity": 3240,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-florya-besyol-ogrenci-yurdu",
+      "capacity": 1205,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-haydar-aliyev-ogrenci-yurdu",
+      "capacity": 2404,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-iyimaya-ogrenci-yurdu",
+      "capacity": 648,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-kadirga-erkek-ogrenci-yurdu",
+      "capacity": 483,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-mahir-iz-ogrenci-yurdu",
+      "capacity": 500,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-mahmut-celalettin-okten-ogrenci-yurdu",
+      "capacity": 1890,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-merter-ogrenci-yurdu",
+      "capacity": 1341,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-mimar-sinan-ogrenci-yurdu",
+      "capacity": 4104,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-sadabad-ogrenci-yurdu",
+      "capacity": 752,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-vali-muammer-guler-ogrenci-yurdu",
+      "capacity": 286,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "istanbul-vezneciler-yurdu",
+      "capacity": 1668,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-ataturk-inciralti-yurdu",
+      "capacity": 2328,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-bayrakli-ogrenci-yurdu",
+      "capacity": 3848,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-bornova-kiz-ogrenci-yurdu",
+      "capacity": 3960,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-cesme-yurdu",
+      "capacity": 184,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-cigli-ogrenci-yurdu",
+      "capacity": 2066,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-cihannuma-ogrenci-yurdu",
+      "capacity": 956,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-gazi-ayse-hanim-ogrenci-yurdu",
+      "capacity": 1394,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-gazi-umurbey-ogrenci-yurdu-mudurlugu",
+      "capacity": 335,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-haci-sinan-ogrenci-yurdu",
+      "capacity": 255,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-hanzade-hatun-ogrenci-yurdu-mudurlugu",
+      "capacity": 1415,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "izmir-izmir-kiz-ogrenci-yurdu",
+      "capacity": 1863,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "karaman-ermenek-ogrenci-yurdu",
+      "capacity": 270,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "karaman-hatuniye-ogrenci-yurdu",
+      "capacity": 1660,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "karaman-karaman-piri-reis-ogrenci-yurdu",
+      "capacity": 1622,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "karaman-karaman-yurdu",
+      "capacity": 1346,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "karaman-karamanoglu-mehmetbey-ogrenci-yurdu",
+      "capacity": 766,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "karaman-nefise-sultan-ogrenci-yurdu",
+      "capacity": 1760,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kars-ipekyolu-ogrenci-yurdu",
+      "capacity": 1785,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kars-kars-hasan-harakani-ogrenci-yurdu",
+      "capacity": 550,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kars-kars-yurdu",
+      "capacity": 780,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kars-murat-cobanoglu-ogrenci-yurdu",
+      "capacity": 1690,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kars-nuri-pasa-ogrenci-yurdu-mudurlugu",
+      "capacity": 821,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kars-seref-tasliova-ogrenci-yurdu",
+      "capacity": 491,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kars-serhat-ogrenci-yurdu-mudurlugu",
+      "capacity": 978,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kastamonu-baharzade-feride-hanim-ogrenci-yurdu",
+      "capacity": 2700,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kastamonu-kastamonu-huma-hatun-ogrenci-yurdu",
+      "capacity": 1333,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kastamonu-kastamonu-yurdu",
+      "capacity": 1306,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kastamonu-seyh-saban-i-veli-ogrenci-yurdu",
+      "capacity": 1388,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-erciyes-yurdu",
+      "capacity": 1732,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-hunat-hatun-ogrenci-yurdu",
+      "capacity": 1595,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-kayseri-ogrenci-yurdu",
+      "capacity": 732,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-kocasinan-ogrenci-yurdu",
+      "capacity": 429,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-melikgazi-kiz-ogrenci-yurdu",
+      "capacity": 1914,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-mustafa-asim-koksal-ogrenci-yurdu",
+      "capacity": 558,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-pertevniyal-sultan-ogrenci-yurdu",
+      "capacity": 1634,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-pinarbasi-ogrenci-yurdu",
+      "capacity": 272,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kayseri-seyyid-burhaneddin-ogrenci-yurdu",
+      "capacity": 818,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kilis-bilal-i-habesi-ogrenci-yurdu",
+      "capacity": 252,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kilis-kartal-bey-ogrenci-yurdu",
+      "capacity": 756,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kilis-kilis-kiz-ogrenci-yurdu",
+      "capacity": 763,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kilis-muhammed-bedevi-ogrenci-yurdu",
+      "capacity": 700,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kilis-naksidil-valide-sultan-ogrenci-yurdu",
+      "capacity": 375,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-ali-fuat-cebesoy-ogrenci-yurdu",
+      "capacity": 1630,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-canfeda-hatun-ogrenci-yurdu",
+      "capacity": 491,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-fatma-seher-hanim-ogrenci-yurdu",
+      "capacity": 1010,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-gazi-suleyman-pasa-ogrenci-yurdu",
+      "capacity": 2075,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-kandira-il-ozel-idaresi-yurdu",
+      "capacity": 488,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-karamursel-gazanfer-bilge-ogrenci-yurdu",
+      "capacity": 560,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-kartepe-ogrenci-yurdu",
+      "capacity": 1328,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-kocaeli-ogrenci-yurdu",
+      "capacity": 316,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-kocaeli-vilayetler-hizmet-birligi-yurdu",
+      "capacity": 212,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-kocaeli-zekiye-gundogdu-yurdu",
+      "capacity": 1203,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-samiha-ayverdi-ogrenci-yurdu",
+      "capacity": 5171,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-serife-gelin-ogrenci-yurdu",
+      "capacity": 1148,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "kocaeli-sultan-baba-ogrenci-yurdu",
+      "capacity": 316,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-aksehir-yurdu",
+      "capacity": 574,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-alaaddin-yurdu",
+      "capacity": 1285,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-ali-ulvi-kurucu-ogrenci-yurdu",
+      "capacity": 1109,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-anadolu-yurdu",
+      "capacity": 2675,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-beyhekim-ogrenci-yurdu",
+      "capacity": 1115,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-beysehir-yurdu",
+      "capacity": 1178,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-buyuk-selcuklu-yurdu",
+      "capacity": 2674,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-cihanbeyli-ogrenci-yurdu",
+      "capacity": 298,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-cumra-yurdu",
+      "capacity": 264,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-eregli-erkek-yurdu",
+      "capacity": 556,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-esrefoglu-ogrenci-yurdu",
+      "capacity": 820,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-fahrunnisa-hatun-ogrenci-yurdu",
+      "capacity": 1868,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-haciveyiszade-ogrenci-yurdu",
+      "capacity": 1956,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-hadim-ogrenci-yurdu",
+      "capacity": 300,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-ilgin-ogrenci-yurdu",
+      "capacity": 1930,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-konya-kimya-hatun-kiz-yurdu",
+      "capacity": 740,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-konya-kiz-yurdu",
+      "capacity": 1956,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-konya-sems-i-tebrizi-ogrenci-yurdu",
+      "capacity": 1084,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-kutalmisoglu-suleyman-sah-ogrenci-yurdu",
+      "capacity": 2710,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-mehmet-vehbi-celik-ogrenci-yurdu",
+      "capacity": 342,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-melike-cihan-ogrenci-yurdu",
+      "capacity": 1806,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-melike-hatun-ogrenci-yurdu",
+      "capacity": 396,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-mesnevi-ogrenci-yurdu",
+      "capacity": 1328,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-mevlana-kiz-yurdu",
+      "capacity": 1062,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-nasreddin-hoca-ogrenci-yurdu",
+      "capacity": 412,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-seydisehir-yurdu",
+      "capacity": 808,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-sultan-veled-ogrenci-yurdu",
+      "capacity": 435,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-tahir-buyukkorukcu-ogrenci-yurdu",
+      "capacity": 2228,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "konya-taskent-ogrenci-yurdu",
+      "capacity": 1007,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "malatya-arapgir-yurdu",
+      "capacity": 660,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "malatya-battalgazi-ogrenci-yurdu",
+      "capacity": 3512,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "malatya-esref-bitlis-ogrenci-yurdu",
+      "capacity": 1608,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "malatya-ilhan-akinci-ogrenci-yurdu",
+      "capacity": 3962,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "malatya-malatya-kiz-yurdu",
+      "capacity": 2786,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-akhisar-ogrenci-yurdu",
+      "capacity": 210,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-ayse-hafsa-sultan-ogrenci-yurdu",
+      "capacity": 1340,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-demirci-yurdu",
+      "capacity": 956,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-kirkagac-ogrenci-yurdu",
+      "capacity": 302,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-kula-ogrenci-yurdu",
+      "capacity": 202,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-manisa-muradiye-ogrenci-yurdu",
+      "capacity": 1386,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-manisa-yunus-emre-ogrenci-yurdu",
+      "capacity": 1348,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-merkez-efendi-ogrenci-yurdu",
+      "capacity": 374,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-salihli-ogrenci-yurdu",
+      "capacity": 902,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "manisa-soma-ogrenci-yurdu",
+      "capacity": 598,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "mardin-haci-ali-naime-sahin-kiz-yurdu",
+      "capacity": 206,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "mardin-kasimiye-ogrenci-yurdu",
+      "capacity": 1132,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "mardin-mardin-kiz-ogrenci-yurdu",
+      "capacity": 555,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "mersin-anamur-ogrenci-yurdu",
+      "capacity": 500,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "mersin-erdemli-ogrenci-yurdu",
+      "capacity": 478,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "mersin-mersin-kiz-ogrenci-yurdu",
+      "capacity": 540,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "mersin-mersin-yenisehir-ogrenci-yurdu",
+      "capacity": 3598,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ordu-evliya-celebi-ogrenci-yurdu",
+      "capacity": 300,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ordu-fatsa-ogrenci-yurdu",
+      "capacity": 466,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ordu-hekimoglu-ogrenci-yurdu",
+      "capacity": 406,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ordu-mehmet-fuad-koprulu-ogrenci-yurdu",
+      "capacity": 818,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ordu-ordu-lebibe-ergin-karlibel-ogrenci-yurdu",
+      "capacity": 1459,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "ordu-ordu-yurdu",
+      "capacity": 1459,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "osmaniye-karacaoglan-ogrenci-yurdu",
+      "capacity": 774,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "osmaniye-osmaniye-yurdu",
+      "capacity": 1319,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-ahmet-tevfik-ileri-ogrenci-yurdu",
+      "capacity": 550,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-ardesen-ogrenci-yurdu",
+      "capacity": 400,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-ayder-ogrenci-yurdu",
+      "capacity": 648,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-devlet-hatun-ogrenci-yurdu",
+      "capacity": 648,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-findikli-yurdu",
+      "capacity": 418,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-pazar-ogrenci-yurdu",
+      "capacity": 944,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-rize-yesilcay-yurdu",
+      "capacity": 1263,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "rize-tenzile-erdogan-ogrenci-yurdu",
+      "capacity": 822,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-abdurrahman-gurses-ogrenci-yurdu",
+      "capacity": 675,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-adapazari-ogrenci-yurdu",
+      "capacity": 672,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-arif-nihat-asya-ogrenci-yurdu",
+      "capacity": 1581,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-ayse-humeyra-okten-ogrenci-yurdu",
+      "capacity": 750,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-rahime-sultan-ogrenci-yurdu",
+      "capacity": 1973,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-sabahattin-zaim-ogrenci-yurdu-sakarya",
+      "capacity": 1432,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-sakarya-yurdu",
+      "capacity": 1690,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sakarya-serdivan-ogrenci-yurdu",
+      "capacity": 2680,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-ali-fuat-basgil-ogrenci-yurdu",
+      "capacity": 398,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-bafra-milli-piyango-yurdu",
+      "capacity": 872,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-carsamba-erkek-ogrenci-yurdu",
+      "capacity": 1288,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-gulcemal-hatun-ogrenci-yurdu",
+      "capacity": 764,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-karadeniz-erkek-yurdu",
+      "capacity": 2420,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-munevver-ayasli-ogrenci-yurdu",
+      "capacity": 2526,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-ondokuz-mayis-ogrenci-yurdu",
+      "capacity": 420,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-samsun-kiz-ogrenci-yurdu",
+      "capacity": 364,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-turgut-ozal-ogrenci-yurdu",
+      "capacity": 1468,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "samsun-vezirkopru-ogrenci-yurdu",
+      "capacity": 411,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "siirt-esmehan-sultan-ogrenci-yurdu",
+      "capacity": 936,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "siirt-hassa-hatun-ogrenci-yurdu",
+      "capacity": 1970,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "siirt-ismail-fakirullah-ogrenci-yurdu",
+      "capacity": 1296,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "siirt-kurtalan-ogrenci-yurdu",
+      "capacity": 500,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "siirt-siirt-ogrenci-yurdu",
+      "capacity": 2190,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sinop-ayancik-ogrenci-yurdu",
+      "capacity": 205,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sinop-mahmud-kefevi-ogrenci-yurdu",
+      "capacity": 1849,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sinop-sinop-yurdu",
+      "capacity": 796,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-divrigi-prof-dr-mahir-tevruz-ogrenci-yurdu",
+      "capacity": 346,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-hafik-ogrenci-yurdu",
+      "capacity": 419,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-kadi-burhaneddin-ogrenci-yurdu",
+      "capacity": 2947,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-kizilirmak-ogrenci-yurdu",
+      "capacity": 852,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-sivas-sancaktar-ogrenci-yurdu",
+      "capacity": 4046,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-susehri-yurdu",
+      "capacity": 680,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-tecer-yurt-mudurlugu",
+      "capacity": 2500,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-yildiz-ogrenci-yurdu",
+      "capacity": 2500,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "sivas-yildizeli-yurdu",
+      "capacity": 554,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-ali-pasa-ogrenci-yurdu",
+      "capacity": 402,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-aydogan-aydin-ogrenci-yurdu",
+      "capacity": 1313,
+      "capacityYear": 2019,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-erbaa-yurdu",
+      "capacity": 490,
+      "capacityYear": 2019,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-gulsum-ana-ogrenci-yurdu",
+      "capacity": 1400,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-mehmed-emin-tokadi-ogrenci-yurdu",
+      "capacity": 1062,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-niksar-yurdu",
+      "capacity": 694,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-plevne-ogrenci-yurdu",
+      "capacity": 628,
+      "capacityYear": 2019,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-resadiye-ogrenci-yurdu",
+      "capacity": 180,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-tokat-gaziosmanpasa-yurdu",
+      "capacity": 432,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-tokat-ibn-i-kemal-ogrenci-yurdu",
+      "capacity": 822,
+      "capacityYear": 2019,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-tokat-ogrenci-yurdu",
+      "capacity": 806,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-turhal-yurdu",
+      "capacity": 624,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-yagibasan-ogrenci-yurdu-mudurlugu",
+      "capacity": 682,
+      "capacityYear": 2025,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tokat-zile-yurdu",
+      "capacity": 370,
+      "capacityYear": 2018,
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü — 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-adnan-demirturk-yurdu",
+      "capacity": 476,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-ahmet-yasar-efendi-yurdu",
+      "capacity": 475,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-besikduzu-ogrenci-yurdu",
+      "capacity": 237,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-fuat-sezgin-ogrenci-yurdu",
+      "capacity": 1464,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-gulbahar-hatun-ogrenci-yurdu",
+      "capacity": 1698,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-macka-sukru-karadeniz-ogrenci-yurdu",
+      "capacity": 362,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-munur-ozkurt-ogrenci-yurdu",
+      "capacity": 337,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-of-asikkutlu-yurdu",
+      "capacity": 455,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-ortahisar-ogrenci-yurdu",
+      "capacity": 2520,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-ozcan-kirali-yurdu",
+      "capacity": 160,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-sare-hatun-yurt-mudurlugu",
+      "capacity": 657,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-trabzon-dogu-karadeniz-yurdu",
+      "capacity": 244,
+      "capacityYear": 2016,
+      "sourceName": "KYGM 2016 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-trabzon-yurdu",
+      "capacity": 558,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "trabzon-yomra-kanuni-yurdu",
+      "capacity": 1156,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tunceli-ehlibeyt-ogrenci-yurdu",
+      "capacity": 1125,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "tunceli-tunceli-yurdu",
+      "capacity": 891,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "van-aise-siddika-ogrenci-yurdu",
+      "capacity": 1446,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "van-amine-hatun-ogrenci-yurdu",
+      "capacity": 1075,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "van-gevas-ogrenci-yurdu",
+      "capacity": 362,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "van-ozalp-yurdu",
+      "capacity": 346,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "van-seyyid-fehim-arvasi-yurdu",
+      "capacity": 2512,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "van-suleyman-sah-ogrenci-yurdu",
+      "capacity": 1484,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "van-van-ogrenci-yurdu",
+      "capacity": 1073,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yalova-cinarcik-ogrenci-yurdu",
+      "capacity": 240,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yalova-termal-ogrenci-yurdu",
+      "capacity": 568,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yozgat-ahmet-efendi-ogrenci-yurdu",
+      "capacity": 736,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yozgat-akdagmadeni-yurdu",
+      "capacity": 465,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yozgat-camlik-ogrenci-yurdu",
+      "capacity": 902,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yozgat-kinali-hasan-ogrenci-yurdu",
+      "capacity": 1986,
+      "capacityYear": 2018,
+      "sourceName": "KYGM 2018 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yozgat-yozgat-esentepe-ogrenci-yurdu",
+      "capacity": 428,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yozgat-yozgat-ogrenci-yurdu",
+      "capacity": 630,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "yozgat-yozgat-surmeli-ogrenci-yurdu",
+      "capacity": 1552,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "zonguldak-devrek-sos-yar-day-vak-ogrenci-yurdu",
+      "capacity": 448,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "zonguldak-hatice-turhan-sultan-ogrenci-yurdu",
+      "capacity": 704,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "zonguldak-nesibe-hatun-ogrenci-yurdu",
+      "capacity": 1598,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "zonguldak-uzun-mehmet-ogrenci-yurdu",
+      "capacity": 644,
+      "capacityYear": 2019,
+      "sourceName": "KYGM 2019 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "zonguldak-zonguldak-karaelmas-yurdu",
+      "capacity": 1360,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    },
+    {
+      "dormitoryId": "zonguldak-zonguldak-yurdu",
+      "capacity": 1405,
+      "capacityYear": 2025,
+      "sourceName": "KYGM 2025 İşletme Yerleri",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "verifiedAt": "2026-07-21"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "adana-bes-ocak-ogrenci-yurdu": {
+    "name": "BEŞ OCAK ÖĞRENCİ YURDU",
+    "city": "Adana",
+    "address": "BALCALI MAHALLESİ GÜNEY KAMPÜS/5 SOK:9/A-B-C-F SARIÇAM/ADANA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:05.106Z"
+  },
+  "adana-ceyhan-yurdu": {
+    "name": "CEYHAN YURDU",
+    "city": "Adana",
+    "address": "GAZİOSMANPAŞA MAHALLESİ. YURT SOKAK NO:1",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:11.953Z"
+  },
+  "adana-cukurova-ogrenci-yurdu": {
+    "name": "ÇUKUROVA ÖĞRENCİ YURDU",
+    "city": "Adana",
+    "address": "BALCALI MAHALLESİ GÜNEY KAMPÜS / 5 SOK. 11/A 11/B 11/C SARIÇAM/ADANA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:19.231Z"
+  },
+  "adana-fevzi-cakmak-yurdu-adana": {
+    "name": "FEVZİ ÇAKMAK YURDU(ADANA)",
+    "city": "Adana",
+    "address": "BALCALI Mah. GÜNEY KAMPÜS/5 Sok. IDARI BINA VE YEMEKHANE Sit. FEVZI ÇAKMAK KIZ ÖĞRENCI YURDU Apt. No: 18 /4 / MERKEZ-MERKEZ / SARIÇAM / ADANA A BLOK 16/A - B BLOK 16/B - C BLOK 16/C- D BLOK 18/2 - E BLOK 18/3",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:27.954Z"
+  },
+  "adana-kozan-ogrenci-yurdu": {
+    "name": "KOZAN ÖĞRENCİ YURDU",
+    "city": "Adana",
+    "address": "ÇANAKLI Mah. ŞEHİT ŞEFİK UÇAK Sok. No: 72 Kozan Meslek Yüksekokulu karşısı Kozan/ADANA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:34.052Z"
+  },
+  "adana-kut-ul-amare-ogrenci-yurdu": {
+    "name": "KUT'UL AMARE ÖĞRENCİ YURDU",
+    "city": "Adana",
+    "address": "BALCALI MAH. MANOLYA CAD. NO: 7D SARIÇAM/ADANA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:41.149Z"
+  },
+  "adana-mahmut-sami-ramazanoglu-ogrenci-yurdu": {
+    "name": "MAHMUT SAMİ RAMAZANOĞLU ÖĞRENCİ YURDU",
+    "city": "Adana",
+    "address": "BALCALI MAHALLESİ GÜNEY KAMPÜS 5 SOK.NO:10 (10/A, 10/B, 10/C,10/D, 10/E, 10/F ) SARIÇAM /ADANA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:48.516Z"
+  },
+  "adana-saricam-ogrenci-yurdu": {
+    "name": "SARIÇAM ÖĞRENCİ YURDU",
+    "city": "Adana",
+    "address": "BALCALI MAH. GÜNEY KAMPÜS/5 SOK. SARIÇAM/ADANA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:47:54.779Z"
+  },
+  "adana-toroslar-ogrenci-yurdu": {
+    "name": "TOROSLAR ÖĞRENCİ YURDU",
+    "city": "Adana",
+    "address": "BALCALI MAHALLESİ GÜNEY KAMPÜS/5 SOKAK NO:11/1A-11/1B-11 C-11 F SARIÇAM/ADANA PK:01790",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:01.738Z"
+  },
+  "afyonkarahisar-abdurrahim-misri-ogrenci-yurdu": {
+    "name": "ABDÜRRAHİM MISRİ ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "ERENLER MAH. 2763 SK. NO:2 AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:07.935Z"
+  },
+  "afyonkarahisar-afyon-cigiltepe-kiz-ogrenci-yurdu": {
+    "name": "AFYON-ÇİĞİLTEPE KIZ ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "BATTALGAZİ MAH.ANS KAMPÜSÜ KÜME EVLER NO:1/11 AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:14.433Z"
+  },
+  "afyonkarahisar-afyon-tinaztepe-ogrenci-yurdu": {
+    "name": "AFYON-TINAZTEPE ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "ORGANİZE SANAYİ MAHALLESİ 9.(2) SOKAK NO:4/3 MERKEZ / AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:22.092Z"
+  },
+  "afyonkarahisar-bacim-sultan-ogrenci-yurdu": {
+    "name": "BACIM SULTAN ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "Erenler Mah. 2773 Sokak No:42 Afyonkarahisar",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:29.152Z"
+  },
+  "afyonkarahisar-bayat-ogrenci-yurdu": {
+    "name": "BAYAT ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "Cumhuriyet Mahallesi Bağyeri Sokak No:10",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:35.891Z"
+  },
+  "afyonkarahisar-bolvadin-kiz-ogrenci-yurdu": {
+    "name": "BOLVADİN KIZ ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "YENİCE MAH. ALPARSLAN GÜMÜŞ SOK. NO:1/1 BOLVADİN/AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:42.405Z"
+  },
+  "afyonkarahisar-bolvadin-ogrenci-yurdu": {
+    "name": "BOLVADİN ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "YUKARI GÖKÇE YAYLA MAH. ÖMER YAZICI SK. NO28BOLVADİN /AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:48.723Z"
+  },
+  "afyonkarahisar-cay-ogrenci-yurdu": {
+    "name": "ÇAY ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "Şirinevler Mah. Uzun Sok. No:52 Çay/Afyonkarahisar",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:48:55.413Z"
+  },
+  "afyonkarahisar-destine-hatun-ogrenci-yurdu": {
+    "name": "DESTİNE HATUN ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "ERENLER MAH. 2773 SOKAK NO:40 MERKEZ/AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:49:01.886Z"
+  },
+  "afyonkarahisar-dinar-ogrenci-yurdu": {
+    "name": "DİNAR ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "Hürriyet Mahallesi Altıncı Mevlana Sokak No:1 Dinar/AFYONKARAHİSAR 0272 353 50 59",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:49:08.296Z"
+  },
+  "afyonkarahisar-esma-sultan-ogrenci-yurdu": {
+    "name": "ESMA SULTAN ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "ZAFER MAHALLESİ GÜLHANE CADDESİ NO:76 AFYONKARAHİSAR/SANDIKLI",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:49:52.918Z"
+  },
+  "afyonkarahisar-kamil-miras-ogrenci-yurdu": {
+    "name": "KAMİL MİRAS ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "ERENLER MAH.2775. SOKAK NO:19 AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:00.605Z"
+  },
+  "afyonkarahisar-prof-dr-remzi-kaya-kiz-ogrenci-yurdu": {
+    "name": "PROF. DR. REMZİ KAYA KIZ ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "MAREŞAL FEVZİ ÇAKMAK MAHALLESİ PROF.DR.VEYSEL EROĞLU CADDESİ NO:38 AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:07.761Z"
+  },
+  "afyonkarahisar-safiye-sultan-ogrenci-yurdu": {
+    "name": "SAFİYE SULTAN ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "BATTALGAZİ MAHALLESİ ANS KÜMEEVLERİ NO:1/10 AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:13.936Z"
+  },
+  "afyonkarahisar-sultan-divani-ogrenci-yurdu": {
+    "name": "SULTAN DİVANİ ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "ERENLER MEVKİİ 2777 SOKAK NO: 1 AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:20.524Z"
+  },
+  "afyonkarahisar-suhut-ogrenci-yurdu": {
+    "name": "ŞUHUT ÖĞRENCİ YURDU",
+    "city": "Afyonkarahisar",
+    "address": "TAŞLICA MH. RÜZGARLI SK. NO:1 ŞUHUT /AFYONKARAHİSAR",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:26.639Z"
+  },
+  "aksaray-aksaray-erkek-yurdu": {
+    "name": "AKSARAY ERKEK YURDU",
+    "city": "Aksaray",
+    "address": "Tacin Mah. 46. cadde 1889 sok. No:22 Merkez/ AKSARAY",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:33.208Z"
+  },
+  "aksaray-aksaray-cemaleddin-aksaray-i-ogrenci-yurdu": {
+    "name": "AKSARAY-CEMALEDDİN AKSARAY-İ ÖGRENCİ YURDU",
+    "city": "Aksaray",
+    "address": "BAHÇESARAY MAH. 170. CADDE NO:34 AKSARAY ÜNİVERSİTESİ KAMPÜSÜ AKSARAY",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:47.886Z"
+  },
+  "aksaray-alime-hatun-ogrenci-yurdu": {
+    "name": "ALİME HATUN ÖĞRENCİ YURDU",
+    "city": "Aksaray",
+    "address": "BAHÇESARAY MAH. 173 CAD. ALİME HATUN KIZ ÖĞRENCİ YURDU NO: 4 / 1 MERKEZ / AKSARAY",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:50:54.085Z"
+  },
+  "aksaray-guzelyurt-ogrenci-yurdu": {
+    "name": "GÜZELYURT ÖĞRENCİ YURDU",
+    "city": "Aksaray",
+    "address": "YUKARI MAHALLE HASAN HÜSEYİN DEMİRCİOĞLU CADDESİ NO:7 GÜZELYURT AKSARAY",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:00.621Z"
+  },
+  "aksaray-hamid-i-veli-ogrenci-yurdu": {
+    "name": "HAMİD-İ VELİ ÖĞRENCİ YURDU",
+    "city": "Aksaray",
+    "address": "HACILAR HARMANI MAHALLESİ 15 TEMMUZ ŞEHİTLER BULVARI NO:58 MERKEZ/ AKSARAY",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:06.799Z"
+  },
+  "aksaray-mahperi-hatun-ogrenci-yurdu": {
+    "name": "MAHPERİ HATUN ÖĞRENCİ YURDU",
+    "city": "Aksaray",
+    "address": "Bahçesaray Mah. 135/NECMETTİN ERBAKAN BULVARI No:99/1 Aksaray/MERKEZ",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:13.430Z"
+  },
+  "aksaray-sultan-mesud-ogrenci-yurdu-yeni": {
+    "name": "SULTAN MESUD ÖĞRENCİ YURDU(yeni)",
+    "city": "Aksaray",
+    "address": "ARATOL İSTİKLAL MAHALLESİ 15 TEMMUZ ŞEHİTLER BLV. NO:2 MERKEZ / AKSARAY",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:26.064Z"
+  },
+  "amasya-amasya-yurdu": {
+    "name": "AMASYA YURDU",
+    "city": "Amasya",
+    "address": "Akbilek Mahallesi Kandil Sokak No:4 AMASYA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:32.324Z"
+  },
+  "amasya-amasya-yesilirmak-yurdu": {
+    "name": "AMASYA-YEŞİLIRMAK YURDU",
+    "city": "Amasya",
+    "address": "A BLOK-ŞEYHCUİ MAHALLESİ FIRAT YILMAZ ÇAKIROĞLU CADDESİ NO:74 MERKEZ/AMASYA ****** B BLOK- AKBİLEK MAHALLESİ FIRAT YILMAZ ÇAKIROĞLU CADDESİ NO:73-1 MERKEZ/AMASYA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:39.477Z"
+  },
+  "amasya-gumushacikoy-ogrenci-yurdu": {
+    "name": "GÜMÜŞHACIKÖY ÖĞRENCİ YURDU",
+    "city": "Amasya",
+    "address": "Artıkabat Mh. Cumhuriyet Caddesi NO:116 Gümüşhacıköy/AMASYA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:46.029Z"
+  },
+  "amasya-husnusah-hatun-ogrenci-yurdu": {
+    "name": "HÜSNÜŞAH HATUN ÖĞRENCİ YURDU",
+    "city": "Amasya",
+    "address": "Şeyhcui Mah. Gökhan Sk. No:11 MERKEZ/ AMASYA",
+    "status": "manual-review-required",
+    "candidates": [],
+    "checkedAt": "2026-07-21T10:51:52.373Z"
+  }
+}

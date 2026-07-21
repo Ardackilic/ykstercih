@@ -1,0 +1,3516 @@
+{
+  "metadata": {
+    "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+    "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+    "importedAt": "2026-07-21T10:35:36.940Z",
+    "locationCount": 350,
+    "cityCount": 82,
+    "byGender": {
+      "Kız ve Erkek": 297,
+      "Kız": 45,
+      "Erkek": 8
+    }
+  },
+  "locations": [
+    {
+      "id": "adana-ceyhan-kiz-ve-erkek",
+      "city": "Adana",
+      "district": "Ceyhan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "adana-kozan-kiz-ve-erkek",
+      "city": "Adana",
+      "district": "Kozan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "adana-merkez-kiz-ve-erkek",
+      "city": "Adana",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.918Z"
+    },
+    {
+      "id": "adiyaman-besni-kiz-ve-erkek",
+      "city": "Adıyaman",
+      "district": "Besni",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "adiyaman-kahta-kiz-ve-erkek",
+      "city": "Adıyaman",
+      "district": "Kahta",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "adiyaman-merkez-kiz-ve-erkek",
+      "city": "Adıyaman",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "afyonkarahisar-bayat-kiz-ve-erkek",
+      "city": "Afyonkarahisar",
+      "district": "Bayat",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "afyonkarahisar-bolvadin-kiz-ve-erkek",
+      "city": "Afyonkarahisar",
+      "district": "Bolvadin",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "afyonkarahisar-cay-kiz",
+      "city": "Afyonkarahisar",
+      "district": "Çay",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "afyonkarahisar-dinar-kiz-ve-erkek",
+      "city": "Afyonkarahisar",
+      "district": "Dinar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "afyonkarahisar-emirdag-kiz-ve-erkek",
+      "city": "Afyonkarahisar",
+      "district": "Emirdağ",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "afyonkarahisar-merkez-kiz-ve-erkek",
+      "city": "Afyonkarahisar",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "afyonkarahisar-sandikli-kiz-ve-erkek",
+      "city": "Afyonkarahisar",
+      "district": "Sandıklı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.919Z"
+    },
+    {
+      "id": "afyonkarahisar-suhut-kiz-ve-erkek",
+      "city": "Afyonkarahisar",
+      "district": "Şuhut",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "agri-dogubayazit-kiz",
+      "city": "Ağrı",
+      "district": "Doğubayazıt",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "agri-eleskirt-kiz",
+      "city": "Ağrı",
+      "district": "Eleşkirt",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "agri-merkez-kiz-ve-erkek",
+      "city": "Ağrı",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "agri-patnos-kiz-ve-erkek",
+      "city": "Ağrı",
+      "district": "Patnos",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "aksaray-guzelyurt-kiz-ve-erkek",
+      "city": "Aksaray",
+      "district": "Güzelyurt",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "aksaray-merkez-kiz-ve-erkek",
+      "city": "Aksaray",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "aksaray-ortakoy-kiz-ve-erkek",
+      "city": "Aksaray",
+      "district": "Ortaköy",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "amasya-gumushacikoy-kiz-ve-erkek",
+      "city": "Amasya",
+      "district": "Gümüşhacıköy",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "amasya-merkez-kiz-ve-erkek",
+      "city": "Amasya",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "amasya-merzifon-kiz-ve-erkek",
+      "city": "Amasya",
+      "district": "Merzifon",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "amasya-suluova-kiz",
+      "city": "Amasya",
+      "district": "Suluova",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "ankara-ayas-kiz-ve-erkek",
+      "city": "Ankara",
+      "district": "Ayaş",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "ankara-beypazari-kiz-ve-erkek",
+      "city": "Ankara",
+      "district": "Beypazarı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "ankara-cubuk-kiz-ve-erkek",
+      "city": "Ankara",
+      "district": "Çubuk",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "ankara-haymana-kiz",
+      "city": "Ankara",
+      "district": "Haymana",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "ankara-kizilcahamam-kiz",
+      "city": "Ankara",
+      "district": "Kızılcahamam",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "ankara-merkez-kiz-ve-erkek",
+      "city": "Ankara",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "ankara-nallihan-erkek",
+      "city": "Ankara",
+      "district": "Nallıhan",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "ankara-polatli-kiz-ve-erkek",
+      "city": "Ankara",
+      "district": "Polatlı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "ankara-sereflikochisar-kiz-ve-erkek",
+      "city": "Ankara",
+      "district": "Şereflikoçhisar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.920Z"
+    },
+    {
+      "id": "antalya-alanya-kiz-ve-erkek",
+      "city": "Antalya",
+      "district": "Alanya",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "antalya-gazipasa-kiz-ve-erkek",
+      "city": "Antalya",
+      "district": "Gazipaşa",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "antalya-korkuteli-kiz-ve-erkek",
+      "city": "Antalya",
+      "district": "Korkuteli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "antalya-kumluca-kiz-ve-erkek",
+      "city": "Antalya",
+      "district": "Kumluca",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "antalya-manavgat-kiz-ve-erkek",
+      "city": "Antalya",
+      "district": "Manavgat",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "antalya-merkez-kiz-ve-erkek",
+      "city": "Antalya",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "antalya-serik-kiz-ve-erkek",
+      "city": "Antalya",
+      "district": "Serik",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "ardahan-gole-kiz-ve-erkek",
+      "city": "Ardahan",
+      "district": "Göle",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "ardahan-merkez-kiz-ve-erkek",
+      "city": "Ardahan",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "artvin-arhavi-kiz-ve-erkek",
+      "city": "Artvin",
+      "district": "Arhavi",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "artvin-borcka-kiz-ve-erkek",
+      "city": "Artvin",
+      "district": "Borçka",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "artvin-hopa-kiz-ve-erkek",
+      "city": "Artvin",
+      "district": "Hopa",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "artvin-merkez-kiz-ve-erkek",
+      "city": "Artvin",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "artvin-savsat-kiz",
+      "city": "Artvin",
+      "district": "Şavşat",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-karacasu-erkek",
+      "city": "Aydın",
+      "district": "Karacasu",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-kocarli-kiz-ve-erkek",
+      "city": "Aydın",
+      "district": "Koçarlı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-kusadasi-kiz-ve-erkek",
+      "city": "Aydın",
+      "district": "Kuşadası",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-merkez-kiz-ve-erkek",
+      "city": "Aydın",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-nazilli-kiz-ve-erkek",
+      "city": "Aydın",
+      "district": "Nazilli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-soke-kiz",
+      "city": "Aydın",
+      "district": "Söke",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-sultanhisar-kiz-ve-erkek",
+      "city": "Aydın",
+      "district": "Sultanhisar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "aydin-yenipazar-kiz-ve-erkek",
+      "city": "Aydın",
+      "district": "Yenipazar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.921Z"
+    },
+    {
+      "id": "balikesir-ayvalik-kiz-ve-erkek",
+      "city": "Balıkesir",
+      "district": "Ayvalık",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-bandirma-kiz-ve-erkek",
+      "city": "Balıkesir",
+      "district": "Bandırma",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-bigadic-kiz",
+      "city": "Balıkesir",
+      "district": "Bigadiç",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-burhaniye-kiz-ve-erkek",
+      "city": "Balıkesir",
+      "district": "Burhaniye",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-dursunbey-kiz-ve-erkek",
+      "city": "Balıkesir",
+      "district": "Dursunbey",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-edremit-kiz-ve-erkek",
+      "city": "Balıkesir",
+      "district": "Edremit",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-gonen-kiz-ve-erkek",
+      "city": "Balıkesir",
+      "district": "Gönen",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-manyas-kiz",
+      "city": "Balıkesir",
+      "district": "Manyas",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "balikesir-merkez-kiz-ve-erkek",
+      "city": "Balıkesir",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bartin-merkez-kiz-ve-erkek",
+      "city": "Bartın",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "batman-merkez-kiz-ve-erkek",
+      "city": "Batman",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bayburt-merkez-kiz-ve-erkek",
+      "city": "Bayburt",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bilecik-merkez-kiz-ve-erkek",
+      "city": "Bilecik",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bilecik-pazaryeri-kiz",
+      "city": "Bilecik",
+      "district": "Pazaryeri",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bingol-merkez-kiz-ve-erkek",
+      "city": "Bingöl",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bingol-solhan-kiz",
+      "city": "Bingöl",
+      "district": "Solhan",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bitlis-adilcevaz-kiz-ve-erkek",
+      "city": "Bitlis",
+      "district": "Adilcevaz",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bitlis-ahlat-kiz",
+      "city": "Bitlis",
+      "district": "Ahlat",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bitlis-merkez-kiz-ve-erkek",
+      "city": "Bitlis",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bolu-gerede-kiz-ve-erkek",
+      "city": "Bolu",
+      "district": "Gerede",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bolu-merkez-kiz-ve-erkek",
+      "city": "Bolu",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bolu-mudurnu-kiz-ve-erkek",
+      "city": "Bolu",
+      "district": "Mudurnu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bolu-seben-kiz-ve-erkek",
+      "city": "Bolu",
+      "district": "Seben",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "burdur-bucak-kiz-ve-erkek",
+      "city": "Burdur",
+      "district": "Bucak",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "burdur-golhisar-kiz-ve-erkek",
+      "city": "Burdur",
+      "district": "Gölhisar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "burdur-merkez-kiz-ve-erkek",
+      "city": "Burdur",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bursa-gemlik-kiz-ve-erkek",
+      "city": "Bursa",
+      "district": "Gemlik",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bursa-inegol-kiz",
+      "city": "Bursa",
+      "district": "İnegöl",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bursa-karacabey-kiz-ve-erkek",
+      "city": "Bursa",
+      "district": "Karacabey",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "bursa-merkez-kiz-ve-erkek",
+      "city": "Bursa",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.922Z"
+    },
+    {
+      "id": "canakkale-biga-kiz-ve-erkek",
+      "city": "Çanakkale",
+      "district": "Biga",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.923Z"
+    },
+    {
+      "id": "canakkale-can-erkek",
+      "city": "Çanakkale",
+      "district": "Çan",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "canakkale-gokceada-kiz-ve-erkek",
+      "city": "Çanakkale",
+      "district": "Gökçeada",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.923Z"
+    },
+    {
+      "id": "canakkale-merkez-kiz-ve-erkek",
+      "city": "Çanakkale",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.923Z"
+    },
+    {
+      "id": "cankiri-ilgaz-kiz",
+      "city": "Çankırı",
+      "district": "Ilgaz",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "cankiri-merkez-kiz-ve-erkek",
+      "city": "Çankırı",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "corum-alaca-kiz-ve-erkek",
+      "city": "Çorum",
+      "district": "Alaca",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "corum-iskilip-kiz",
+      "city": "Çorum",
+      "district": "İskilip",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "corum-merkez-kiz-ve-erkek",
+      "city": "Çorum",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "corum-osmancik-kiz-ve-erkek",
+      "city": "Çorum",
+      "district": "Osmancık",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "corum-sungurlu-kiz-ve-erkek",
+      "city": "Çorum",
+      "district": "Sungurlu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "denizli-bekilli-kiz-ve-erkek",
+      "city": "Denizli",
+      "district": "Bekilli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "denizli-buldan-kiz-ve-erkek",
+      "city": "Denizli",
+      "district": "Buldan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "denizli-civril-kiz-ve-erkek",
+      "city": "Denizli",
+      "district": "Çivril",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "denizli-honaz-kiz-ve-erkek",
+      "city": "Denizli",
+      "district": "Honaz",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "denizli-merkez-kiz-ve-erkek",
+      "city": "Denizli",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "denizli-tavas-kiz-ve-erkek",
+      "city": "Denizli",
+      "district": "Tavas",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.924Z"
+    },
+    {
+      "id": "diyarbakir-merkez-kiz-ve-erkek",
+      "city": "Diyarbakır",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "duzce-akcakoca-kiz-ve-erkek",
+      "city": "Düzce",
+      "district": "Akçakoca",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "duzce-merkez-kiz-ve-erkek",
+      "city": "Düzce",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "edirne-ipsala-kiz-ve-erkek",
+      "city": "Edirne",
+      "district": "İpsala",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "edirne-kesan-kiz-ve-erkek",
+      "city": "Edirne",
+      "district": "Keşan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "edirne-merkez-kiz-ve-erkek",
+      "city": "Edirne",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "edirne-uzunkopru-kiz-ve-erkek",
+      "city": "Edirne",
+      "district": "Uzunköprü",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "elazig-merkez-kiz-ve-erkek",
+      "city": "Elazığ",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-cayirli-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "Çayırlı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-ilic-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "İliç",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-kemah-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "Kemah",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-kemaliye-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "Kemaliye",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-merkez-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-refahiye-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "Refahiye",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-tercan-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "Tercan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzincan-uzumlu-kiz-ve-erkek",
+      "city": "Erzincan",
+      "district": "Üzümlü",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzurum-askale-erkek",
+      "city": "Erzurum",
+      "district": "Aşkale",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzurum-hinis-kiz",
+      "city": "Erzurum",
+      "district": "Hınıs",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzurum-horasan-kiz",
+      "city": "Erzurum",
+      "district": "Horasan",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzurum-merkez-kiz-ve-erkek",
+      "city": "Erzurum",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzurum-narman-kiz",
+      "city": "Erzurum",
+      "district": "Narman",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzurum-oltu-kiz",
+      "city": "Erzurum",
+      "district": "Oltu",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "erzurum-pasinler-kiz",
+      "city": "Erzurum",
+      "district": "Pasinler",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "eskisehir-merkez-kiz-ve-erkek",
+      "city": "Eskişehir",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "eskisehir-sivrihisar-kiz-ve-erkek",
+      "city": "Eskişehir",
+      "district": "Sivrihisar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "gaziantep-araban-kiz",
+      "city": "Gaziantep",
+      "district": "Araban",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "gaziantep-islahiye-kiz-ve-erkek",
+      "city": "Gaziantep",
+      "district": "İslahiye",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "gaziantep-merkez-kiz-ve-erkek",
+      "city": "Gaziantep",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "gaziantep-nizip-kiz-ve-erkek",
+      "city": "Gaziantep",
+      "district": "Nizip",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "gaziantep-oguzeli-kiz-ve-erkek",
+      "city": "Gaziantep",
+      "district": "Oğuzeli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "giresun-alucra-kiz-ve-erkek",
+      "city": "Giresun",
+      "district": "Alucra",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "giresun-eynesil-kiz",
+      "city": "Giresun",
+      "district": "Eynesil",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "giresun-gorele-kiz-ve-erkek",
+      "city": "Giresun",
+      "district": "Görele",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "giresun-kesap-kiz",
+      "city": "Giresun",
+      "district": "Keşap",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "giresun-merkez-kiz-ve-erkek",
+      "city": "Giresun",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.925Z"
+    },
+    {
+      "id": "giresun-sebinkarahisar-kiz-ve-erkek",
+      "city": "Giresun",
+      "district": "Şebinkarahisar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "giresun-tirebolu-kiz-ve-erkek",
+      "city": "Giresun",
+      "district": "Tirebolu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "gumushane-kelkit-kiz-ve-erkek",
+      "city": "Gümüşhane",
+      "district": "Kelkit",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "gumushane-kose-kiz-ve-erkek",
+      "city": "Gümüşhane",
+      "district": "Köse",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "gumushane-kurtun-kiz-ve-erkek",
+      "city": "Gümüşhane",
+      "district": "Kürtün",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "gumushane-merkez-kiz-ve-erkek",
+      "city": "Gümüşhane",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "gumushane-siran-kiz-ve-erkek",
+      "city": "Gümüşhane",
+      "district": "Şiran",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "gumushane-torul-kiz-ve-erkek",
+      "city": "Gümüşhane",
+      "district": "Torul",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "hakkari-merkez-kiz-ve-erkek",
+      "city": "Hakkari",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "hatay-dortyol-kiz-ve-erkek",
+      "city": "Hatay",
+      "district": "Dörtyol",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "hatay-iskenderun-kiz-ve-erkek",
+      "city": "Hatay",
+      "district": "İskenderun",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "hatay-kirikhan-kiz",
+      "city": "Hatay",
+      "district": "Kırıkhan",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "hatay-merkez-kiz-ve-erkek",
+      "city": "Hatay",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "hatay-reyhanli-kiz-ve-erkek",
+      "city": "Hatay",
+      "district": "Reyhanlı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "igdir-merkez-kiz-ve-erkek",
+      "city": "Iğdır",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "isparta-atabey-kiz-ve-erkek",
+      "city": "Isparta",
+      "district": "Atabey",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "isparta-egirdir-kiz-ve-erkek",
+      "city": "Isparta",
+      "district": "Eğirdir",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "isparta-keciborlu-kiz-ve-erkek",
+      "city": "Isparta",
+      "district": "Keçiborlu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "isparta-merkez-kiz-ve-erkek",
+      "city": "Isparta",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "isparta-sarkikaraagac-kiz-ve-erkek",
+      "city": "Isparta",
+      "district": "Şarkikaraağaç",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "isparta-uluborlu-kiz-ve-erkek",
+      "city": "Isparta",
+      "district": "Uluborlu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "isparta-yalvac-kiz-ve-erkek",
+      "city": "Isparta",
+      "district": "Yalvaç",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "istanbul-merkez-kiz-ve-erkek",
+      "city": "İstanbul",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "izmir-bayindir-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Bayındır",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "izmir-bergama-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Bergama",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "izmir-cesme-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Çeşme",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "izmir-kiraz-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Kiraz",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "izmir-menemen-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Menemen",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "izmir-merkez-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.926Z"
+    },
+    {
+      "id": "izmir-tire-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Tire",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "izmir-urla-kiz-ve-erkek",
+      "city": "İzmir",
+      "district": "Urla",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kahramanmaras-afsin-kiz-ve-erkek",
+      "city": "Kahramanmaraş",
+      "district": "Afşin",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kahramanmaras-elbistan-kiz-ve-erkek",
+      "city": "Kahramanmaraş",
+      "district": "Elbistan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kahramanmaras-goksun-kiz-ve-erkek",
+      "city": "Kahramanmaraş",
+      "district": "Göksun",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kahramanmaras-merkez-kiz-ve-erkek",
+      "city": "Kahramanmaraş",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "karabuk-eskipazar-kiz-ve-erkek",
+      "city": "Karabük",
+      "district": "Eskipazar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "karabuk-merkez-kiz-ve-erkek",
+      "city": "Karabük",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "karabuk-safranbolu-kiz",
+      "city": "Karabük",
+      "district": "Safranbolu",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "karaman-ermenek-kiz-ve-erkek",
+      "city": "Karaman",
+      "district": "Ermenek",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "karaman-kazimkarabekir-kiz-ve-erkek",
+      "city": "Karaman",
+      "district": "Kazımkarabekir",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "karaman-merkez-kiz-ve-erkek",
+      "city": "Karaman",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kars-kagizman-kiz-ve-erkek",
+      "city": "Kars",
+      "district": "Kağızman",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kars-merkez-kiz-ve-erkek",
+      "city": "Kars",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kars-sarikamis-kiz-ve-erkek",
+      "city": "Kars",
+      "district": "Sarıkamış",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kastamonu-abana-erkek",
+      "city": "Kastamonu",
+      "district": "Abana",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kastamonu-merkez-kiz-ve-erkek",
+      "city": "Kastamonu",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kastamonu-tosya-kiz",
+      "city": "Kastamonu",
+      "district": "Tosya",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kayseri-bunyan-kiz-ve-erkek",
+      "city": "Kayseri",
+      "district": "Bünyan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kayseri-develi-kiz-ve-erkek",
+      "city": "Kayseri",
+      "district": "Develi",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kayseri-merkez-kiz-ve-erkek",
+      "city": "Kayseri",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kayseri-pinarbasi-kiz-ve-erkek",
+      "city": "Kayseri",
+      "district": "Pınarbaşı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kayseri-tomarza-kiz",
+      "city": "Kayseri",
+      "district": "Tomarza",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kibris-guzelyurt-kiz-ve-erkek",
+      "city": "Kıbrıs",
+      "district": "Güzelyurt",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "kibris-lefke-kiz-ve-erkek",
+      "city": "Kıbrıs",
+      "district": "Lefke",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "kibris-magosa-kiz-ve-erkek",
+      "city": "Kıbrıs",
+      "district": "Magosa",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "kirikkale-keskin-kiz-ve-erkek",
+      "city": "Kırıkkale",
+      "district": "Keskin",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirikkale-merkez-kiz-ve-erkek",
+      "city": "Kırıkkale",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirklareli-babaeski-kiz",
+      "city": "Kırklareli",
+      "district": "Babaeski",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirklareli-luleburgaz-kiz-ve-erkek",
+      "city": "Kırklareli",
+      "district": "Lüleburgaz",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirklareli-merkez-kiz-ve-erkek",
+      "city": "Kırklareli",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirsehir-cicekdagi-kiz",
+      "city": "Kırşehir",
+      "district": "Çiçekdağı",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirsehir-kaman-kiz-ve-erkek",
+      "city": "Kırşehir",
+      "district": "Kaman",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirsehir-merkez-kiz-ve-erkek",
+      "city": "Kırşehir",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kirsehir-mucur-kiz-ve-erkek",
+      "city": "Kırşehir",
+      "district": "Mucur",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.927Z"
+    },
+    {
+      "id": "kilis-merkez-kiz-ve-erkek",
+      "city": "Kilis",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kocaeli-gebze-kiz-ve-erkek",
+      "city": "Kocaeli",
+      "district": "Gebze",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kocaeli-golcuk-kiz",
+      "city": "Kocaeli",
+      "district": "Gölcük",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kocaeli-kartepe-kiz-ve-erkek",
+      "city": "Kocaeli",
+      "district": "Kartepe",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kocaeli-korfez-kiz",
+      "city": "Kocaeli",
+      "district": "Körfez",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kocaeli-merkez-kiz-ve-erkek",
+      "city": "Kocaeli",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-akoren-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Akören",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-aksehir-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Akşehir",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-beysehir-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Beyşehir",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-bozkir-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Bozkır",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-cihanbeyli-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Cihanbeyli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-cumra-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Çumra",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-eregli-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Ereğli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-hadim-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Hadim",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-ilgin-erkek",
+      "city": "Konya",
+      "district": "Ilgın",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-kadinhani-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Kadınhanı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-karapinar-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Karapınar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-kulu-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Kulu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-merkez-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-seydisehir-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Seydişehir",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "konya-taskent-kiz-ve-erkek",
+      "city": "Konya",
+      "district": "Taşkent",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kutahya-emet-kiz",
+      "city": "Kütahya",
+      "district": "Emet",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kutahya-gediz-kiz-ve-erkek",
+      "city": "Kütahya",
+      "district": "Gediz",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kutahya-merkez-kiz-ve-erkek",
+      "city": "Kütahya",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kutahya-simav-kiz-ve-erkek",
+      "city": "Kütahya",
+      "district": "Simav",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kutahya-saphane-kiz-ve-erkek",
+      "city": "Kütahya",
+      "district": "Şaphane",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "kutahya-tavsanli-kiz-ve-erkek",
+      "city": "Kütahya",
+      "district": "Tavşanlı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "malatya-arapgir-kiz-ve-erkek",
+      "city": "Malatya",
+      "district": "Arapgir",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "malatya-merkez-kiz-ve-erkek",
+      "city": "Malatya",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-akhisar-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Akhisar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-demirci-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Demirci",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-gordes-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Gördes",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-kirkagac-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Kırkağaç",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-koprubasi-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Köprübaşı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-kula-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Kula",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-merkez-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-salihli-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Salihli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-soma-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Soma",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "manisa-turgutlu-kiz-ve-erkek",
+      "city": "Manisa",
+      "district": "Turgutlu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.928Z"
+    },
+    {
+      "id": "mardin-merkez-kiz-ve-erkek",
+      "city": "Mardin",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mardin-midyat-kiz",
+      "city": "Mardin",
+      "district": "Midyat",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mersin-anamur-kiz-ve-erkek",
+      "city": "Mersin",
+      "district": "Anamur",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mersin-erdemli-kiz-ve-erkek",
+      "city": "Mersin",
+      "district": "Erdemli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mersin-merkez-kiz-ve-erkek",
+      "city": "Mersin",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mersin-silifke-kiz-ve-erkek",
+      "city": "Mersin",
+      "district": "Silifke",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mersin-tarsus-kiz-ve-erkek",
+      "city": "Mersin",
+      "district": "Tarsus",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mugla-fethiye-kiz-ve-erkek",
+      "city": "Muğla",
+      "district": "Fethiye",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mugla-marmaris-kiz-ve-erkek",
+      "city": "Muğla",
+      "district": "Marmaris",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mugla-merkez-kiz-ve-erkek",
+      "city": "Muğla",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mugla-milas-kiz-ve-erkek",
+      "city": "Muğla",
+      "district": "Milas",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mugla-ortaca-kiz-ve-erkek",
+      "city": "Muğla",
+      "district": "Ortaca",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mus-malazgirt-kiz-ve-erkek",
+      "city": "Muş",
+      "district": "Malazgirt",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mus-merkez-kiz-ve-erkek",
+      "city": "Muş",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "mus-varto-kiz-ve-erkek",
+      "city": "Muş",
+      "district": "Varto",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nevsehir-avanos-kiz-ve-erkek",
+      "city": "Nevşehir",
+      "district": "Avanos",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nevsehir-gulsehir-kiz",
+      "city": "Nevşehir",
+      "district": "Gülşehir",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nevsehir-hacibektas-kiz-ve-erkek",
+      "city": "Nevşehir",
+      "district": "Hacıbektaş",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nevsehir-kozakli-kiz",
+      "city": "Nevşehir",
+      "district": "Kozaklı",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nevsehir-merkez-kiz-ve-erkek",
+      "city": "Nevşehir",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nevsehir-urgup-kiz-ve-erkek",
+      "city": "Nevşehir",
+      "district": "Ürgüp",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nigde-bor-kiz-ve-erkek",
+      "city": "Niğde",
+      "district": "Bor",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nigde-merkez-kiz-ve-erkek",
+      "city": "Niğde",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "nigde-ulukisla-kiz-ve-erkek",
+      "city": "Niğde",
+      "district": "Ulukışla",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "ordu-fatsa-kiz-ve-erkek",
+      "city": "Ordu",
+      "district": "Fatsa",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "ordu-merkez-kiz-ve-erkek",
+      "city": "Ordu",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "ordu-unye-kiz-ve-erkek",
+      "city": "Ordu",
+      "district": "Ünye",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "osmaniye-kadirli-kiz-ve-erkek",
+      "city": "Osmaniye",
+      "district": "Kadirli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "osmaniye-merkez-kiz-ve-erkek",
+      "city": "Osmaniye",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "rize-ardesen-kiz-ve-erkek",
+      "city": "Rize",
+      "district": "Ardeşen",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "rize-cayeli-kiz-ve-erkek",
+      "city": "Rize",
+      "district": "Çayeli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "rize-derepazari-erkek",
+      "city": "Rize",
+      "district": "Derepazarı",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "rize-findikli-kiz-ve-erkek",
+      "city": "Rize",
+      "district": "Fındıklı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "rize-guneysu-kiz-ve-erkek",
+      "city": "Rize",
+      "district": "Güneysu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "rize-merkez-kiz-ve-erkek",
+      "city": "Rize",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "rize-pazar-kiz",
+      "city": "Rize",
+      "district": "Pazar",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "sakarya-akyazi-kiz-ve-erkek",
+      "city": "Sakarya",
+      "district": "Akyazı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sakarya-geyve-kiz-ve-erkek",
+      "city": "Sakarya",
+      "district": "Geyve",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sakarya-hendek-kiz-ve-erkek",
+      "city": "Sakarya",
+      "district": "Hendek",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "sakarya-karasu-kiz-ve-erkek",
+      "city": "Sakarya",
+      "district": "Karasu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sakarya-merkez-kiz-ve-erkek",
+      "city": "Sakarya",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.929Z"
+    },
+    {
+      "id": "sakarya-sapanca-kiz",
+      "city": "Sakarya",
+      "district": "Sapanca",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-alacam-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Alaçam",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-bafra-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Bafra",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-carsamba-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Çarşamba",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-havza-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Havza",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-kavak-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Kavak",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-merkez-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-ondokuzmayis-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Ondokuzmayıs",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-terme-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Terme",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "samsun-vezirkopru-kiz-ve-erkek",
+      "city": "Samsun",
+      "district": "Vezirköprü",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "siirt-eruh-kiz-ve-erkek",
+      "city": "Siirt",
+      "district": "Eruh",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "siirt-kurtalan-kiz-ve-erkek",
+      "city": "Siirt",
+      "district": "Kurtalan",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "siirt-merkez-kiz-ve-erkek",
+      "city": "Siirt",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sinop-ayancik-kiz-ve-erkek",
+      "city": "Sinop",
+      "district": "Ayancık",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sinop-boyabat-kiz-ve-erkek",
+      "city": "Sinop",
+      "district": "Boyabat",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sinop-gerze-kiz",
+      "city": "Sinop",
+      "district": "Gerze",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sinop-merkez-kiz-ve-erkek",
+      "city": "Sinop",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sinop-turkeli-kiz",
+      "city": "Sinop",
+      "district": "Türkeli",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-divrigi-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Divriği",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-gurun-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Gürün",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-hafik-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Hafik",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-kangal-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Kangal",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-merkez-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-susehri-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Suşehri",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-sarkisla-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Şarkışla",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sivas-zara-kiz-ve-erkek",
+      "city": "Sivas",
+      "district": "Zara",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sanliurfa-birecik-kiz-ve-erkek",
+      "city": "Şanlıurfa",
+      "district": "Birecik",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sanliurfa-merkez-kiz-ve-erkek",
+      "city": "Şanlıurfa",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sanliurfa-siverek-kiz-ve-erkek",
+      "city": "Şanlıurfa",
+      "district": "Siverek",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sanliurfa-viransehir-kiz",
+      "city": "Şanlıurfa",
+      "district": "Viranşehir",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "sirnak-merkez-kiz-ve-erkek",
+      "city": "Şırnak",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "tekirdag-corlu-kiz-ve-erkek",
+      "city": "Tekirdağ",
+      "district": "Çorlu",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "tekirdag-merkez-kiz-ve-erkek",
+      "city": "Tekirdağ",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "tokat-erbaa-kiz-ve-erkek",
+      "city": "Tokat",
+      "district": "Erbaa",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "tokat-merkez-kiz-ve-erkek",
+      "city": "Tokat",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.930Z"
+    },
+    {
+      "id": "tokat-niksar-kiz-ve-erkek",
+      "city": "Tokat",
+      "district": "Niksar",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "tokat-resadiye-kiz",
+      "city": "Tokat",
+      "district": "Reşadiye",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "tokat-turhal-kiz-ve-erkek",
+      "city": "Tokat",
+      "district": "Turhal",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "tokat-zile-kiz-ve-erkek",
+      "city": "Tokat",
+      "district": "Zile",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-akcaabat-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Akçaabat",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-besikduzu-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Beşikdüzü",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-macka-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Maçka",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-merkez-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-of-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Of",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-surmene-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Sürmene",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-tonya-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Tonya",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "trabzon-vakfikebir-kiz-ve-erkek",
+      "city": "Trabzon",
+      "district": "Vakfıkebir",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "tunceli-cemisgezek-kiz",
+      "city": "Tunceli",
+      "district": "Çemişgezek",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "tunceli-merkez-kiz-ve-erkek",
+      "city": "Tunceli",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "usak-merkez-kiz-ve-erkek",
+      "city": "Uşak",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "van-ercis-kiz-ve-erkek",
+      "city": "Van",
+      "district": "Erciş",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "van-gevas-kiz-ve-erkek",
+      "city": "Van",
+      "district": "Gevaş",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "van-merkez-kiz-ve-erkek",
+      "city": "Van",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "van-ozalp-kiz-ve-erkek",
+      "city": "Van",
+      "district": "Özalp",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "yalova-cinarcik-kiz",
+      "city": "Yalova",
+      "district": "Çınarcık",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "yalova-merkez-kiz-ve-erkek",
+      "city": "Yalova",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "yalova-termal-erkek",
+      "city": "Yalova",
+      "district": "Termal",
+      "gender": "Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "yozgat-akdagmadeni-kiz-ve-erkek",
+      "city": "Yozgat",
+      "district": "Akdağmadeni",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "yozgat-merkez-kiz-ve-erkek",
+      "city": "Yozgat",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "yozgat-sorgun-kiz-ve-erkek",
+      "city": "Yozgat",
+      "district": "Sorgun",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "yozgat-yerkoy-kiz-ve-erkek",
+      "city": "Yozgat",
+      "district": "Yerköy",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "zonguldak-alapli-kiz-ve-erkek",
+      "city": "Zonguldak",
+      "district": "Alaplı",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "zonguldak-caycuma-kiz-ve-erkek",
+      "city": "Zonguldak",
+      "district": "Çaycuma",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "zonguldak-devrek-kiz-ve-erkek",
+      "city": "Zonguldak",
+      "district": "Devrek",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "zonguldak-k-eregli-kiz-ve-erkek",
+      "city": "Zonguldak",
+      "district": "K.ereğli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "zonguldak-kilimli-kiz-ve-erkek",
+      "city": "Zonguldak",
+      "district": "Kilimli",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "zonguldak-kozlu-kiz",
+      "city": "Zonguldak",
+      "district": "Kozlu",
+      "gender": "Kız",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    },
+    {
+      "id": "zonguldak-merkez-kiz-ve-erkek",
+      "city": "Zonguldak",
+      "district": "Merkez",
+      "gender": "Kız ve Erkek",
+      "sourceName": "Kredi ve Yurtlar Genel Müdürlüğü",
+      "sourceUrl": "https://kygm.gsb.gov.tr/Sayfalar/2635/2389/yurt-bulunan-il-ve-ilceler.aspx",
+      "verified": true,
+      "lastCheckedAt": "2026-07-21T10:35:36.931Z"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "id": "kygm-2025-isletme-yerleri",
+      "name": "KYGM 2025 İşletme Yerleri",
+      "year": 2025,
+      "type": "pdf",
+      "url": "https://kygm.gsb.gov.tr/Public/Edit/images/KYGM/012014/2025%20yeni%20isletme%20yerleri.pdf",
+      "enabled": true
+    },
+    {
+      "id": "kygm-2019-isletme-yerleri",
+      "name": "KYGM 2019 İşletme Yerleri",
+      "year": 2019,
+      "type": "pdf",
+      "url": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/se%C3%A7ime%20%C3%A7%C4%B1k%C4%B1lacak%20i%C5%9Fletme%20yerlerinin%20listesi.pdf",
+      "enabled": true
+    },
+    {
+      "id": "kygm-2018-isletme-yerleri",
+      "name": "KYGM 2018 İşletme Yerleri",
+      "year": 2018,
+      "type": "pdf",
+      "url": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/2018/haziran/SE%C3%87%C4%B0ME%20%C3%87IKILACAK%20%C4%B0%C5%9ELETME%20YERLER%C4%B0-2018.pdf",
+      "enabled": true
+    },
+    {
+      "id": "kygm-2016-isletme-yerleri",
+      "name": "KYGM 2016 İşletme Yerleri",
+      "year": 2016,
+      "type": "pdf",
+      "url": "https://kygm.gsb.gov.tr/Public/Edit/images/KYK/DUYURULAR/secime_cikilacak_isletme_yerleri_11-07-2016-3.pdf",
+      "enabled": true
+    }
+  ]
+}

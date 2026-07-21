@@ -1,0 +1,38 @@
+{
+  "adana-adana-ogrenci-yurdu": {
+    "status": "found",
+    "query": "ADANA ÖĞRENCİ YURDU, Adana, Türkiye",
+    "score": 18,
+    "latitude": 37.0395462,
+    "longitude": 35.3595355,
+    "displayName": "Adana Öğrenci Yurdu, Mithat Özsan Bulvarı, Balcalı Mahallesi, Sarıçam, Adana, Akdeniz Bölgesi, 01330, Türkiye",
+    "searchedAt": "2026-07-21T10:46:58.824Z"
+  },
+  "afyonkarahisar-emirdag-ogrenci-yurdu": {
+    "status": "found",
+    "query": "EMİRDAĞ ÖĞRENCİ YURDU, Afyonkarahisar, Türkiye",
+    "score": 15,
+    "latitude": 39.0230856,
+    "longitude": 31.1541444,
+    "displayName": "Emirdağ Erkek Öğrenci Yurdu, Eskişehir Caddesi, Aziziye Mahallesi, Emirdağ, Afyonkarahisar, Ege Bölgesi, 03600, Türkiye",
+    "searchedAt": "2026-07-21T10:49:46.634Z"
+  },
+  "aksaray-aksaray-kiz-yurdu": {
+    "status": "found",
+    "query": "AKSARAY KIZ YURDU, Aksaray, Türkiye",
+    "score": 14,
+    "latitude": 38.3563023,
+    "longitude": 33.9799991,
+    "displayName": "KYK Aksaray Kız Yurdu, 5730. Sokak, Aratol İstiklal, Aksaray Merkez, Aksaray, İç Anadolu Bölgesi, 68000, Türkiye",
+    "searchedAt": "2026-07-21T10:50:40.011Z"
+  },
+  "aksaray-ortakoy-yurdu": {
+    "status": "found",
+    "query": "ORTAKÖY YURDU, Aksaray, Türkiye",
+    "score": 14,
+    "latitude": 38.7390363,
+    "longitude": 34.0287366,
+    "displayName": "Ortaköy Talebe Yurdu, Şereflikoçhisar Caddesi, Hocabeyli, Ortaköy, Aksaray, İç Anadolu Bölgesi, Türkiye",
+    "searchedAt": "2026-07-21T10:51:19.469Z"
+  }
+}
