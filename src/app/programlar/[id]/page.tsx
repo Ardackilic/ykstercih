@@ -1049,7 +1049,7 @@ function LastPlacedNetsCard({
       title="2025’te son yerleşen adayın netleri"
       icon={<BarChart3 size={21} />}
     >
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid min-w-0 grid-cols-1 gap-3 min-[380px]:grid-cols-2 sm:grid-cols-3">
         <StatBox
           label="Puan türü"
           value={data.puanTuru}
@@ -1080,7 +1080,7 @@ function LastPlacedNetsCard({
             TYT netleri
           </h3>
 
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="grid min-w-0 grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-3">
             {tytRows.map(([label, value]) => (
               <NetBox
                 key={label}
@@ -1100,7 +1100,7 @@ function LastPlacedNetsCard({
               : "AYT netleri"}
           </h3>
 
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="grid min-w-0 grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-3">
             {secondSessionRows.map(([label, value]) => (
               <NetBox
                 key={label}
@@ -1132,16 +1132,16 @@ function NetBox({
   value: number;
 }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-      <p className="text-xs font-bold leading-5 text-slate-500">
+    <div className="min-w-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 p-3 sm:p-4">
+      <p className="min-w-0 break-words text-[11px] font-bold leading-4 text-slate-500 sm:text-xs sm:leading-5">
         {label}
       </p>
 
-      <p className="mt-2 text-2xl font-black text-slate-950">
+      <p className="mt-2 break-words text-xl font-black leading-none text-slate-950 sm:text-2xl">
         {formatDecimal(value, 2)}
       </p>
 
-      <p className="mt-1 text-xs font-bold text-red-600">
+      <p className="mt-1 text-[11px] font-bold text-red-600 sm:text-xs">
         net
       </p>
     </div>
