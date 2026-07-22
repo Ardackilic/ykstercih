@@ -539,12 +539,12 @@ export default function PreferencesPage() {
             justify-content: space-between;
             margin-bottom: 18px;
             padding-bottom: 14px;
-            border-bottom: 2px solid #4f46e5;
+            border-bottom: 2px solid #dc2626;
           }
 
           .print-brand {
             margin: 0 0 4px;
-            color: #4f46e5;
+            color: #dc2626;
             font-size: 12px;
             font-weight: 800;
             letter-spacing: 0.12em;
@@ -566,7 +566,7 @@ export default function PreferencesPage() {
           }
 
           .print-summary strong {
-            color: #4f46e5;
+            color: #dc2626;
             font-size: 26px;
           }
 
@@ -595,7 +595,7 @@ export default function PreferencesPage() {
             width: 34px !important;
             height: 34px !important;
             border-radius: 8px !important;
-            background: #4f46e5 !important;
+            background: #dc2626 !important;
             color: white !important;
             font-size: 14px !important;
           }

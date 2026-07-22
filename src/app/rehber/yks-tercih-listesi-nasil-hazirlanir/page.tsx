@@ -196,7 +196,7 @@ export default function PreferenceGuidePage() {
             href="/"
             className="flex items-center gap-3"
           >
-            <span className="flex size-11 items-center justify-center rounded-2xl bg-indigo-600 !text-white">
+            <span className="flex size-11 items-center justify-center rounded-2xl bg-red-600 !text-white">
               <GraduationCap size={24} />
             </span>
 
@@ -212,7 +212,7 @@ export default function PreferenceGuidePage() {
 
           <Link
             href="/programlar"
-            className="rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-black !text-white transition hover:bg-indigo-700 hover:!text-white"
+            className="rounded-xl bg-red-600 px-4 py-2.5 text-sm font-black !text-white transition hover:bg-red-700 hover:!text-white"
           >
             Programları ara
           </Link>
@@ -224,7 +224,7 @@ export default function PreferenceGuidePage() {
           aria-label="Sayfa yolu"
           className="mb-5 flex flex-wrap items-center gap-2 text-sm font-bold text-slate-500"
         >
-          <Link href="/" className="hover:text-indigo-600">
+          <Link href="/" className="hover:text-red-600">
             Ana sayfa
           </Link>
           <span>/</span>
@@ -235,12 +235,12 @@ export default function PreferenceGuidePage() {
           </span>
         </nav>
 
-        <section className="overflow-hidden rounded-[34px] bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 p-7 text-white shadow-xl sm:p-10">
+        <section className="overflow-hidden rounded-[34px] bg-gradient-to-br from-red-600 via-red-600 to-red-700 p-7 text-white shadow-xl sm:p-10">
           <div className="flex size-14 items-center justify-center rounded-2xl bg-white/15">
             <ListChecks size={28} />
           </div>
 
-          <p className="mt-6 text-sm font-black uppercase tracking-[0.18em] text-indigo-100">
+          <p className="mt-6 text-sm font-black uppercase tracking-[0.18em] text-red-100">
             YKS tercih rehberi
           </p>
 
@@ -248,7 +248,7 @@ export default function PreferenceGuidePage() {
             YKS tercih listesi nasıl hazırlanır?
           </h1>
 
-          <p className="mt-5 max-w-3xl text-sm font-semibold leading-7 text-indigo-100 sm:text-base">
+          <p className="mt-5 max-w-3xl text-sm font-semibold leading-7 text-red-100 sm:text-base">
             Başarı sıranı doğru yorumlayarak,
             programları araştırarak ve tercihlerini
             gerçek istek sırasına yerleştirerek daha
@@ -287,7 +287,7 @@ export default function PreferenceGuidePage() {
                 key={step.title}
                 className="flex gap-4 rounded-2xl bg-slate-50 p-5"
               >
-                <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-indigo-600 font-black text-white">
+                <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-red-600 font-black text-white">
                   {index + 1}
                 </span>
 
@@ -378,7 +378,7 @@ export default function PreferenceGuidePage() {
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Link
               href="/programlar"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-black !text-slate-950 transition hover:bg-indigo-50 hover:!text-slate-950"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-black !text-slate-950 transition hover:bg-red-50 hover:!text-slate-950"
             >
               <Search size={18} />
               Programları incele
@@ -447,7 +447,7 @@ function InfoCard({
 }) {
   return (
     <article className="rounded-[24px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70">
-      <span className="flex size-11 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+      <span className="flex size-11 items-center justify-center rounded-2xl bg-red-50 text-red-600">
         {icon}
       </span>
 
@@ -481,7 +481,7 @@ function PreferenceGroup({
         {description}
       </p>
 
-      <p className="mt-4 rounded-xl bg-indigo-50 px-3 py-2 text-xs font-black text-indigo-700">
+      <p className="mt-4 rounded-xl bg-red-50 px-3 py-2 text-xs font-black text-red-700">
         {note}
       </p>
     </article>

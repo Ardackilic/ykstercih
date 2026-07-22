@@ -324,7 +324,7 @@ export default async function UniversityDetailPage({
           </span>
         </nav>
 
-        <div className="relative overflow-hidden rounded-[34px] bg-gradient-to-br from-red-600 via-red-600 to-fuchsia-500 p-7 text-white shadow-2xl shadow-red-200 sm:p-10">
+        <div className="relative overflow-hidden rounded-[34px] bg-gradient-to-br from-red-600 via-red-600 to-red-500 p-7 text-white shadow-2xl shadow-red-200 sm:p-10">
           <div className="absolute -right-16 -top-16 size-72 rounded-full bg-white/10 blur-3xl" />
 
           <div className="relative">

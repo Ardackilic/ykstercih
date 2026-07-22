@@ -282,7 +282,7 @@ export default async function CityDormitoriesPage({
 
           <Link
             href="/"
-            className="flex items-center gap-2 font-black text-indigo-600"
+            className="flex items-center gap-2 font-black text-red-600"
           >
             <GraduationCap size={21} />
             YKS Tercih
@@ -297,7 +297,7 @@ export default async function CityDormitoriesPage({
         >
           <Link
             href="/"
-            className="hover:text-indigo-600"
+            className="hover:text-red-600"
           >
             Ana sayfa
           </Link>
@@ -306,7 +306,7 @@ export default async function CityDormitoriesPage({
 
           <Link
             href="/kyk-yurtlari"
-            className="hover:text-indigo-600"
+            className="hover:text-red-600"
           >
             KYK Yurtları
           </Link>
@@ -318,7 +318,7 @@ export default async function CityDormitoriesPage({
           </span>
         </nav>
 
-        <section className="overflow-hidden rounded-[32px] bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 p-6 text-white shadow-xl sm:p-9">
+        <section className="overflow-hidden rounded-[32px] bg-gradient-to-br from-red-600 via-red-600 to-red-700 p-6 text-white shadow-xl sm:p-9">
           <div className="flex size-14 items-center justify-center rounded-2xl bg-white/15 backdrop-blur">
             <Building2 size={28} />
           </div>
@@ -327,7 +327,7 @@ export default async function CityDormitoriesPage({
             {city} KYK yurtları
           </h1>
 
-          <p className="mt-4 max-w-3xl text-sm font-semibold leading-7 text-indigo-100 sm:text-base">
+          <p className="mt-4 max-w-3xl text-sm font-semibold leading-7 text-red-100 sm:text-base">
             {city} ilindeki devlet öğrenci
             yurtlarını adres, cinsiyet ve
             doğrulanmış kapasite bilgilerine
@@ -447,7 +447,7 @@ export default async function CityDormitoriesPage({
                 (district) => (
                   <span
                     key={district}
-                    className="rounded-full bg-indigo-50 px-3 py-2 text-sm font-black text-indigo-700"
+                    className="rounded-full bg-red-50 px-3 py-2 text-sm font-black text-red-700"
                   >
                     {formatPlaceName(
                       district
@@ -461,7 +461,7 @@ export default async function CityDormitoriesPage({
 
         <section className="mt-8">
           <div>
-            <p className="font-black text-indigo-600">
+            <p className="font-black text-red-600">
               Resmî yurt kayıtları
             </p>
 
@@ -490,14 +490,14 @@ export default async function CityDormitoriesPage({
                 return (
                   <article
                     key={dormitory.id}
-                    className="flex flex-col rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-indigo-200 sm:p-6"
+                    className="flex flex-col rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-red-200 sm:p-6"
                   >
                     <div className="flex flex-wrap gap-2">
-                      <span className="rounded-full bg-indigo-50 px-3 py-1.5 text-xs font-black text-indigo-700">
+                      <span className="rounded-full bg-red-50 px-3 py-1.5 text-xs font-black text-red-700">
                         {dormitory.type}
                       </span>
 
-                      <span className="rounded-full bg-violet-50 px-3 py-1.5 text-xs font-black text-violet-700">
+                      <span className="rounded-full bg-red-50 px-3 py-1.5 text-xs font-black text-red-700">
                         {dormitory.gender}
                       </span>
 
@@ -509,7 +509,7 @@ export default async function CityDormitoriesPage({
                     <h3 className="mt-4 text-xl font-black leading-7">
                       <Link
                         href={`/yurtlar/${dormitory.id}`}
-                        className="transition hover:text-indigo-600"
+                        className="transition hover:text-red-600"
                       >
                         {dormitory.name}
                       </Link>
@@ -518,7 +518,7 @@ export default async function CityDormitoriesPage({
                     <p className="mt-3 flex items-start gap-2 text-sm font-semibold leading-6 text-slate-500">
                       <MapPin
                         size={17}
-                        className="mt-0.5 shrink-0 text-indigo-500"
+                        className="mt-0.5 shrink-0 text-red-500"
                       />
 
                       <span>
@@ -570,7 +570,7 @@ export default async function CityDormitoriesPage({
                     <div className="mt-auto pt-5">
                       <Link
                         href={`/yurtlar/${dormitory.id}`}
-                        className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-indigo-700"
+                        className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-red-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-red-700"
                       >
                         Yurt bilgilerini incele
                         <ExternalLink
@@ -658,7 +658,7 @@ function StatCard({
 }) {
   return (
     <article className="rounded-[24px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70">
-      <div className="flex size-11 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+      <div className="flex size-11 items-center justify-center rounded-2xl bg-red-50 text-red-600">
         {icon}
       </div>
 

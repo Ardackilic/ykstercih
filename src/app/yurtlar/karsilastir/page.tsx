@@ -139,7 +139,7 @@ export default function CompareDormitoriesPage() {
 
           <Link
             href="/"
-            className="flex items-center gap-2 font-black text-indigo-600"
+            className="flex items-center gap-2 font-black text-red-600"
           >
             <GraduationCap size={21} />
             YKS Tercih
@@ -148,7 +148,7 @@ export default function CompareDormitoriesPage() {
       </header>
 
       <section className="mx-auto max-w-7xl px-5 py-8 lg:px-8">
-        <div className="overflow-hidden rounded-[32px] bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 p-6 text-white shadow-xl sm:p-9">
+        <div className="overflow-hidden rounded-[32px] bg-gradient-to-br from-red-600 via-red-600 to-red-700 p-6 text-white shadow-xl sm:p-9">
           <div className="flex size-14 items-center justify-center rounded-2xl bg-white/15 backdrop-blur">
             <GitCompareArrows size={28} />
           </div>
@@ -157,7 +157,7 @@ export default function CompareDormitoriesPage() {
             Yurtları karşılaştır
           </h1>
 
-          <p className="mt-4 max-w-2xl text-sm font-semibold leading-7 text-indigo-100 sm:text-base">
+          <p className="mt-4 max-w-2xl text-sm font-semibold leading-7 text-red-100 sm:text-base">
             Favorilerinden en az 2, en fazla 4
             yurt seç. Kapasite, konum ve
             üniversite yakınlığını yan yana
@@ -232,14 +232,14 @@ export default function CompareDormitoriesPage() {
                         }
                         className={`relative rounded-2xl border p-4 text-left transition ${
                           selected
-                            ? "border-indigo-500 bg-indigo-50 ring-4 ring-indigo-100"
-                            : "border-slate-200 bg-white hover:border-indigo-300"
+                            ? "border-red-500 bg-red-50 ring-4 ring-red-100"
+                            : "border-slate-200 bg-white hover:border-red-300"
                         } disabled:cursor-not-allowed disabled:opacity-40`}
                       >
                         <div
                           className={`absolute right-4 top-4 flex size-8 items-center justify-center rounded-full ${
                             selected
-                              ? "bg-indigo-600 text-white"
+                              ? "bg-red-600 text-white"
                               : "bg-slate-100 text-slate-400"
                           }`}
                         >
@@ -251,7 +251,7 @@ export default function CompareDormitoriesPage() {
                         </div>
 
                         <div className="pr-10">
-                          <p className="text-xs font-black text-indigo-600">
+                          <p className="text-xs font-black text-red-600">
                             {dormitory.city}
                           </p>
 
@@ -272,10 +272,10 @@ export default function CompareDormitoriesPage() {
 
             {selectedDormitories.length <
             MIN_SELECTION ? (
-              <div className="mt-6 rounded-[26px] border border-dashed border-indigo-300 bg-indigo-50 p-8 text-center">
+              <div className="mt-6 rounded-[26px] border border-dashed border-red-300 bg-red-50 p-8 text-center">
                 <GitCompareArrows
                   size={34}
-                  className="mx-auto text-indigo-500"
+                  className="mx-auto text-red-500"
                 />
 
                 <h2 className="mt-4 text-xl font-black">
@@ -335,13 +335,13 @@ function ComparisonTable({
                   >
                     <div className="flex items-start justify-between gap-3">
                       <div>
-                        <p className="text-xs font-black text-indigo-600">
+                        <p className="text-xs font-black text-red-600">
                           {dormitory.city}
                         </p>
 
                         <Link
                           href={`/yurtlar/${dormitory.id}`}
-                          className="mt-1 block font-black leading-6 hover:text-indigo-600"
+                          className="mt-1 block font-black leading-6 hover:text-red-600"
                         >
                           {dormitory.name}
                         </Link>
@@ -576,7 +576,7 @@ function EmptyState() {
 
       <Link
         href="/yurtlar"
-        className="mt-6 inline-flex rounded-xl bg-indigo-600 px-5 py-3 text-sm font-black !text-white transition hover:bg-indigo-700"
+        className="mt-6 inline-flex rounded-xl bg-red-600 px-5 py-3 text-sm font-black !text-white transition hover:bg-red-700"
       >
         Yurtları incele
       </Link>

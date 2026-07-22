@@ -126,7 +126,7 @@ export default function RecentlyViewedDormitories({
     <section className="mt-6">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="flex items-center gap-2 font-black text-violet-600">
+          <p className="flex items-center gap-2 font-black text-red-600">
             <Clock3 size={18} />
             Geçmişin
           </p>
@@ -173,14 +173,14 @@ export default function RecentlyViewedDormitories({
             return (
               <article
                 key={dormitory.id}
-                className="rounded-[24px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-violet-200"
+                className="rounded-[24px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-red-200"
               >
                 <div className="flex flex-wrap gap-2">
-                  <span className="rounded-full bg-violet-50 px-3 py-1 text-xs font-black text-violet-700">
+                  <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700">
                     {dormitory.gender}
                   </span>
 
-                  <span className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-black text-indigo-700">
+                  <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700">
                     {dormitory.type}
                   </span>
                 </div>
@@ -192,7 +192,7 @@ export default function RecentlyViewedDormitories({
                 <p className="mt-2 flex items-start gap-2 text-sm font-semibold text-slate-500">
                   <MapPin
                     size={17}
-                    className="mt-0.5 shrink-0 text-violet-500"
+                    className="mt-0.5 shrink-0 text-red-500"
                   />
 
                   <span>
@@ -223,7 +223,7 @@ export default function RecentlyViewedDormitories({
 
                 <Link
                   href={`/yurtlar/${dormitory.id}`}
-                  className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-violet-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-violet-700"
+                  className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-red-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-red-700"
                 >
                   Yeniden incele
                 </Link>

@@ -66,7 +66,7 @@ export default function CityDormitoryGrid({
               setQuery(event.target.value)
             }
             placeholder="Örneğin Tokat, Mersin veya İstanbul"
-            className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-12 pr-12 text-sm font-bold outline-none transition placeholder:text-slate-400 focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-100"
+            className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-12 pr-12 text-sm font-bold outline-none transition placeholder:text-slate-400 focus:border-red-400 focus:bg-white focus:ring-4 focus:ring-red-100"
           />
 
           {query && (
@@ -106,7 +106,7 @@ export default function CityDormitoryGrid({
           <button
             type="button"
             onClick={() => setQuery("")}
-            className="mt-5 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-black text-white transition hover:bg-indigo-700"
+            className="mt-5 rounded-xl bg-red-600 px-5 py-3 text-sm font-black text-white transition hover:bg-red-700"
           >
             Aramayı temizle
           </button>
@@ -116,10 +116,10 @@ export default function CityDormitoryGrid({
           {filteredCities.map((city) => (
             <article
               key={city.slug}
-              className="flex flex-col rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-indigo-200 sm:p-6"
+              className="flex flex-col rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-red-200 sm:p-6"
             >
               <div className="flex items-start justify-between gap-4">
-                <div className="flex size-11 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+                <div className="flex size-11 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                   <MapPin size={21} />
                 </div>
 
@@ -131,7 +131,7 @@ export default function CityDormitoryGrid({
               <h3 className="mt-4 text-xl font-black">
                 <Link
                   href={`/kyk-yurtlari/${city.slug}`}
-                  className="transition hover:text-indigo-600"
+                  className="transition hover:text-red-600"
                 >
                   {city.city} KYK yurtları
                 </Link>
@@ -175,7 +175,7 @@ export default function CityDormitoryGrid({
               <div className="mt-auto pt-5">
                 <Link
                   href={`/kyk-yurtlari/${city.slug}`}
-                  className="inline-flex w-full items-center justify-center rounded-xl bg-indigo-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-indigo-700"
+                  className="inline-flex w-full items-center justify-center rounded-xl bg-red-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-red-700"
                 >
                   {city.city} yurtlarını incele
                 </Link>

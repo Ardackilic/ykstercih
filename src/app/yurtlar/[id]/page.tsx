@@ -280,7 +280,7 @@ export default async function DormitoryDetailPage({
 
           <Link
             href="/"
-            className="flex items-center gap-2 font-black text-indigo-600"
+            className="flex items-center gap-2 font-black text-red-600"
           >
             <GraduationCap size={21} />
             YKS Tercih
@@ -295,7 +295,7 @@ export default async function DormitoryDetailPage({
         >
           <Link
             href="/"
-            className="transition hover:text-indigo-600"
+            className="transition hover:text-red-600"
           >
             Ana sayfa
           </Link>
@@ -304,7 +304,7 @@ export default async function DormitoryDetailPage({
 
           <Link
             href="/yurtlar"
-            className="transition hover:text-indigo-600"
+            className="transition hover:text-red-600"
           >
             KYK Yurtları
           </Link>
@@ -313,7 +313,7 @@ export default async function DormitoryDetailPage({
 
           <Link
             href={`/kyk-yurtlari/${citySlug}`}
-            className="transition hover:text-indigo-600"
+            className="transition hover:text-red-600"
           >
             {dormitory.city}
           </Link>
@@ -325,7 +325,7 @@ export default async function DormitoryDetailPage({
           </span>
         </nav>
 
-        <div className="overflow-hidden rounded-[32px] bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 p-6 text-white shadow-xl sm:p-9">
+        <div className="overflow-hidden rounded-[32px] bg-gradient-to-br from-red-600 via-red-600 to-red-700 p-6 text-white shadow-xl sm:p-9">
           <div className="flex flex-wrap gap-2">
             <Badge>{dormitory.type}</Badge>
             <Badge>{dormitory.gender}</Badge>
@@ -340,7 +340,7 @@ export default async function DormitoryDetailPage({
           </h1>
 
           <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-            <p className="flex items-start gap-2 text-sm font-bold text-indigo-100 sm:text-base">
+            <p className="flex items-start gap-2 text-sm font-bold text-red-100 sm:text-base">
               <MapPin
                 size={19}
                 className="mt-0.5 shrink-0"
@@ -427,7 +427,7 @@ export default async function DormitoryDetailPage({
                   href={displayedCapacitySourceUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-5 inline-flex items-center gap-2 rounded-xl bg-indigo-50 px-4 py-3 text-sm font-black text-indigo-700 transition hover:bg-indigo-100"
+                  className="mt-5 inline-flex items-center gap-2 rounded-xl bg-red-50 px-4 py-3 text-sm font-black text-red-700 transition hover:bg-red-100"
                   title={
                     displayedCapacitySourceName ??
                     "Resmî kapasite kaynağı"
@@ -492,7 +492,7 @@ export default async function DormitoryDetailPage({
 
               {nearestUniversity ? (
                 <div className="mt-5">
-                  <div className="flex size-12 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+                  <div className="flex size-12 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                     <GraduationCap size={24} />
                   </div>
 
@@ -539,7 +539,7 @@ export default async function DormitoryDetailPage({
 
             <section className="rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 sm:p-6">
               <div className="flex items-center gap-3">
-                <div className="flex size-11 items-center justify-center rounded-2xl bg-violet-50 text-violet-600">
+                <div className="flex size-11 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                   <CalendarDays size={21} />
                 </div>
 
@@ -569,7 +569,7 @@ export default async function DormitoryDetailPage({
         {otherDormitoriesInCity.length > 0 && (
           <section className="mt-6">
             <div>
-              <p className="font-black text-indigo-600">
+              <p className="font-black text-red-600">
                 Aynı şehirdeki seçenekler
               </p>
 
@@ -600,14 +600,14 @@ export default async function DormitoryDetailPage({
                   return (
                     <article
                       key={otherDormitory.id}
-                      className="rounded-[24px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-indigo-200"
+                      className="rounded-[24px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-red-200"
                     >
                       <div className="flex flex-wrap gap-2">
-                        <span className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-black text-indigo-700">
+                        <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700">
                           {otherDormitory.type}
                         </span>
 
-                        <span className="rounded-full bg-violet-50 px-3 py-1 text-xs font-black text-violet-700">
+                        <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700">
                           {otherDormitory.gender}
                         </span>
                       </div>
@@ -619,7 +619,7 @@ export default async function DormitoryDetailPage({
                       <p className="mt-2 flex items-start gap-2 text-sm font-semibold text-slate-500">
                         <MapPin
                           size={17}
-                          className="mt-0.5 shrink-0 text-indigo-500"
+                          className="mt-0.5 shrink-0 text-red-500"
                         />
 
                         <span>
@@ -647,7 +647,7 @@ export default async function DormitoryDetailPage({
 
                       <Link
                         href={`/yurtlar/${otherDormitory.id}`}
-                        className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-indigo-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-indigo-700"
+                        className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-red-600 px-4 py-3 text-sm font-black !text-white transition hover:bg-red-700"
                       >
                         Yurdu incele
                       </Link>
@@ -686,7 +686,7 @@ function DetailCard({
 }) {
   return (
     <div className="rounded-2xl bg-slate-50 p-4">
-      <div className="text-indigo-600">
+      <div className="text-red-600">
         {icon}
       </div>
 
@@ -714,7 +714,7 @@ function InfoRow({
 }) {
   const content = (
     <>
-      <div className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+      <div className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-red-50 text-red-600">
         {icon}
       </div>
 

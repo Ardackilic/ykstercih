@@ -261,7 +261,7 @@ export default function KykDormitoryCitiesPage() {
 
           <Link
             href="/"
-            className="flex items-center gap-2 font-black text-indigo-600"
+            className="flex items-center gap-2 font-black text-red-600"
           >
             <GraduationCap size={21} />
             YKS Tercih
@@ -276,7 +276,7 @@ export default function KykDormitoryCitiesPage() {
         >
           <Link
             href="/"
-            className="transition hover:text-indigo-600"
+            className="transition hover:text-red-600"
           >
             Ana sayfa
           </Link>
@@ -288,7 +288,7 @@ export default function KykDormitoryCitiesPage() {
           </span>
         </nav>
 
-        <section className="overflow-hidden rounded-[32px] bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 p-6 text-white shadow-xl sm:p-9">
+        <section className="overflow-hidden rounded-[32px] bg-gradient-to-br from-red-600 via-red-600 to-red-700 p-6 text-white shadow-xl sm:p-9">
           <div className="flex size-14 items-center justify-center rounded-2xl bg-white/15 backdrop-blur">
             <Building2 size={28} />
           </div>
@@ -297,7 +297,7 @@ export default function KykDormitoryCitiesPage() {
             Türkiye KYK yurtları
           </h1>
 
-          <p className="mt-4 max-w-3xl text-sm font-semibold leading-7 text-indigo-100 sm:text-base">
+          <p className="mt-4 max-w-3xl text-sm font-semibold leading-7 text-red-100 sm:text-base">
             Türkiye genelindeki KYK öğrenci
             yurtlarını şehir şehir incele.
             Yurtların adres, telefon, cinsiyet,
@@ -374,7 +374,7 @@ export default function KykDormitoryCitiesPage() {
 
           <Link
             href="/yurtlar"
-            className="mt-5 inline-flex items-center gap-2 rounded-xl bg-indigo-50 px-4 py-3 text-sm font-black text-indigo-700 transition hover:bg-indigo-100"
+            className="mt-5 inline-flex items-center gap-2 rounded-xl bg-red-50 px-4 py-3 text-sm font-black text-red-700 transition hover:bg-red-100"
           >
             <Search size={17} />
             Gelişmiş yurt aramasını aç
@@ -383,7 +383,7 @@ export default function KykDormitoryCitiesPage() {
 
         <section className="mt-8">
           <div>
-            <p className="font-black text-indigo-600">
+            <p className="font-black text-red-600">
               81 il yurt rehberi
             </p>
 
@@ -404,7 +404,7 @@ export default function KykDormitoryCitiesPage() {
 
         <section className="mt-8">
           <div>
-            <p className="font-black text-indigo-600">
+            <p className="font-black text-red-600">
               Merak edilenler
             </p>
 
@@ -422,7 +422,7 @@ export default function KykDormitoryCitiesPage() {
               (item) => (
                 <details
                   key={item.question}
-                  className="group rounded-[22px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 open:ring-indigo-200"
+                  className="group rounded-[22px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70 open:ring-red-200"
                 >
                   <summary className="cursor-pointer list-none pr-8 font-black leading-7 marker:hidden">
                     {item.question}
@@ -494,7 +494,7 @@ function StatCard({
 }) {
   return (
     <article className="rounded-[24px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70">
-      <div className="flex size-11 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+      <div className="flex size-11 items-center justify-center rounded-2xl bg-red-50 text-red-600">
         {icon}
       </div>
 

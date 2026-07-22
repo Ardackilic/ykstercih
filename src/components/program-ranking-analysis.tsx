@@ -79,7 +79,7 @@ export default function ProgramRankingAnalysis({
 
   return (
     <div className="rounded-3xl bg-slate-950 p-6 text-white lg:sticky lg:top-5">
-      <div className="flex items-center gap-2 text-indigo-300">
+      <div className="flex items-center gap-2 text-red-300">
         <Sparkles size={18} />
         <p className="text-sm font-black">Canlı tercih analizi</p>
       </div>
@@ -109,7 +109,7 @@ export default function ProgramRankingAnalysis({
           setRanking(onlyNumbers);
         }}
         placeholder="Örnek: 85.000"
-        className="mt-5 h-12 w-full rounded-xl border border-slate-700 bg-slate-900 px-4 text-lg font-black text-white outline-none placeholder:text-slate-500 focus:border-indigo-400"
+        className="mt-5 h-12 w-full rounded-xl border border-slate-700 bg-slate-900 px-4 text-lg font-black text-white outline-none placeholder:text-slate-500 focus:border-red-400"
       />
 
       {programRanking === null && (

@@ -574,7 +574,7 @@ export default function DormitoriesPage() {
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 !text-white">
+            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-red-500 to-red-600 !text-white">
               <GraduationCap size={24} />
             </div>
 
@@ -609,7 +609,7 @@ export default function DormitoriesPage() {
       </header>
 
       <section className="mx-auto max-w-7xl px-5 pt-7 lg:px-8">
-        <div className="relative overflow-hidden rounded-[32px] bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 p-6 text-white shadow-xl sm:p-9">
+        <div className="relative overflow-hidden rounded-[32px] bg-gradient-to-br from-red-600 via-red-600 to-red-700 p-6 text-white shadow-xl sm:p-9">
           <div className="absolute -right-24 -top-24 size-80 rounded-full bg-white/10 blur-3xl" />
 
           <div className="relative">
@@ -621,7 +621,7 @@ export default function DormitoriesPage() {
               Üniversitene yakın konaklama seçeneklerini bul
             </h1>
 
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-indigo-100 sm:text-base">
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-red-100 sm:text-base">
               Önce şehir veya ilçe ara. Ardından KYK bulunan
               bölgeleri ve doğrulanan yurtları kolayca incele.
             </p>
@@ -665,7 +665,7 @@ export default function DormitoriesPage() {
                 setQuery(event.target.value)
               }
               placeholder="Şehir, ilçe, üniversite veya yurt adı ara..."
-              className="h-14 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-12 pr-12 text-base font-semibold outline-none transition focus:border-indigo-500 focus:bg-white focus:ring-4 focus:ring-indigo-100"
+              className="h-14 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-12 pr-12 text-base font-semibold outline-none transition focus:border-red-500 focus:bg-white focus:ring-4 focus:ring-red-100"
             />
 
             {query && (
@@ -686,7 +686,7 @@ export default function DormitoriesPage() {
               onClick={() => setActiveTab("regions")}
               className={`rounded-xl px-3 py-3 text-sm font-black transition ${
                 activeTab === "regions"
-                  ? "bg-white text-indigo-600 shadow-sm"
+                  ? "bg-white text-red-600 shadow-sm"
                   : "text-slate-500"
               }`}
             >
@@ -698,7 +698,7 @@ export default function DormitoriesPage() {
               onClick={() => setActiveTab("dormitories")}
               className={`rounded-xl px-3 py-3 text-sm font-black transition ${
                 activeTab === "dormitories"
-                  ? "bg-white text-indigo-600 shadow-sm"
+                  ? "bg-white text-red-600 shadow-sm"
                   : "text-slate-500"
               }`}
             >
@@ -718,7 +718,7 @@ export default function DormitoriesPage() {
               Filtreler
 
               {activeFilterCount > 0 && (
-                <span className="flex size-6 items-center justify-center rounded-full bg-indigo-600 text-xs text-white">
+                <span className="flex size-6 items-center justify-center rounded-full bg-red-600 text-xs text-white">
                   {activeFilterCount}
                 </span>
               )}
@@ -937,7 +937,7 @@ function OfficialRegions({
           {locations.map((location) => (
             <article
               key={location.id}
-              className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-indigo-200"
+              className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-red-200"
             >
               <div className="flex items-start gap-3">
                 <div className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-600">
@@ -954,7 +954,7 @@ function OfficialRegions({
                   </h3>
 
                   <div className="mt-3 flex flex-wrap gap-2">
-                    <span className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-black text-indigo-700">
+                    <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700">
                       {location.gender}
                     </span>
 
@@ -1015,7 +1015,7 @@ function DormitoryResults({
   return (
     <section className="mt-6">
       <div>
-        <p className="font-black text-indigo-600">
+        <p className="font-black text-red-600">
           Ayrıntılı yurt kayıtları
         </p>
 
@@ -1135,7 +1135,7 @@ function DormitoryResults({
                     <h3 className="mt-3 text-xl font-black">
                       <Link
                         href={`/yurtlar/${dormitory.id}`}
-                        className="transition hover:text-indigo-600"
+                        className="transition hover:text-red-600"
                       >
                         {dormitory.name}
                       </Link>
@@ -1144,7 +1144,7 @@ function DormitoryResults({
                     <p className="mt-2 flex items-start gap-2 text-sm font-semibold leading-6 text-slate-500">
                       <MapPin
                         size={16}
-                        className="mt-1 shrink-0 text-indigo-600"
+                        className="mt-1 shrink-0 text-red-600"
                       />
 
                       <span>
@@ -1169,7 +1169,7 @@ function DormitoryResults({
                     )}
 
                     {dormitory.phone && (
-                      <p className="mt-2 text-sm font-black text-indigo-600">
+                      <p className="mt-2 text-sm font-black text-red-600">
                         Telefon: {dormitory.phone}
                       </p>
                     )}
@@ -1177,12 +1177,12 @@ function DormitoryResults({
 
                   {nearestUniversity?.distanceKm !== null &&
                     nearestUniversity?.distanceKm !== undefined && (
-                      <div className="rounded-2xl bg-indigo-50 px-5 py-3 text-center">
-                        <p className="text-xs font-black text-indigo-500">
+                      <div className="rounded-2xl bg-red-50 px-5 py-3 text-center">
+                        <p className="text-xs font-black text-red-500">
                           Kampüse uzaklık
                         </p>
 
-                        <p className="mt-1 text-xl font-black text-indigo-700">
+                        <p className="mt-1 text-xl font-black text-red-700">
                           {nearestUniversity.distanceKm.toLocaleString(
                             "tr-TR",
                             {
@@ -1223,7 +1223,7 @@ function DormitoryResults({
                           displayedCapacityYear >= 2025
                             ? "bg-emerald-100 text-emerald-700"
                             : displayedCapacityYear >= 2020
-                              ? "bg-indigo-100 text-indigo-700"
+                              ? "bg-red-100 text-red-700"
                               : "bg-amber-100 text-amber-700"
                         }`}
                       >
@@ -1240,7 +1240,7 @@ function DormitoryResults({
                         href={displayedCapacitySourceUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className="mt-3 inline-flex text-xs font-black text-indigo-600 hover:text-indigo-800"
+                        className="mt-3 inline-flex text-xs font-black text-red-600 hover:text-red-800"
                         title={
                           displayedCapacitySourceName ??
                           "Resmî kapasite kaynağı"
@@ -1338,7 +1338,7 @@ function DormitoryResults({
                     }}
                     className={`flex size-10 items-center justify-center rounded-xl text-sm font-black transition ${
                       page === currentPage
-                        ? "bg-indigo-600 text-white"
+                        ? "bg-red-600 text-white"
                         : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
                     }`}
                   >
@@ -1357,7 +1357,7 @@ function DormitoryResults({
                     behavior: "smooth",
                   });
                 }}
-                className="rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-black text-white transition hover:bg-indigo-700 disabled:cursor-not-allowed disabled:opacity-40"
+                className="rounded-xl bg-red-600 px-4 py-2.5 text-sm font-black text-white transition hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-40"
               >
                 Sonraki
               </button>
@@ -1421,7 +1421,7 @@ function FilterSelect({
         onChange={(event) =>
           onChange(event.target.value)
         }
-        className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 font-bold text-slate-700 outline-none focus:border-indigo-500"
+        className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 font-bold text-slate-700 outline-none focus:border-red-500"
       >
         {children}
       </select>
@@ -1458,7 +1458,7 @@ function HeroStat({
 }) {
   return (
     <div className="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur">
-      <p className="text-xs font-bold text-indigo-100">
+      <p className="text-xs font-bold text-red-100">
         {label}
       </p>
 
@@ -1495,7 +1495,7 @@ function SimpleBadge({
   children: React.ReactNode;
 }) {
   return (
-    <span className="rounded-full bg-indigo-50 px-3 py-1.5 text-xs font-black text-indigo-700">
+    <span className="rounded-full bg-red-50 px-3 py-1.5 text-xs font-black text-red-700">
       {children}
     </span>
   );

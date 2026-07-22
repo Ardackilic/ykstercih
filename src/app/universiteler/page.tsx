@@ -68,7 +68,7 @@ export default function UniversitiesPage() {
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 !text-white">
+            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-red-500 to-red-600 !text-white">
               <GraduationCap size={24} />
             </div>
 
@@ -89,8 +89,8 @@ export default function UniversitiesPage() {
       </header>
 
       <section className="mx-auto max-w-7xl px-5 py-10 lg:px-8">
-        <div className="rounded-[32px] bg-gradient-to-br from-indigo-600 to-violet-600 p-7 text-white shadow-xl sm:p-10">
-          <p className="font-black text-indigo-100">
+        <div className="rounded-[32px] bg-gradient-to-br from-red-600 to-red-600 p-7 text-white shadow-xl sm:p-10">
+          <p className="font-black text-red-100">
             Türkiye’deki üniversiteler
           </p>
 
@@ -98,7 +98,7 @@ export default function UniversitiesPage() {
             Üniversiteleri keşfet
           </h1>
 
-          <p className="mt-4 max-w-2xl leading-7 text-indigo-100">
+          <p className="mt-4 max-w-2xl leading-7 text-red-100">
             Devlet ve vakıf üniversitelerini program sayılarına,
             puan türlerine ve başarı sıralamalarına göre incele.
           </p>
@@ -115,7 +115,7 @@ export default function UniversitiesPage() {
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Üniversite adı ara"
-              className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-11 pr-4 outline-none focus:border-indigo-500"
+              className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-11 pr-4 outline-none focus:border-red-500"
             />
           </div>
 
@@ -144,7 +144,7 @@ export default function UniversitiesPage() {
                 className="rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+                  <div className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                     <Building2 size={22} />
                   </div>
 
@@ -192,7 +192,7 @@ export default function UniversitiesPage() {
                   {university.scoreTypes.map((scoreType) => (
                     <span
                       key={scoreType}
-                      className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-black text-indigo-700"
+                      className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700"
                     >
                       {scoreType}
                     </span>
@@ -203,7 +203,7 @@ export default function UniversitiesPage() {
                   href={`/universiteler/${encodeURIComponent(
                     university.name
                   )}`}
-                  className="mt-5 flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-3 font-black !text-white hover:bg-indigo-600"
+                  className="mt-5 flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-3 font-black !text-white hover:bg-red-600"
                 >
                   Üniversiteyi incele
                   <ChevronRight size={18} />

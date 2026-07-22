@@ -72,7 +72,7 @@ export default function PreferenceButton({
         className={`flex w-full items-center justify-center gap-2 rounded-2xl px-5 py-3 font-black transition ${
           isAdded
             ? "bg-emerald-500 text-white hover:bg-emerald-600"
-            : "bg-white text-indigo-700 hover:bg-indigo-50"
+            : "bg-white text-red-700 hover:bg-red-50"
         }`}
       >
         {isAdded ? <Check size={19} /> : <ListPlus size={19} />}

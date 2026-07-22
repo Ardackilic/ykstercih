@@ -121,7 +121,7 @@ export default function FavoriteDormitoriesPage() {
 
           <Link
             href="/"
-            className="flex items-center gap-2 font-black text-indigo-600"
+            className="flex items-center gap-2 font-black text-red-600"
           >
             <GraduationCap size={21} />
             YKS Tercih
@@ -130,7 +130,7 @@ export default function FavoriteDormitoriesPage() {
       </header>
 
       <section className="mx-auto max-w-6xl px-5 py-8 lg:px-8">
-        <div className="overflow-hidden rounded-[32px] bg-gradient-to-br from-rose-500 via-pink-500 to-violet-600 p-6 text-white shadow-xl sm:p-9">
+        <div className="overflow-hidden rounded-[32px] bg-gradient-to-br from-rose-500 via-pink-500 to-red-600 p-6 text-white shadow-xl sm:p-9">
           <div className="flex size-14 items-center justify-center rounded-2xl bg-white/15 backdrop-blur">
             <Heart
               size={28}
@@ -192,7 +192,7 @@ export default function FavoriteDormitoriesPage() {
 
             <Link
               href="/yurtlar"
-              className="mt-6 inline-flex rounded-xl bg-indigo-600 px-5 py-3 text-sm font-black !text-white transition hover:bg-indigo-700"
+              className="mt-6 inline-flex rounded-xl bg-red-600 px-5 py-3 text-sm font-black !text-white transition hover:bg-red-700"
             >
               Yurtları incele
             </Link>
@@ -234,11 +234,11 @@ export default function FavoriteDormitoriesPage() {
                     <div className="flex items-start justify-between gap-4">
                       <div className="min-w-0">
                         <div className="flex flex-wrap gap-2">
-                          <span className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-black text-indigo-700">
+                          <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700">
                             {dormitory.type}
                           </span>
 
-                          <span className="rounded-full bg-violet-50 px-3 py-1 text-xs font-black text-violet-700">
+                          <span className="rounded-full bg-red-50 px-3 py-1 text-xs font-black text-red-700">
                             {dormitory.gender}
                           </span>
 
@@ -250,7 +250,7 @@ export default function FavoriteDormitoriesPage() {
                         <h2 className="mt-3 text-xl font-black">
                           <Link
                             href={`/yurtlar/${dormitory.id}`}
-                            className="transition hover:text-indigo-600"
+                            className="transition hover:text-red-600"
                           >
                             {dormitory.name}
                           </Link>
@@ -259,7 +259,7 @@ export default function FavoriteDormitoriesPage() {
                         <p className="mt-2 flex items-start gap-2 text-sm font-semibold text-slate-500">
                           <MapPin
                             size={17}
-                            className="mt-0.5 shrink-0 text-indigo-500"
+                            className="mt-0.5 shrink-0 text-red-500"
                           />
 
                           <span>
@@ -284,7 +284,7 @@ export default function FavoriteDormitoriesPage() {
 
                     <div className="mt-5 grid gap-3 sm:grid-cols-2">
                       <div className="rounded-2xl bg-slate-50 p-4">
-                        <div className="text-indigo-600">
+                        <div className="text-red-600">
                           <Users size={20} />
                         </div>
 
@@ -304,7 +304,7 @@ export default function FavoriteDormitoriesPage() {
                       </div>
 
                       <div className="rounded-2xl bg-slate-50 p-4">
-                        <div className="text-violet-600">
+                        <div className="text-red-600">
                           <BedDouble size={20} />
                         </div>
 
@@ -341,7 +341,7 @@ export default function FavoriteDormitoriesPage() {
                     <div className="mt-5 flex justify-end border-t border-slate-100 pt-4">
                       <Link
                         href={`/yurtlar/${dormitory.id}`}
-                        className="rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-black !text-white transition hover:bg-indigo-700"
+                        className="rounded-xl bg-red-600 px-4 py-2.5 text-sm font-black !text-white transition hover:bg-red-700"
                       >
                         Yurdu incele
                       </Link>

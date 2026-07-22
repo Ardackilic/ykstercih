@@ -11,11 +11,11 @@ export default function NotFoundPage() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-slate-50 px-5 py-12 text-slate-950">
       <section className="w-full max-w-3xl rounded-[32px] bg-white p-7 text-center shadow-xl ring-1 ring-slate-200/70 sm:p-12">
-        <div className="mx-auto flex size-16 items-center justify-center rounded-3xl bg-indigo-50 text-indigo-600">
+        <div className="mx-auto flex size-16 items-center justify-center rounded-3xl bg-red-50 text-red-600">
           <GraduationCap size={31} />
         </div>
 
-        <p className="mt-6 text-sm font-black uppercase tracking-[0.2em] text-indigo-600">
+        <p className="mt-6 text-sm font-black uppercase tracking-[0.2em] text-red-600">
           404 · Sayfa bulunamadı
         </p>
 
@@ -31,7 +31,7 @@ export default function NotFoundPage() {
         <div className="mt-8 grid gap-3 sm:grid-cols-2">
           <Link
             href="/"
-            className="inline-flex items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-5 py-4 text-sm font-black !text-white transition hover:bg-indigo-700"
+            className="inline-flex items-center justify-center gap-2 rounded-2xl bg-red-600 px-5 py-4 text-sm font-black !text-white transition hover:bg-red-700"
           >
             <Home size={18} />
             Ana sayfaya dön
@@ -47,7 +47,7 @@ export default function NotFoundPage() {
 
           <Link
             href="/universiteler"
-            className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-200 px-5 py-4 text-sm font-black text-slate-700 transition hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700"
+            className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-200 px-5 py-4 text-sm font-black text-slate-700 transition hover:border-red-200 hover:bg-red-50 hover:text-red-700"
           >
             <GraduationCap size={18} />
             Üniversiteleri gör
@@ -55,7 +55,7 @@ export default function NotFoundPage() {
 
           <Link
             href="/kyk-yurtlari"
-            className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-200 px-5 py-4 text-sm font-black text-slate-700 transition hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700"
+            className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-200 px-5 py-4 text-sm font-black text-slate-700 transition hover:border-red-200 hover:bg-red-50 hover:text-red-700"
           >
             <Building2 size={18} />
             KYK yurtlarını gör
@@ -64,7 +64,7 @@ export default function NotFoundPage() {
 
         <Link
           href="/"
-          className="mt-7 inline-flex items-center gap-2 text-sm font-black text-slate-500 transition hover:text-indigo-600"
+          className="mt-7 inline-flex items-center gap-2 text-sm font-black text-slate-500 transition hover:text-red-600"
         >
           <ArrowLeft size={16} />
           YKS Tercih ana sayfası

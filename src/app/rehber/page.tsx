@@ -142,7 +142,7 @@ export default function GuidesPage() {
             href="/"
             className="flex items-center gap-3"
           >
-            <span className="flex size-11 items-center justify-center rounded-2xl bg-indigo-600 !text-white">
+            <span className="flex size-11 items-center justify-center rounded-2xl bg-red-600 !text-white">
               <GraduationCap size={24} />
             </span>
 
@@ -159,7 +159,7 @@ export default function GuidesPage() {
 
           <Link
             href="/programlar"
-            className="rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-black !text-white transition hover:bg-indigo-700 hover:!text-white"
+            className="rounded-xl bg-red-600 px-4 py-2.5 text-sm font-black !text-white transition hover:bg-red-700 hover:!text-white"
           >
             Programları ara
           </Link>
@@ -173,7 +173,7 @@ export default function GuidesPage() {
         >
           <Link
             href="/"
-            className="transition hover:text-indigo-600"
+            className="transition hover:text-red-600"
           >
             Ana sayfa
           </Link>
@@ -185,12 +185,12 @@ export default function GuidesPage() {
           </span>
         </nav>
 
-        <section className="overflow-hidden rounded-[34px] bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 p-7 text-white shadow-xl sm:p-10">
+        <section className="overflow-hidden rounded-[34px] bg-gradient-to-br from-red-600 via-red-600 to-red-700 p-7 text-white shadow-xl sm:p-10">
           <span className="flex size-14 items-center justify-center rounded-2xl bg-white/15">
             <BookOpen size={28} />
           </span>
 
-          <p className="mt-6 text-sm font-black uppercase tracking-[0.18em] text-indigo-100">
+          <p className="mt-6 text-sm font-black uppercase tracking-[0.18em] text-red-100">
             Üniversite adayları için
           </p>
 
@@ -198,7 +198,7 @@ export default function GuidesPage() {
             YKS tercih rehberi
           </h1>
 
-          <p className="mt-5 max-w-3xl text-sm font-semibold leading-7 text-indigo-100 sm:text-base">
+          <p className="mt-5 max-w-3xl text-sm font-semibold leading-7 text-red-100 sm:text-base">
             Tercih listesi hazırlama, başarı
             sırası, üniversite araştırması ve
             barınma seçenekleriyle ilgili
@@ -208,7 +208,7 @@ export default function GuidesPage() {
 
         <section className="mt-8">
           <div>
-            <p className="font-black text-indigo-600">
+            <p className="font-black text-red-600">
               Öne çıkan içerikler
             </p>
 
@@ -224,10 +224,10 @@ export default function GuidesPage() {
               return (
                 <article
                   key={guide.href}
-                  className="flex flex-col rounded-[26px] bg-white p-6 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-indigo-200"
+                  className="flex flex-col rounded-[26px] bg-white p-6 shadow-sm ring-1 ring-slate-200/70 transition hover:-translate-y-0.5 hover:ring-red-200"
                 >
                   <div className="flex items-start justify-between gap-4">
-                    <span className="flex size-12 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+                    <span className="flex size-12 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                       <Icon size={23} />
                     </span>
 
@@ -239,7 +239,7 @@ export default function GuidesPage() {
                   <h2 className="mt-5 text-xl font-black leading-7">
                     <Link
                       href={guide.href}
-                      className="transition hover:text-indigo-600"
+                      className="transition hover:text-red-600"
                     >
                       {guide.title}
                     </Link>
@@ -252,7 +252,7 @@ export default function GuidesPage() {
                   <div className="mt-auto pt-6">
                     <Link
                       href={guide.href}
-                      className="inline-flex items-center gap-2 text-sm font-black text-indigo-600 transition hover:gap-3"
+                      className="inline-flex items-center gap-2 text-sm font-black text-red-600 transition hover:gap-3"
                     >
                       İncele
                       <ArrowRight size={17} />
@@ -285,7 +285,7 @@ export default function GuidesPage() {
 
             <Link
               href="/programlar"
-              className="inline-flex shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-black !text-slate-950 transition hover:bg-indigo-50 hover:!text-slate-950"
+              className="inline-flex shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-black !text-slate-950 transition hover:bg-red-50 hover:!text-slate-950"
             >
               Program aramasını aç
             </Link>

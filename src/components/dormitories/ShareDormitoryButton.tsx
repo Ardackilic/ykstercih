@@ -63,7 +63,7 @@ export default function ShareDormitoryButton({
     <button
       type="button"
       onClick={shareDormitory}
-      className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-black text-indigo-700 shadow-sm ring-1 ring-white/40 transition hover:bg-indigo-50"
+      className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-black text-red-700 shadow-sm ring-1 ring-white/40 transition hover:bg-red-50"
     >
       {copied ? (
         <>

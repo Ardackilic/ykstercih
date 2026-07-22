@@ -75,7 +75,7 @@ export default function FavoritesPage() {
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 !text-white">
+            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-red-500 to-red-600 !text-white">
               <GraduationCap size={24} />
             </div>
 
@@ -98,7 +98,7 @@ export default function FavoritesPage() {
       <section className="mx-auto max-w-6xl px-5 py-10 lg:px-8">
         <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="font-black text-indigo-600">
+            <p className="font-black text-red-600">
               Kaydettiğin programlar
             </p>
 
@@ -162,7 +162,7 @@ export default function FavoritesPage() {
                 className="rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+                  <div className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                     <GraduationCap size={22} />
                   </div>
 
@@ -203,7 +203,7 @@ export default function FavoritesPage() {
 
                 <Link
                   href={`/programlar/${program.code}`}
-                  className="mt-5 flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-3 font-black !text-white transition hover:bg-indigo-600"
+                  className="mt-5 flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-3 font-black !text-white transition hover:bg-red-600"
                 >
                   Programı incele
                   <ChevronRight size={18} />
