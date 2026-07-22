@@ -106,7 +106,10 @@ export default function ProgramsPage() {
       return;
     }
 
+    const params = new URLSearchParams(window.location.search);
+
     const shouldRestore =
+      params.get("geri") === "1" ||
       window.sessionStorage.getItem(PROGRAMS_RETURN_KEY) === "1";
 
     const savedStateRaw =
@@ -146,8 +149,6 @@ export default function ProgramsPage() {
         window.sessionStorage.removeItem(PROGRAMS_RETURN_KEY);
       }
     }
-
-    const params = new URLSearchParams(window.location.search);
 
     const urlQuery = params.get("q") ?? "";
     const urlScoreType = normalizeScoreType(

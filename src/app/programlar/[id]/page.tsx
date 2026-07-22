@@ -266,7 +266,7 @@ export default async function ProgramDetailPage({
           </Link>
 
           <Link
-            href="/programlar"
+            href="/programlar?geri=1"
             className="flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold transition hover:border-indigo-300 hover:text-indigo-600"
           >
             <ArrowLeft size={17} />
@@ -291,7 +291,7 @@ export default async function ProgramDetailPage({
             <span aria-hidden="true">/</span>
 
             <Link
-              href="/programlar"
+              href="/programlar?geri=1"
               className="transition hover:text-indigo-600"
             >
               Programlar
