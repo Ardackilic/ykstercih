@@ -7,9 +7,9 @@
   --text: #101828;
   --muted: #667085;
   --border: #e4e7ec;
-  --primary: #635bff;
-  --primary-dark: #4f46e5;
-  --secondary: #0ea5e9;
+  --primary: #dc2626;
+  --primary-dark: #dc2626;
+  --secondary: #f87171;
   --success: #12b76a;
   --warning: #f79009;
   --danger: #f04438;
@@ -85,7 +85,7 @@ a {
 .filter-input:focus {
   border-color: var(--primary);
   background: white;
-  box-shadow: 0 0 0 4px rgba(99, 91, 255, 0.1);
+  box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.10);
 }
 
 .student-panel {
@@ -112,12 +112,12 @@ a {
 .student-card:hover {
   transform: translateY(-2px);
   border-color: #c7d2fe;
-  box-shadow: 0 18px 38px rgba(99, 91, 255, 0.1);
+  box-shadow: 0 18px 38px rgba(220, 38, 38, 0.10);
 }
 
 .gradient-text {
   color: transparent;
-  background: linear-gradient(110deg, #4f46e5, #7c3aed, #0ea5e9);
+  background: linear-gradient(110deg, #dc2626, #ef4444, #f87171);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -130,7 +130,7 @@ a {
   min-height: 48px;
   border: 0;
   border-radius: 15px;
-  background: linear-gradient(110deg, #635bff, #4f46e5);
+  background: linear-gradient(110deg, #dc2626, #dc2626);
   padding: 0 20px;
   color: white !important;
   font-weight: 800;
@@ -143,7 +143,7 @@ a {
 
 .primary-button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 14px 30px rgba(79, 70, 229, 0.28);
+  box-shadow: 0 14px 30px rgba(220, 38, 38, 0.24);
 }
 
 .primary-button:disabled {
@@ -157,9 +157,9 @@ a {
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
-  background: #eef2ff;
+  background: #fef2f2;
   padding: 6px 11px;
-  color: #4f46e5;
+  color: #dc2626;
   font-size: 12px;
   font-weight: 800;
 }
@@ -174,5 +174,178 @@ a {
   .student-panel,
   .student-card {
     border-radius: 20px;
+  }
+}
+
+
+/* GLOBAL MOBILE SAFETY */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100%;
+  touch-action: pan-x pan-y;
+}
+
+main,
+header,
+footer,
+section,
+article,
+aside,
+nav,
+form {
+  max-width: 100%;
+  min-width: 0;
+}
+
+div {
+  min-width: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+iframe {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-width: 100%;
+}
+
+table {
+  max-width: 100%;
+}
+
+pre,
+code {
+  max-width: 100%;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+p,
+span,
+a,
+button,
+label,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+input,
+select,
+textarea,
+button {
+  max-width: 100%;
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 16px;
+  }
+
+  body {
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  input,
+  select,
+  textarea {
+    /*
+     * iOS, 16px altındaki input yazılarında sayfayı
+     * otomatik yakınlaştırabilir.
+     */
+    font-size: 16px !important;
+  }
+
+  h1 {
+    max-width: 100%;
+    font-size: clamp(1.85rem, 8.5vw, 2.75rem) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.035em;
+  }
+
+  h2 {
+    max-width: 100%;
+    font-size: clamp(1.45rem, 6vw, 2rem);
+    line-height: 1.16;
+  }
+
+  .primary-button {
+    width: 100%;
+    min-height: 48px;
+    padding-inline: 16px;
+  }
+
+  .student-panel,
+  .student-card {
+    max-width: 100%;
+  }
+
+  /*
+   * Sadece içerik alanlarının taşmasını önler.
+   * Bilerek geniş oluşturulan tablo ve grafikler,
+   * kendi overflow-x-auto kapsayıcılarında kaydırılır.
+   */
+  .overflow-x-auto {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  main,
+  header,
+  footer,
+  section,
+  article,
+  aside,
+  nav,
+  form {
+    width: 100%;
+  }
+
+  .grid,
+  .flex {
+    min-width: 0;
+  }
+
+  table {
+    font-size: 0.875rem;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    touch-action: manipulation;
   }
 }

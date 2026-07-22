@@ -274,7 +274,7 @@ export default async function UniversityDetailPage({
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 !text-white">
+            <div className="flex size-11 items-center justify-center rounded-2xl bg-gradient-to-br from-red-500 to-red-600 !text-white">
               <GraduationCap size={24} />
             </div>
 
@@ -303,7 +303,7 @@ export default async function UniversityDetailPage({
         >
           <Link
             href="/"
-            className="transition hover:text-indigo-600"
+            className="transition hover:text-red-600"
           >
             Ana sayfa
           </Link>
@@ -312,7 +312,7 @@ export default async function UniversityDetailPage({
 
           <Link
             href="/universiteler"
-            className="transition hover:text-indigo-600"
+            className="transition hover:text-red-600"
           >
             Üniversiteler
           </Link>
@@ -324,7 +324,7 @@ export default async function UniversityDetailPage({
           </span>
         </nav>
 
-        <div className="relative overflow-hidden rounded-[34px] bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-500 p-7 text-white shadow-2xl shadow-indigo-200 sm:p-10">
+        <div className="relative overflow-hidden rounded-[34px] bg-gradient-to-br from-red-600 via-red-600 to-fuchsia-500 p-7 text-white shadow-2xl shadow-red-200 sm:p-10">
           <div className="absolute -right-16 -top-16 size-72 rounded-full bg-white/10 blur-3xl" />
 
           <div className="relative">
@@ -351,12 +351,12 @@ export default async function UniversityDetailPage({
               {universityName}
             </h1>
 
-            <p className="mt-4 max-w-3xl leading-7 text-indigo-100">
+            <p className="mt-4 max-w-3xl leading-7 text-red-100">
               Üniversitenin tüm ön lisans ve lisans programlarını,
               başarı sıralarını ve kontenjanlarını incele.
             </p>
 
-            <div className="mt-8 grid grid-cols-2 gap-3 lg:grid-cols-5">
+            <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
               <HeroStat
                 label="Toplam program"
                 value={universityPrograms.length}
@@ -382,7 +382,7 @@ export default async function UniversityDetailPage({
         <div className="mb-6 grid gap-4 sm:grid-cols-2">
           <div className="rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70">
             <div className="flex items-center gap-3">
-              <div className="flex size-12 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+              <div className="flex size-12 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                 <BarChart3 size={22} />
               </div>
 
@@ -402,7 +402,7 @@ export default async function UniversityDetailPage({
 
           <div className="rounded-[26px] bg-white p-5 shadow-sm ring-1 ring-slate-200/70">
             <div className="flex items-center gap-3">
-              <div className="flex size-12 items-center justify-center rounded-2xl bg-violet-50 text-violet-600">
+              <div className="flex size-12 items-center justify-center rounded-2xl bg-red-50 text-red-600">
                 <Layers3 size={22} />
               </div>
 
@@ -420,7 +420,7 @@ export default async function UniversityDetailPage({
         </div>
 
         <div>
-          <p className="font-black text-indigo-600">
+          <p className="font-black text-red-600">
             Üniversitenin programları
           </p>
 
@@ -488,7 +488,7 @@ export default async function UniversityDetailPage({
 
                   <Link
                     href={`/programlar/${program.code}`}
-                    className="col-span-2 flex items-center justify-center gap-2 rounded-2xl bg-slate-950 px-4 py-3 font-black !text-white transition hover:bg-indigo-600 sm:col-span-1"
+                    className="col-span-2 flex items-center justify-center gap-2 rounded-2xl bg-slate-950 px-4 py-3 font-black !text-white transition hover:bg-red-600 sm:col-span-1"
                   >
                     İncele
                     <ChevronRight size={17} />
@@ -516,13 +516,13 @@ function HeroStat({
     <div
       className={`rounded-2xl border p-4 backdrop-blur ${
         emphasis
-          ? "border-white bg-white text-indigo-700"
+          ? "border-white bg-white text-red-700"
           : "border-white/15 bg-white/10 text-white"
       }`}
     >
       <p
         className={`text-xs font-bold ${
-          emphasis ? "text-indigo-400" : "text-indigo-100"
+          emphasis ? "text-red-400" : "text-red-100"
         }`}
       >
         {label}
@@ -550,7 +550,7 @@ function MiniStat({
 
 function Badge({ children }: { children: React.ReactNode }) {
   return (
-    <span className="rounded-full bg-indigo-50 px-3 py-1.5 text-xs font-black text-indigo-700">
+    <span className="rounded-full bg-red-50 px-3 py-1.5 text-xs font-black text-red-700">
       {children}
     </span>
   );
