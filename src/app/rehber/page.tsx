@@ -39,6 +39,14 @@ export const metadata: Metadata = {
 
 const guides = [
   {
+    href: "/siralamaya-gore",
+    icon: BarChart3,
+    category: "Başarı sırası",
+    title: "Sıralamaya göre hangi bölümler gelir?",
+    description:
+      "SAY, TYT, EA ve SÖZ başarı sırası aralıklarına göre üniversite programlarını incele.",
+  },
+  {
     href: "/rehber/yks-tercih-listesi-nasil-hazirlanir",
     icon: ListChecks,
     category: "Tercih listesi",

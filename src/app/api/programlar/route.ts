@@ -69,11 +69,98 @@ type ScoredProgram = {
 
 const programs = data.programs as Program[];
 
-const cities = Array.from(
+const TURKEY_CITIES = [
+  "Adana",
+  "Adıyaman",
+  "Afyonkarahisar",
+  "Ağrı",
+  "Aksaray",
+  "Amasya",
+  "Ankara",
+  "Antalya",
+  "Ardahan",
+  "Artvin",
+  "Aydın",
+  "Balıkesir",
+  "Bartın",
+  "Batman",
+  "Bayburt",
+  "Bilecik",
+  "Bingöl",
+  "Bitlis",
+  "Bolu",
+  "Burdur",
+  "Bursa",
+  "Çanakkale",
+  "Çankırı",
+  "Çorum",
+  "Denizli",
+  "Diyarbakır",
+  "Düzce",
+  "Edirne",
+  "Elazığ",
+  "Erzincan",
+  "Erzurum",
+  "Eskişehir",
+  "Gaziantep",
+  "Giresun",
+  "Gümüşhane",
+  "Hakkâri",
+  "Hatay",
+  "Iğdır",
+  "Isparta",
+  "İstanbul",
+  "İzmir",
+  "Kahramanmaraş",
+  "Karabük",
+  "Karaman",
+  "Kars",
+  "Kastamonu",
+  "Kayseri",
+  "Kırıkkale",
+  "Kırklareli",
+  "Kırşehir",
+  "Kilis",
+  "Kocaeli",
+  "Konya",
+  "Kütahya",
+  "Malatya",
+  "Manisa",
+  "Mardin",
+  "Mersin",
+  "Muğla",
+  "Muş",
+  "Nevşehir",
+  "Niğde",
+  "Ordu",
+  "Osmaniye",
+  "Rize",
+  "Sakarya",
+  "Samsun",
+  "Siirt",
+  "Sinop",
+  "Sivas",
+  "Şanlıurfa",
+  "Şırnak",
+  "Tekirdağ",
+  "Tokat",
+  "Trabzon",
+  "Tunceli",
+  "Uşak",
+  "Van",
+  "Yalova",
+  "Yozgat",
+  "Zonguldak",
+] as const;
+
+const cities = [...TURKEY_CITIES];
+
+const programNames = Array.from(
   new Set(
     programs
-      .map((program) => program.city)
-      .filter((city): city is string => Boolean(city))
+      .filter((program) => program.isActive2025 !== false)
+      .map((program) => program.programName)
+      .filter(Boolean)
   )
 ).sort((left, right) =>
   left.localeCompare(right, "tr-TR")
@@ -265,6 +352,9 @@ export async function GET(request: NextRequest) {
 
   const explicitCity = params.get("il") ?? "";
 
+  const explicitProgram =
+    params.get("bolum") ?? "";
+
   const explicitTeachingType =
     params.get("ogretimSekli") ?? "";
 
@@ -336,6 +426,14 @@ export async function GET(request: NextRequest) {
       explicitCity &&
       normalize(program.city ?? "") !==
         normalize(explicitCity)
+    ) {
+      continue;
+    }
+
+    if (
+      explicitProgram &&
+      normalize(program.programName) !==
+        normalize(explicitProgram)
     ) {
       continue;
     }
@@ -486,6 +584,7 @@ export async function GET(request: NextRequest) {
     },
     filterOptions: {
       cities,
+      programNames,
     },
     search: {
       originalQuery: parsed.original,
@@ -497,6 +596,7 @@ export async function GET(request: NextRequest) {
         universityType,
         level,
         city: explicitCity,
+        programName: explicitProgram,
         teachingType: explicitTeachingType,
         language: parsed.language,
         ranking,

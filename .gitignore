@@ -49,3 +49,5 @@ src-link-color-backup/
 .env
 .env.local
 .env.*.local
+
+.backups/

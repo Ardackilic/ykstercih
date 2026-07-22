@@ -57,6 +57,7 @@ type ApiResponse = {
   };
   filterOptions: {
     cities: string[];
+    programNames: string[];
   };
 };
 
@@ -93,8 +94,10 @@ export default function ProgramsPage() {
   const [universityType, setUniversityType] = useState("");
   const [level, setLevel] = useState("");
   const [city, setCity] = useState("");
+  const [selectedProgram, setSelectedProgram] = useState("");
   const [teachingType, setTeachingType] = useState("");
   const [cities, setCities] = useState<string[]>([]);
+  const [programNames, setProgramNames] = useState<string[]>([]);
   const [ranking, setRanking] = useState("");
   const [page, setPage] = useState(1);
   const [pagination, setPagination] = useState({
@@ -130,6 +133,7 @@ export default function ProgramsPage() {
           universityType?: string;
           level?: string;
           city?: string;
+          selectedProgram?: string;
           teachingType?: string;
           ranking?: string;
           page?: number;
@@ -143,6 +147,7 @@ export default function ProgramsPage() {
         setUniversityType(savedState.universityType ?? "");
         setLevel(savedState.level ?? "");
         setCity(savedState.city ?? "");
+        setSelectedProgram(savedState.selectedProgram ?? "");
         setTeachingType(savedState.teachingType ?? "");
         setRanking(savedState.ranking ?? "");
         setPage(
@@ -168,6 +173,7 @@ export default function ProgramsPage() {
       params.get("universiteTuru") ?? "";
     const urlLevel = params.get("seviye") ?? "";
     const urlCity = params.get("il") ?? "";
+    const urlSelectedProgram = params.get("bolum") ?? "";
     const urlTeachingType =
       params.get("ogretimSekli") ?? "";
     const urlRanking = (
@@ -179,6 +185,7 @@ export default function ProgramsPage() {
     setUniversityType(urlUniversityType);
     setLevel(urlLevel);
     setCity(urlCity);
+    setSelectedProgram(urlSelectedProgram);
     setTeachingType(urlTeachingType);
     setRanking(urlRanking);
     setPage(1);
@@ -203,6 +210,7 @@ export default function ProgramsPage() {
       if (universityType) params.set("universiteTuru", universityType);
       if (level) params.set("seviye", level);
       if (city) params.set("il", city);
+      if (selectedProgram) params.set("bolum", selectedProgram);
       if (teachingType) params.set("ogretimSekli", teachingType);
       if (ranking) params.set("siralama", ranking);
 
@@ -223,6 +231,7 @@ export default function ProgramsPage() {
         setPrograms(data.results);
         setPagination(data.pagination);
         setCities(data.filterOptions.cities);
+        setProgramNames(data.filterOptions.programNames);
       } catch (error) {
         if (error instanceof Error && error.name !== "AbortError") {
           setError(error.message);
@@ -245,6 +254,7 @@ export default function ProgramsPage() {
     universityType,
     level,
     city,
+    selectedProgram,
     teachingType,
     ranking,
     page,
@@ -419,6 +429,7 @@ export default function ProgramsPage() {
         universityType,
         level,
         city,
+        selectedProgram,
         teachingType,
         ranking,
         page,
@@ -438,6 +449,7 @@ export default function ProgramsPage() {
     setUniversityType("");
     setLevel("");
     setCity("");
+    setSelectedProgram("");
     setTeachingType("");
     setRanking("");
     setPage(1);
@@ -564,23 +576,32 @@ export default function ProgramsPage() {
             </select>
           </FilterField>
 
-          <FilterField label="İl">
-            <select
-              value={city}
-              onChange={(event) => {
-                setCity(event.target.value);
+          <FilterField label="Bölüm seç">
+            <SearchableSelect
+              value={selectedProgram}
+              options={programNames}
+              placeholder="Tüm bölümler"
+              searchPlaceholder="Bölüm ara..."
+              emptyText="Bölüm bulunamadı"
+              onChange={(value) => {
+                setSelectedProgram(value);
                 setPage(1);
               }}
-              className="filter-input"
-            >
-              <option value="">Tüm iller</option>
+            />
+          </FilterField>
 
-              {cities.map((cityName) => (
-                <option key={cityName} value={cityName}>
-                  {cityName}
-                </option>
-              ))}
-            </select>
+          <FilterField label="İl">
+            <SearchableSelect
+              value={city}
+              options={cities}
+              placeholder="Tüm iller"
+              searchPlaceholder="İl ara..."
+              emptyText="İl bulunamadı"
+              onChange={(value) => {
+                setCity(value);
+                setPage(1);
+              }}
+            />
           </FilterField>
 
           <FilterField label="Öğretim şekli">
@@ -956,6 +977,144 @@ function ProgramCard({
         </Link>
       </div>
     </article>
+  );
+}
+
+function SearchableSelect({
+  value,
+  options,
+  placeholder,
+  searchPlaceholder,
+  emptyText,
+  onChange,
+}: {
+  value: string;
+  options: string[];
+  placeholder: string;
+  searchPlaceholder: string;
+  emptyText: string;
+  onChange: (value: string) => void;
+}) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [open, setOpen] = useState(false);
+  const [searchText, setSearchText] = useState("");
+
+  useEffect(() => {
+    function handleOutsideClick(event: MouseEvent) {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target as Node)
+      ) {
+        setOpen(false);
+        setSearchText("");
+      }
+    }
+
+    document.addEventListener("mousedown", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
+
+  const normalizedSearch = searchText
+    .trim()
+    .toLocaleLowerCase("tr-TR");
+
+  const filteredOptions = normalizedSearch
+    ? options.filter((option) =>
+        option
+          .toLocaleLowerCase("tr-TR")
+          .includes(normalizedSearch)
+      )
+    : options;
+
+  function selectOption(nextValue: string) {
+    onChange(nextValue);
+    setOpen(false);
+    setSearchText("");
+  }
+
+  return (
+    <div ref={containerRef} className="relative">
+      <button
+        type="button"
+        onClick={() => {
+          setOpen((current) => !current);
+          setSearchText("");
+        }}
+        className="filter-input flex w-full items-center justify-between gap-3 text-left"
+        aria-haspopup="listbox"
+        aria-expanded={open}
+      >
+        <span className={value ? "text-slate-900" : "text-slate-500"}>
+          {value || placeholder}
+        </span>
+
+        <ChevronRight
+          size={17}
+          className={`shrink-0 text-slate-400 transition ${
+            open ? "rotate-90" : ""
+          }`}
+        />
+      </button>
+
+      {open && (
+        <div className="absolute left-0 right-0 top-[calc(100%+0.5rem)] z-50 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
+          <div className="border-b border-slate-100 p-3">
+            <div className="relative">
+              <Search
+                size={17}
+                className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
+              />
+
+              <input
+                autoFocus
+                value={searchText}
+                onChange={(event) => setSearchText(event.target.value)}
+                placeholder={searchPlaceholder}
+                className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pl-10 pr-3 text-sm font-semibold outline-none transition focus:border-red-500 focus:bg-white"
+              />
+            </div>
+          </div>
+
+          <div className="max-h-72 overflow-y-auto p-2" role="listbox">
+            <button
+              type="button"
+              onClick={() => selectOption("")}
+              className={`flex w-full rounded-xl px-3 py-2.5 text-left text-sm font-bold transition hover:bg-red-50 hover:text-red-700 ${
+                value === ""
+                  ? "bg-red-50 text-red-700"
+                  : "text-slate-700"
+              }`}
+            >
+              {placeholder}
+            </button>
+
+            {filteredOptions.map((option) => (
+              <button
+                key={option}
+                type="button"
+                onClick={() => selectOption(option)}
+                className={`flex w-full rounded-xl px-3 py-2.5 text-left text-sm font-semibold transition hover:bg-red-50 hover:text-red-700 ${
+                  value === option
+                    ? "bg-red-50 text-red-700"
+                    : "text-slate-700"
+                }`}
+              >
+                {option}
+              </button>
+            ))}
+
+            {filteredOptions.length === 0 && (
+              <p className="px-3 py-6 text-center text-sm font-semibold text-slate-500">
+                {emptyText}
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 

@@ -43,7 +43,7 @@ export default function ProgramRankingAnalysis({
         label: "Mantıklı tercih",
         description:
           "Geçmiş veriye göre sıralamana uygun ve makul güvenlik payı olan bir seçenek.",
-        className: "border-sky-200 bg-sky-50 text-sky-800",
+        className: "border-red-200 bg-red-50 text-red-800",
         icon: CheckCircle2,
       };
     }
