@@ -27,6 +27,7 @@ type HistoryItem = {
   generalQuota: number | null;
   schoolFirstQuota: number | null;
   conditions: string | null;
+  tuitionFee?: number | null;
 };
 
 type Program = {
@@ -255,7 +256,7 @@ export default async function ProgramDetailPage({
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex size-11 items-center justify-center rounded-2xl bg-indigo-600 !text-white">
+            <div className="flex size-11 items-center justify-center rounded-2xl bg-red-600 !text-white">
               <GraduationCap size={24} />
             </div>
 
@@ -267,7 +268,7 @@ export default async function ProgramDetailPage({
 
           <Link
             href="/programlar?geri=1"
-            className="flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold transition hover:border-indigo-300 hover:text-indigo-600"
+            className="flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold transition hover:border-red-300 hover:text-red-600"
           >
             <ArrowLeft size={17} />
             Programlara dön
@@ -283,7 +284,7 @@ export default async function ProgramDetailPage({
           >
             <Link
               href="/"
-              className="transition hover:text-indigo-600"
+              className="transition hover:text-red-600"
             >
               Ana sayfa
             </Link>
@@ -292,7 +293,7 @@ export default async function ProgramDetailPage({
 
             <Link
               href="/programlar?geri=1"
-              className="transition hover:text-indigo-600"
+              className="transition hover:text-red-600"
             >
               Programlar
             </Link>
@@ -303,7 +304,7 @@ export default async function ProgramDetailPage({
               href={`/universiteler/${encodeURIComponent(
                 program.universityName
               )}`}
-              className="transition hover:text-indigo-600"
+              className="transition hover:text-red-600"
             >
               {program.universityName}
             </Link>
@@ -315,9 +316,9 @@ export default async function ProgramDetailPage({
             </span>
           </nav>
 
-          <div className="relative overflow-hidden rounded-[32px] bg-gradient-to-br from-indigo-600 via-violet-600 to-sky-500 p-6 text-white shadow-2xl shadow-indigo-200 sm:p-9">
+          <div className="relative overflow-hidden rounded-[32px] bg-gradient-to-br from-red-600 via-red-600 to-red-500 p-6 text-white shadow-2xl shadow-red-200 sm:p-9">
             <div className="absolute -right-20 -top-24 size-72 rounded-full bg-white/10 blur-2xl" />
-            <div className="absolute -bottom-28 -left-20 size-72 rounded-full bg-sky-300/20 blur-3xl" />
+            <div className="absolute -bottom-28 -left-20 size-72 rounded-full bg-red-300/20 blur-3xl" />
 
             <div className="relative">
               <div className="flex flex-col gap-7 lg:flex-row lg:items-start lg:justify-between">
@@ -334,7 +335,7 @@ export default async function ProgramDetailPage({
                     )}
                   </div>
 
-                  <p className="mt-7 text-sm font-black uppercase tracking-[0.18em] text-indigo-100">
+                  <p className="mt-7 text-sm font-black uppercase tracking-[0.18em] text-red-100">
                     {program.universityName}
                   </p>
 
@@ -342,7 +343,7 @@ export default async function ProgramDetailPage({
                     {program.programName}
                   </h1>
 
-                  <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold text-indigo-50">
+                  <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold text-red-50">
                     {program.academicUnit && (
                       <span>{program.academicUnit}</span>
                     )}
@@ -453,7 +454,27 @@ export default async function ProgramDetailPage({
                 label="Burs durumu"
                 value={program.scholarship || "Burs bilgisi yok"}
               />
+
+                {typeof program.history["2025"]?.tuitionFee === "number" && (
+                  <InfoRow
+                    icon={<BookOpen size={18} />}
+                    label="2025 yıllık liste ücreti"
+                    value={`${formatNumber(
+                      program.history["2025"].tuitionFee
+                    )} TL`}
+                  />
+                )}
             </div>
+
+              {typeof program.history["2025"]?.tuitionFee === "number" && (
+                <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3">
+                  <p className="text-xs font-semibold leading-5 text-amber-800">
+                    Bu tutar 2025 yılı için ilan edilen yıllık liste
+                    ücretidir. Burs ve indirim oranına göre öğrencinin
+                    ödeyeceği gerçek tutar değişebilir.
+                  </p>
+                </div>
+              )}
 
             {program.specialStatuses.length > 0 && (
               <div className="mt-6">
@@ -500,7 +521,7 @@ export default async function ProgramDetailPage({
                         {item.year}
                       </td>
 
-                      <td className="px-4 py-4 font-black text-indigo-600">
+                      <td className="px-4 py-4 font-black text-red-600">
                         {formatNullable(item.ranking)}
                       </td>
 
@@ -575,7 +596,7 @@ export default async function ProgramDetailPage({
                       key={item.year}
                       className="rounded-2xl border border-slate-200 p-4"
                     >
-                      <p className="text-sm font-black text-indigo-600">
+                      <p className="text-sm font-black text-red-600">
                         {item.year} verisi
                       </p>
 
@@ -601,7 +622,7 @@ export default async function ProgramDetailPage({
 
         <aside className="space-y-5">
           <div className="rounded-3xl bg-slate-950 p-6 text-white lg:sticky lg:top-5">
-            <p className="text-sm font-black text-indigo-300">
+            <p className="text-sm font-black text-red-300">
               Tercih analizi
             </p>
 
@@ -653,7 +674,7 @@ export default async function ProgramDetailPage({
                 href={`/programlar?puanTuru=${encodeURIComponent(
                   program.scoreType
                 )}`}
-                className="flex w-full items-center justify-center rounded-xl bg-indigo-600 px-4 py-3 font-black !text-white transition hover:bg-indigo-500"
+                className="flex w-full items-center justify-center rounded-xl bg-red-600 px-4 py-3 font-black !text-white transition hover:bg-red-500"
               >
                 Benzer programları göster
               </Link>
@@ -701,13 +722,13 @@ function HeroStat({
     <div
       className={`rounded-2xl border p-4 backdrop-blur ${
         emphasis
-          ? "border-white/40 bg-white text-indigo-700"
+          ? "border-white/40 bg-white text-red-700"
           : "border-white/15 bg-white/10 text-white"
       }`}
     >
       <p
         className={`text-xs font-bold ${
-          emphasis ? "text-indigo-400" : "text-indigo-100"
+          emphasis ? "text-red-400" : "text-red-100"
         }`}
       >
         {label}
@@ -790,7 +811,7 @@ function RankingChart({
           </p>
         </div>
 
-        <span className="mt-2 inline-flex w-fit rounded-full bg-indigo-100 px-3 py-1 text-xs font-black text-indigo-700 sm:mt-0">
+        <span className="mt-2 inline-flex w-fit rounded-full bg-red-100 px-3 py-1 text-xs font-black text-red-700 sm:mt-0">
           Küçük sıra daha iyi
         </span>
       </div>
@@ -845,7 +866,7 @@ function RankingChart({
             strokeWidth="5"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="text-indigo-600"
+            className="text-red-600"
           />
 
           {points.map((point) => (
@@ -857,7 +878,7 @@ function RankingChart({
                 fill="white"
                 stroke="currentColor"
                 strokeWidth="4"
-                className="text-indigo-600"
+                className="text-red-600"
               />
 
               <text
@@ -899,7 +920,7 @@ function Section({
   return (
     <section className="rounded-3xl border border-slate-200 bg-white p-5 sm:p-7">
       <div className="mb-6 flex items-center gap-3">
-        <div className="flex size-11 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+        <div className="flex size-11 items-center justify-center rounded-2xl bg-red-50 text-red-600">
           {icon}
         </div>
 
@@ -945,7 +966,7 @@ function InfoRow({
 }) {
   return (
     <div className="flex items-center gap-3 rounded-2xl bg-slate-50 p-4">
-      <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-white text-indigo-600">
+      <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-white text-red-600">
         {icon}
       </div>
 
@@ -1055,7 +1076,7 @@ function getTrend(
     icon: BarChart3,
     title: "Başarı sırası değişmemiş",
     description: "İlk ve son yıl başarı sırası aynı görünüyor.",
-    className: "bg-indigo-50 text-indigo-800",
+    className: "bg-red-50 text-red-800",
   };
 }
 
