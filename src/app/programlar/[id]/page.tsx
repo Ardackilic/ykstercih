@@ -17,6 +17,7 @@ import {
   Users,
 } from "lucide-react";
 import data from "@/data/programs.json";
+import netData from "@/data/yok-atlas-2025-netler.json";
 import FavoriteButton from "@/components/favorite-button";
 import PreferenceButton from "@/components/preference-button";
 
@@ -28,6 +29,31 @@ type HistoryItem = {
   schoolFirstQuota: number | null;
   conditions: string | null;
   tuitionFee?: number | null;
+};
+
+type NetItem = {
+  yil: number;
+  kilavuzKodu: number;
+  puanTuru: string;
+  katsayi?: number | null;
+  tabanPuan?: number | null;
+  obp?: number | null;
+  tytTrkNet?: number | null;
+  tytSosNet?: number | null;
+  tytMatNet?: number | null;
+  tytFenNet?: number | null;
+  aytMatNet?: number | null;
+  aytFizNet?: number | null;
+  aytKimNet?: number | null;
+  aytBioNet?: number | null;
+  aytTdeNet?: number | null;
+  aytTrh1Net?: number | null;
+  aytCog1Net?: number | null;
+  aytTrh2Net?: number | null;
+  aytCog2Net?: number | null;
+  aytFelNet?: number | null;
+  aytDinNet?: number | null;
+  ydtYdilNet?: number | null;
 };
 
 type Program = {
@@ -50,6 +76,7 @@ type Program = {
 };
 
 const programs = data.programs as Program[];
+const netPrograms = netData.programs as unknown as Record<string, NetItem>;
 
 const SITE_URL = "https://ykstercih.site";
 
@@ -145,6 +172,8 @@ export default async function ProgramDetailPage({
   if (!program) {
     notFound();
   }
+
+  const lastPlacedNets = netPrograms[program.code] ?? null;
 
   const historyRows = Object.entries(program.history)
     .map(([year, item]) => ({
@@ -495,6 +524,10 @@ export default async function ProgramDetailPage({
               </div>
             )}
           </Section>
+
+            {lastPlacedNets && (
+              <LastPlacedNetsCard data={lastPlacedNets} />
+            )}
 
           <Section
             title="Yıllara göre başarı sırası"
@@ -978,6 +1011,143 @@ function InfoRow({
   );
 }
 
+function LastPlacedNetsCard({
+  data,
+}: {
+  data: NetItem;
+}) {
+  const tytRows = [
+    ["Türkçe", data.tytTrkNet],
+    ["Sosyal Bilimler", data.tytSosNet],
+    ["Temel Matematik", data.tytMatNet],
+    ["Fen Bilimleri", data.tytFenNet],
+  ].filter(
+    (item): item is [string, number] =>
+      typeof item[1] === "number"
+  );
+
+  const secondSessionRows = [
+    ["AYT Matematik", data.aytMatNet],
+    ["AYT Fizik", data.aytFizNet],
+    ["AYT Kimya", data.aytKimNet],
+    ["AYT Biyoloji", data.aytBioNet],
+    ["AYT Türk Dili ve Edebiyatı", data.aytTdeNet],
+    ["AYT Tarih-1", data.aytTrh1Net],
+    ["AYT Coğrafya-1", data.aytCog1Net],
+    ["AYT Tarih-2", data.aytTrh2Net],
+    ["AYT Coğrafya-2", data.aytCog2Net],
+    ["AYT Felsefe Grubu", data.aytFelNet],
+    ["AYT Din Kültürü", data.aytDinNet],
+    ["YDT Yabancı Dil", data.ydtYdilNet],
+  ].filter(
+    (item): item is [string, number] =>
+      typeof item[1] === "number"
+  );
+
+  return (
+    <Section
+      title="2025’te son yerleşen adayın netleri"
+      icon={<BarChart3 size={21} />}
+    >
+      <div className="grid gap-4 sm:grid-cols-3">
+        <StatBox
+          label="Puan türü"
+          value={data.puanTuru}
+        />
+
+        <StatBox
+          label="OBP"
+          value={
+            typeof data.obp === "number"
+              ? formatDecimal(data.obp, 3)
+              : "Veri yok"
+          }
+        />
+
+        <StatBox
+          label="Taban puan"
+          value={
+            typeof data.tabanPuan === "number"
+              ? formatDecimal(data.tabanPuan, 5)
+              : "Veri yok"
+          }
+        />
+      </div>
+
+      {tytRows.length > 0 && (
+        <div className="mt-6">
+          <h3 className="mb-3 text-sm font-black uppercase tracking-[0.12em] text-slate-500">
+            TYT netleri
+          </h3>
+
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {tytRows.map(([label, value]) => (
+              <NetBox
+                key={label}
+                label={label}
+                value={value}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {secondSessionRows.length > 0 && (
+        <div className="mt-6">
+          <h3 className="mb-3 text-sm font-black uppercase tracking-[0.12em] text-slate-500">
+            {data.puanTuru === "DİL"
+              ? "YDT netleri"
+              : "AYT netleri"}
+          </h3>
+
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {secondSessionRows.map(([label, value]) => (
+              <NetBox
+                key={label}
+                label={label}
+                value={value}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3">
+        <p className="text-xs font-semibold leading-5 text-amber-800">
+          Bu değerler 2025’te programa yerleşen son adaya
+          aittir. 2026 için kesin bir net hedefi değildir;
+          sınavın zorluğuna ve puan dağılımına göre
+          değişebilir.
+        </p>
+      </div>
+    </Section>
+  );
+}
+
+function NetBox({
+  label,
+  value,
+}: {
+  label: string;
+  value: number;
+}) {
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+      <p className="text-xs font-bold leading-5 text-slate-500">
+        {label}
+      </p>
+
+      <p className="mt-2 text-2xl font-black text-slate-950">
+        {formatDecimal(value, 2)}
+      </p>
+
+      <p className="mt-1 text-xs font-bold text-red-600">
+        net
+      </p>
+    </div>
+  );
+}
+
 function SideInfo({
   icon,
   text,
@@ -991,6 +1161,16 @@ function SideInfo({
       {text}
     </div>
   );
+}
+
+function formatDecimal(
+  value: number,
+  maximumFractionDigits = 2
+) {
+  return new Intl.NumberFormat("tr-TR", {
+    minimumFractionDigits: 0,
+    maximumFractionDigits,
+  }).format(value);
 }
 
 function formatNullable(value: number | null) {
