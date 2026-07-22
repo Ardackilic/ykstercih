@@ -54,6 +54,30 @@ type ApiResponse = {
   };
 };
 
+function normalizeScoreType(value: string) {
+  const normalized = value
+    .trim()
+    .toLocaleUpperCase("tr-TR");
+
+  if (normalized === "DIL" || normalized === "DİL") {
+    return "DİL";
+  }
+
+  if (normalized === "SOZ" || normalized === "SÖZ") {
+    return "SÖZ";
+  }
+
+  if (
+    normalized === "TYT" ||
+    normalized === "SAY" ||
+    normalized === "EA"
+  ) {
+    return normalized;
+  }
+
+  return "";
+}
+
 export default function ProgramsPage() {
   const scrollRestoredRef = useRef(false);
 
@@ -72,8 +96,40 @@ export default function ProgramsPage() {
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [filtersInitialized, setFiltersInitialized] = useState(false);
 
   useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+
+    const urlQuery = params.get("q") ?? "";
+    const urlScoreType = normalizeScoreType(
+      params.get("puanTuru") ?? ""
+    );
+    const urlUniversityType =
+      params.get("universiteTuru") ?? "";
+    const urlLevel = params.get("seviye") ?? "";
+    const urlRanking = (
+      params.get("siralama") ?? ""
+    ).replace(/\D/g, "");
+
+    setQuery(urlQuery);
+    setScoreType(urlScoreType);
+    setUniversityType(urlUniversityType);
+    setLevel(urlLevel);
+    setRanking(urlRanking);
+    setPage(1);
+    setFiltersInitialized(true);
+  }, []);
+
+  useEffect(() => {
+    if (!filtersInitialized) {
+      return;
+    }
+
     const controller = new AbortController();
 
     async function loadPrograms() {
@@ -119,7 +175,15 @@ export default function ProgramsPage() {
       clearTimeout(timeout);
       controller.abort();
     };
-  }, [query, scoreType, universityType, level, ranking, page]);
+  }, [
+    filtersInitialized,
+    query,
+    scoreType,
+    universityType,
+    level,
+    ranking,
+    page,
+  ]);
 
   useEffect(() => {
     if (

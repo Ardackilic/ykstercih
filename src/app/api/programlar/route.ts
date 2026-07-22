@@ -34,11 +34,29 @@ function normalize(value: string) {
     .trim();
 }
 
+function normalizeScoreType(value: string) {
+  const normalized = value
+    .trim()
+    .toLocaleUpperCase("tr-TR");
+
+  if (normalized === "DIL" || normalized === "DİL") {
+    return "DİL";
+  }
+
+  if (normalized === "SOZ" || normalized === "SÖZ") {
+    return "SÖZ";
+  }
+
+  return normalized;
+}
+
 export async function GET(request: NextRequest) {
   const params = request.nextUrl.searchParams;
 
   const query = normalize(params.get("q") ?? "");
-  const scoreType = params.get("puanTuru") ?? "";
+  const scoreType = normalizeScoreType(
+    params.get("puanTuru") ?? ""
+  );
   const universityType = params.get("universiteTuru") ?? "";
   const level = params.get("seviye") ?? "";
   const ranking = Number(params.get("siralama") ?? 0);
