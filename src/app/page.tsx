@@ -2,7 +2,9 @@ import Link from "next/link";
 import data from "@/data/programs.json";
 import { allDormitories } from "@/data/all-dormitories";
 import RankingSearchForm from "@/components/ranking-search-form";
+import HomeAnnouncement from "@/components/home-announcement";
 import {
+  ArrowRight,
   BarChart3,
   BookOpen,
   Building2,
@@ -112,11 +114,14 @@ const statistics = [
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-950">
+    <>
+      <HomeAnnouncement />
+
+      <main className="min-h-screen bg-slate-50 text-slate-950">
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex size-11 items-center justify-center rounded-2xl bg-indigo-600 !text-white shadow-lg shadow-indigo-200">
+            <div className="flex size-11 items-center justify-center rounded-2xl bg-red-600 !text-white shadow-lg shadow-red-200">
               <GraduationCap size={25} />
             </div>
 
@@ -127,33 +132,42 @@ export default function HomePage() {
           </Link>
 
           <nav className="hidden items-center gap-7 text-sm font-semibold text-slate-600 md:flex">
-            <Link href="/programlar" className="transition hover:text-indigo-600">
+            <Link href="/programlar" className="transition hover:text-red-600">
               Programlar
             </Link>
-            <Link href="/universiteler" className="transition hover:text-indigo-600">
+            <Link href="/universiteler" className="transition hover:text-red-600">
               Üniversiteler
             </Link>
-            <Link href="/kyk-yurtlari" className="transition hover:text-indigo-600">
+            <Link href="/kyk-yurtlari" className="transition hover:text-red-600">
               KYK Yurtları
             </Link>
             <Link
               href="/rehber"
-              className="transition hover:text-indigo-600"
+              className="transition hover:text-red-600"
             >
               Rehber
             </Link>
 
-            <Link href="/tercihlerim" className="transition hover:text-indigo-600">
+            <Link
+              href="/bultenler"
+              className="transition hover:text-red-600"
+            >
+              Bültenler
+            </Link>
+
+            <Link href="/tercihlerim" className="transition hover:text-red-600">
               Tercihlerim
             </Link>
           </nav>
 
-          <Link
-            href="/programlar"
-            className="rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 px-4 py-2.5 text-sm font-black !text-white shadow-lg shadow-indigo-100 transition hover:-translate-y-0.5 hover:!text-white"
-          >
-            Tüm programları gör
-          </Link>
+          <div className="flex items-center gap-3">
+            <Link
+              href="/programlar"
+              className="hidden rounded-xl bg-gradient-to-r from-red-600 to-red-600 px-4 py-2.5 text-sm font-black !text-white shadow-lg shadow-red-100 transition hover:-translate-y-0.5 hover:!text-white md:inline-flex"
+            >
+              Tüm programları gör
+            </Link>
+          </div>
         </div>
       </header>
 
@@ -162,7 +176,7 @@ export default function HomePage() {
 
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:px-8 lg:py-28">
           <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-bold text-indigo-700">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-red-200 bg-red-50 px-4 py-2 text-sm font-bold text-red-700">
               <Sparkles size={16} />
               Öğrenciler için ücretsiz tercih rehberi
             </div>
@@ -200,7 +214,7 @@ export default function HomePage() {
           </div>
 
           <div className="relative mx-auto w-full max-w-lg">
-            <div className="absolute -inset-5 rounded-[40px] bg-gradient-to-br from-indigo-200 to-sky-100 blur-2xl" />
+            <div className="absolute -inset-5 rounded-[40px] bg-gradient-to-br from-red-200 to-red-100 blur-2xl" />
 
             <div className="relative rounded-[32px] border border-white bg-white/90 p-6 shadow-2xl backdrop-blur">
               <div className="flex items-center justify-between">
@@ -211,7 +225,7 @@ export default function HomePage() {
                   <h2 className="mt-1 text-2xl font-black">SAY · 82.000</h2>
                 </div>
 
-                <div className="rounded-2xl bg-indigo-50 p-3 text-indigo-600">
+                <div className="rounded-2xl bg-red-50 p-3 text-red-600">
                   <BarChart3 size={25} />
                 </div>
               </div>
@@ -265,11 +279,129 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      <section className="border-y border-slate-200 bg-white">
+        <div className="mx-auto max-w-7xl px-5 py-14 lg:px-8 lg:py-20">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.16em] text-red-600">
+                Sıralamana göre araştır
+              </p>
+
+              <h2 className="mt-3 max-w-3xl text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-5xl">
+                Popüler başarı sırası ve bölüm rehberleri
+              </h2>
+
+              <p className="mt-4 max-w-3xl text-base font-semibold leading-7 text-slate-600">
+                2025 yerleştirme sonuçlarına göre hazırlanmış sıralama
+                aralıklarını ve popüler bölümlerin taban sıralamalarını incele.
+              </p>
+            </div>
+
+            <Link
+              href="/siralamaya-gore"
+              className="inline-flex shrink-0 items-center gap-2 font-black text-red-600 transition hover:gap-3 hover:text-red-700"
+            >
+              Tüm rehberleri gör
+              <ArrowRight size={18} />
+            </Link>
+          </div>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                href: "/siralamaya-gore/say-50-bin-ile-alan-bolumler",
+                label: "SAY",
+                title: "SAY 50 bin ile alan bölümler",
+                description: "35-65 bin aralığındaki lisans programlarını incele.",
+              },
+              {
+                href: "/siralamaya-gore/say-100-bin-ile-alan-bolumler",
+                label: "SAY",
+                title: "SAY 100 bin ile alan bölümler",
+                description: "75-130 bin aralığındaki programları karşılaştır.",
+              },
+              {
+                href: "/siralamaya-gore/ea-100-bin-ile-alan-bolumler",
+                label: "EA",
+                title: "EA 100 bin ile alan bölümler",
+                description: "EA başarı sırasına uygun lisans seçeneklerini gör.",
+              },
+              {
+                href: "/siralamaya-gore/tyt-300-bin-ile-alan-bolumler",
+                label: "TYT",
+                title: "TYT 300 bin ile alan bölümler",
+                description: "İki yıllık ön lisans programlarını karşılaştır.",
+              },
+              {
+                href: "/siralamaya-gore/bilgisayar-muhendisligi-taban-siralamalari",
+                label: "Bölüm",
+                title: "Bilgisayar Mühendisliği",
+                description: "Taban puanları ve başarı sıralarını incele.",
+              },
+              {
+                href: "/siralamaya-gore/hemsirelik-taban-siralamalari",
+                label: "Bölüm",
+                title: "Hemşirelik",
+                description: "Üniversite ve kontenjan seçeneklerini karşılaştır.",
+              },
+              {
+                href: "/siralamaya-gore/psikoloji-taban-siralamalari",
+                label: "Bölüm",
+                title: "Psikoloji",
+                description: "Devlet, vakıf ve burs seçeneklerini incele.",
+              },
+              {
+                href: "/siralamaya-gore/hukuk-taban-siralamalari",
+                label: "Bölüm",
+                title: "Hukuk",
+                description: "Hukuk fakültelerinin son sıralamalarını gör.",
+              },
+              {
+                href: "/siralamaya-gore",
+                label: "Tümü",
+                title: "Tüm sıralama rehberleri",
+                description: "SAY, TYT, EA ve SÖZ rehberlerinin tamamını aç.",
+              },
+            ].map((guide) => (
+              <Link
+                key={guide.href + guide.title}
+                href={guide.href}
+                className="group flex min-h-48 flex-col rounded-[26px] border border-slate-200 bg-slate-50 p-5 transition hover:-translate-y-1 hover:border-red-200 hover:bg-white hover:shadow-xl hover:shadow-red-100/50"
+              >
+                <div className="flex items-center justify-between gap-4">
+                  <span className="rounded-full bg-red-50 px-3 py-1.5 text-xs font-black text-red-700">
+                    {guide.label}
+                  </span>
+
+                  <ArrowRight
+                    size={18}
+                    className="text-slate-300 transition group-hover:translate-x-1 group-hover:text-red-600"
+                  />
+                </div>
+
+                <h3 className="mt-5 text-xl font-black leading-7 text-slate-950 transition group-hover:text-red-700">
+                  {guide.title}
+                </h3>
+
+                <p className="mt-3 flex-1 text-sm font-semibold leading-6 text-slate-500">
+                  {guide.description}
+                </p>
+
+                <span className="mt-5 text-sm font-black text-red-600">
+                  İncele
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="border-y border-slate-200 bg-white">
         <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-slate-200 px-5 md:grid-cols-4 md:divide-y-0 lg:px-8">
           {statistics.map((stat) => (
             <div key={stat.label} className="px-4 py-8 text-center">
-              <p className="text-3xl font-black text-indigo-600">{stat.value}</p>
+              <p className="text-3xl font-black text-red-600">{stat.value}</p>
               <p className="mt-1 text-sm font-medium text-slate-500">
                 {stat.label}
               </p>
@@ -280,7 +412,7 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
         <div className="max-w-2xl">
-          <p className="font-bold text-indigo-600">Tek platformda her şey</p>
+          <p className="font-bold text-red-600">Tek platformda her şey</p>
           <h2 className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
             Tercih yaparken ihtiyaç duyacağın araçlar
           </h2>
@@ -299,9 +431,9 @@ export default function HomePage() {
                 key={feature.title}
                 href={feature.href}
                 aria-label={feature.title}
-                className="group block rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 transition hover:-translate-y-1 hover:border-indigo-200 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-indigo-200"
+                className="group block rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 transition hover:-translate-y-1 hover:border-red-200 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200"
               >
-                <div className="flex size-12 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600 transition group-hover:bg-indigo-600 group-hover:text-white">
+                <div className="flex size-12 items-center justify-center rounded-2xl bg-red-50 text-red-600 transition group-hover:bg-red-600 group-hover:text-white">
                   <Icon size={23} />
                 </div>
 
@@ -313,7 +445,7 @@ export default function HomePage() {
                   {feature.description}
                 </p>
 
-                <span className="mt-5 inline-flex text-sm font-black text-indigo-600">
+                <span className="mt-5 inline-flex text-sm font-black text-red-600">
                   İncele →
                 </span>
               </Link>
@@ -334,7 +466,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
           <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.18em] text-indigo-600">
+              <p className="text-sm font-black uppercase tracking-[0.18em] text-red-600">
                 KYK yurt rehberi
               </p>
 
@@ -351,7 +483,7 @@ export default function HomePage() {
 
             <Link
               href="/kyk-yurtlari"
-              className="inline-flex shrink-0 items-center justify-center rounded-xl bg-indigo-600 px-5 py-3 text-sm font-black !text-white shadow-lg shadow-indigo-100 transition hover:-translate-y-0.5 hover:bg-indigo-700"
+              className="inline-flex shrink-0 items-center justify-center rounded-xl bg-red-600 px-5 py-3 text-sm font-black !text-white shadow-lg shadow-red-100 transition hover:-translate-y-0.5 hover:bg-red-700"
             >
               Tüm şehirleri görüntüle
             </Link>
@@ -362,15 +494,15 @@ export default function HomePage() {
               <Link
                 key={item.slug}
                 href={`/kyk-yurtlari/${item.slug}`}
-                className="group flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:border-indigo-200 hover:bg-indigo-50"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:border-red-200 hover:bg-red-50"
               >
                 <span className="flex min-w-0 items-center gap-3">
-                  <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-white text-indigo-600 shadow-sm">
+                  <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-white text-red-600 shadow-sm">
                     <MapPin size={19} />
                   </span>
 
                   <span className="min-w-0">
-                    <span className="block truncate font-black text-slate-900 transition group-hover:text-indigo-700">
+                    <span className="block truncate font-black text-slate-900 transition group-hover:text-red-700">
                       {item.city} KYK yurtları
                     </span>
 
@@ -382,7 +514,7 @@ export default function HomePage() {
 
                 <span
                   aria-hidden="true"
-                  className="font-black text-slate-300 transition group-hover:translate-x-1 group-hover:text-indigo-500"
+                  className="font-black text-slate-300 transition group-hover:translate-x-1 group-hover:text-red-500"
                 >
                   →
                 </span>
@@ -403,7 +535,7 @@ export default function HomePage() {
 
             <Link
               href="/yurtlar"
-              className="inline-flex shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-black !text-slate-950 transition hover:bg-indigo-50"
+              className="inline-flex shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-black !text-slate-950 transition hover:bg-red-50"
             >
               Yurt aramasını aç
             </Link>
@@ -411,7 +543,20 @@ export default function HomePage() {
         </div>
       </section>
 
-    </main>
+      <footer className="border-t border-slate-200 bg-white">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-6 text-center sm:flex-row sm:text-left lg:px-8">
+          <p className="text-sm font-semibold text-slate-500">
+            © 2026 YKS Tercih. Tüm hakları saklıdır.
+          </p>
+
+          <p className="text-xs font-medium text-slate-400">
+            YKS tercih ve üniversite araştırma platformu
+          </p>
+        </div>
+      </footer>
+
+      </main>
+    </>
   );
 }
 
