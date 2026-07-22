@@ -20,6 +20,9 @@ const PROGRAMS_SCROLL_KEY =
 const PROGRAMS_RETURN_KEY =
   "yks-tercih-programs-return-pending";
 
+const PROGRAMS_STATE_KEY =
+  "yks-tercih-programs-list-state";
+
 type HistoryItem = {
   ranking: number | null;
   baseScore: number | null;
@@ -101,6 +104,47 @@ export default function ProgramsPage() {
   useEffect(() => {
     if (typeof window === "undefined") {
       return;
+    }
+
+    const shouldRestore =
+      window.sessionStorage.getItem(PROGRAMS_RETURN_KEY) === "1";
+
+    const savedStateRaw =
+      window.sessionStorage.getItem(PROGRAMS_STATE_KEY);
+
+    if (shouldRestore && savedStateRaw) {
+      try {
+        const savedState = JSON.parse(savedStateRaw) as {
+          programCode?: string;
+          query?: string;
+          scoreType?: string;
+          universityType?: string;
+          level?: string;
+          ranking?: string;
+          page?: number;
+          scrollY?: number;
+        };
+
+        setQuery(savedState.query ?? "");
+        setScoreType(
+          normalizeScoreType(savedState.scoreType ?? "")
+        );
+        setUniversityType(savedState.universityType ?? "");
+        setLevel(savedState.level ?? "");
+        setRanking(savedState.ranking ?? "");
+        setPage(
+          typeof savedState.page === "number" &&
+            savedState.page > 0
+            ? savedState.page
+            : 1
+        );
+
+        setFiltersInitialized(true);
+        return;
+      } catch {
+        window.sessionStorage.removeItem(PROGRAMS_STATE_KEY);
+        window.sessionStorage.removeItem(PROGRAMS_RETURN_KEY);
+      }
     }
 
     const params = new URLSearchParams(window.location.search);
@@ -195,49 +239,76 @@ export default function ProgramsPage() {
     }
 
     const shouldRestore =
-      window.sessionStorage.getItem(
-        PROGRAMS_RETURN_KEY
-      ) === "1";
+      window.sessionStorage.getItem(PROGRAMS_RETURN_KEY) === "1";
 
     if (!shouldRestore) {
       scrollRestoredRef.current = true;
       return;
     }
 
-    const savedPosition = Number(
-      window.sessionStorage.getItem(
-        PROGRAMS_SCROLL_KEY
-      ) ?? 0
+    const savedStateRaw =
+      window.sessionStorage.getItem(PROGRAMS_STATE_KEY);
+
+    const fallbackScrollY = Number(
+      window.sessionStorage.getItem(PROGRAMS_SCROLL_KEY) ?? 0
     );
 
     scrollRestoredRef.current = true;
+    window.sessionStorage.removeItem(PROGRAMS_RETURN_KEY);
 
-    window.sessionStorage.removeItem(
-      PROGRAMS_RETURN_KEY
-    );
-
-    /*
-     * Sonuç kartlarının DOM'a tamamen yerleşmesini bekle.
-     * Mobil tarayıcılarda iki frame beklemek zıplamayı önler.
-     */
     window.requestAnimationFrame(() => {
       window.requestAnimationFrame(() => {
+        let programCode = "";
+
+        if (savedStateRaw) {
+          try {
+            const savedState = JSON.parse(savedStateRaw) as {
+              programCode?: string;
+              scrollY?: number;
+            };
+
+            programCode = savedState.programCode ?? "";
+          } catch {
+            window.sessionStorage.removeItem(PROGRAMS_STATE_KEY);
+          }
+        }
+
+        const targetCard = programCode
+          ? document.getElementById(`program-${programCode}`)
+          : null;
+
+        if (targetCard) {
+          targetCard.scrollIntoView({
+            behavior: "auto",
+            block: "start",
+          });
+
+          targetCard.classList.add(
+            "ring-2",
+            "ring-indigo-400",
+            "ring-offset-4"
+          );
+
+          window.setTimeout(() => {
+            targetCard.classList.remove(
+              "ring-2",
+              "ring-indigo-400",
+              "ring-offset-4"
+            );
+          }, 1500);
+
+          return;
+        }
+
         window.scrollTo({
-          top: savedPosition,
+          top: fallbackScrollY,
           behavior: "auto",
         });
-
-        window.setTimeout(() => {
-          window.scrollTo({
-            top: savedPosition,
-            behavior: "auto",
-          });
-        }, 100);
       });
     });
   }, [loading, programs]);
 
-  function saveProgramsPosition() {
+  function saveProgramsPosition(programCode: string) {
     if (typeof window === "undefined") {
       return;
     }
@@ -245,6 +316,20 @@ export default function ProgramsPage() {
     window.sessionStorage.setItem(
       PROGRAMS_SCROLL_KEY,
       String(window.scrollY)
+    );
+
+    window.sessionStorage.setItem(
+      PROGRAMS_STATE_KEY,
+      JSON.stringify({
+        programCode,
+        query,
+        scoreType,
+        universityType,
+        level,
+        ranking,
+        page,
+        scrollY: window.scrollY,
+      })
     );
 
     window.sessionStorage.setItem(
@@ -449,7 +534,7 @@ export default function ProgramsPage() {
                             key={program.code}
                             program={program}
                             studentRanking={studentRanking}
-                            onOpenProgram={saveProgramsPosition}
+                            onOpenProgram={() => saveProgramsPosition(program.code)}
                           />
                         )
                       )}
@@ -467,7 +552,7 @@ export default function ProgramsPage() {
                             key={program.code}
                             program={program}
                             studentRanking={studentRanking}
-                            onOpenProgram={saveProgramsPosition}
+                            onOpenProgram={() => saveProgramsPosition(program.code)}
                           />
                         )
                       )}
@@ -485,7 +570,7 @@ export default function ProgramsPage() {
                             key={program.code}
                             program={program}
                             studentRanking={studentRanking}
-                            onOpenProgram={saveProgramsPosition}
+                            onOpenProgram={() => saveProgramsPosition(program.code)}
                           />
                         )
                       )}
@@ -504,7 +589,7 @@ export default function ProgramsPage() {
                               key={program.code}
                               program={program}
                               studentRanking={studentRanking}
-                              onOpenProgram={saveProgramsPosition}
+                              onOpenProgram={() => saveProgramsPosition(program.code)}
                             />
                           )
                         )}
@@ -517,7 +602,7 @@ export default function ProgramsPage() {
                       key={program.code}
                       program={program}
                       studentRanking={0}
-                      onOpenProgram={saveProgramsPosition}
+                      onOpenProgram={() => saveProgramsPosition(program.code)}
                     />
                   ))
                 )}
@@ -635,7 +720,11 @@ function ProgramCard({
     .sort((a, b) => b - a);
 
   return (
-    <article className="rounded-3xl border border-slate-200 bg-white p-5 transition hover:border-indigo-200 hover:shadow-lg sm:p-6">
+    <article
+      id={`program-${program.code}`}
+      data-program-code={program.code}
+      className="scroll-mt-6 rounded-3xl border border-slate-200 bg-white p-5 transition hover:border-indigo-200 hover:shadow-lg sm:p-6"
+    >
       <div className="flex items-start justify-between gap-4">
         <div className="min-w-0">
           <div className="mb-3 flex flex-wrap gap-2">
