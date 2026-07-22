@@ -1044,12 +1044,53 @@ function LastPlacedNetsCard({
       typeof item[1] === "number"
   );
 
+  const score =
+    typeof data.tabanPuan === "number"
+      ? formatDecimal(data.tabanPuan, 5)
+      : "Veri yok";
+
+  const obp =
+    typeof data.obp === "number"
+      ? formatDecimal(data.obp, 3)
+      : "Veri yok";
+
   return (
-    <Section
-      title="2025’te son yerleşen adayın netleri"
-      icon={<BarChart3 size={21} />}
-    >
-      <div className="grid min-w-0 grid-cols-1 gap-3 min-[380px]:grid-cols-2 sm:grid-cols-3">
+    <section className="min-w-0 overflow-hidden rounded-2xl border border-slate-200 bg-white px-3 py-4 sm:rounded-3xl sm:p-7">
+      <div className="mb-4 flex min-w-0 items-start gap-3 sm:mb-6 sm:items-center">
+        <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-red-50 text-red-600 sm:size-11 sm:rounded-2xl">
+          <BarChart3 size={20} />
+        </div>
+
+        <div className="min-w-0">
+          <h2 className="break-words text-lg font-black leading-tight text-slate-950 sm:text-2xl">
+            2025’te son yerleşen adayın netleri
+          </h2>
+
+          <p className="mt-1 text-xs font-semibold leading-4 text-slate-500 sm:hidden">
+            Son yerleşen adayın sınav sonuçları
+          </p>
+        </div>
+      </div>
+
+      <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 sm:hidden">
+        <MobileSummaryRow
+          label="Puan türü"
+          value={data.puanTuru}
+        />
+
+        <MobileSummaryRow
+          label="OBP"
+          value={obp}
+        />
+
+        <MobileSummaryRow
+          label="Taban puan"
+          value={score}
+          last
+        />
+      </div>
+
+      <div className="hidden gap-4 sm:grid sm:grid-cols-3">
         <StatBox
           label="Puan türü"
           value={data.puanTuru}
@@ -1057,74 +1098,141 @@ function LastPlacedNetsCard({
 
         <StatBox
           label="OBP"
-          value={
-            typeof data.obp === "number"
-              ? formatDecimal(data.obp, 3)
-              : "Veri yok"
-          }
+          value={obp}
         />
 
         <StatBox
           label="Taban puan"
-          value={
-            typeof data.tabanPuan === "number"
-              ? formatDecimal(data.tabanPuan, 5)
-              : "Veri yok"
-          }
+          value={score}
         />
       </div>
 
       {tytRows.length > 0 && (
-        <div className="mt-6">
-          <h3 className="mb-3 text-sm font-black uppercase tracking-[0.12em] text-slate-500">
-            TYT netleri
-          </h3>
-
-          <div className="grid min-w-0 grid-cols-1 gap-2 sm:grid-cols-4 sm:gap-3">
-            {tytRows.map(([label, value]) => (
-              <NetBox
-                key={label}
-                label={label}
-                value={value}
-              />
-            ))}
-          </div>
-        </div>
+        <NetGroup
+          title="TYT netleri"
+          rows={tytRows}
+        />
       )}
 
       {secondSessionRows.length > 0 && (
-        <div className="mt-6">
-          <h3 className="mb-3 text-sm font-black uppercase tracking-[0.12em] text-slate-500">
-            {data.puanTuru === "DİL"
+        <NetGroup
+          title={
+            data.puanTuru === "DİL"
               ? "YDT netleri"
-              : "AYT netleri"}
-          </h3>
-
-          <div className="grid min-w-0 grid-cols-1 gap-2 sm:grid-cols-4 sm:gap-3">
-            {secondSessionRows.map(([label, value]) => (
-              <NetBox
-                key={label}
-                label={label}
-                value={value}
-              />
-            ))}
-          </div>
-        </div>
+              : "AYT netleri"
+          }
+          rows={secondSessionRows}
+        />
       )}
 
-      <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3">
-        <p className="text-xs font-semibold leading-5 text-amber-800">
+      <div className="mt-5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-3 sm:mt-6 sm:rounded-2xl sm:px-4">
+        <p className="text-[11px] font-semibold leading-5 text-amber-800 sm:text-xs">
           Bu değerler 2025’te programa yerleşen son adaya
           aittir. 2026 için kesin bir net hedefi değildir;
           sınavın zorluğuna ve puan dağılımına göre
           değişebilir.
         </p>
       </div>
-    </Section>
+    </section>
   );
 }
 
-function NetBox({
+function MobileSummaryRow({
+  label,
+  value,
+  last = false,
+}: {
+  label: string;
+  value: string;
+  last?: boolean;
+}) {
+  return (
+    <div
+      className={`flex min-w-0 items-center justify-between gap-3 px-3 py-3 ${
+        last ? "" : "border-b border-slate-200"
+      }`}
+    >
+      <span className="min-w-0 text-xs font-bold text-slate-500">
+        {label}
+      </span>
+
+      <span className="shrink-0 text-sm font-black text-slate-950">
+        {value}
+      </span>
+    </div>
+  );
+}
+
+function NetGroup({
+  title,
+  rows,
+}: {
+  title: string;
+  rows: [string, number][];
+}) {
+  return (
+    <div className="mt-5 min-w-0 sm:mt-6">
+      <h3 className="mb-2 text-xs font-black uppercase tracking-[0.1em] text-slate-500 sm:mb-3 sm:text-sm sm:tracking-[0.12em]">
+        {title}
+      </h3>
+
+      <div className="overflow-hidden rounded-2xl border border-slate-200 sm:hidden">
+        {rows.map(([label, value], index) => (
+          <MobileNetRow
+            key={label}
+            label={label}
+            value={value}
+            last={index === rows.length - 1}
+          />
+        ))}
+      </div>
+
+      <div className="hidden min-w-0 gap-3 sm:grid sm:grid-cols-4">
+        {rows.map(([label, value]) => (
+          <DesktopNetBox
+            key={label}
+            label={label}
+            value={value}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function MobileNetRow({
+  label,
+  value,
+  last = false,
+}: {
+  label: string;
+  value: number;
+  last?: boolean;
+}) {
+  return (
+    <div
+      className={`grid min-w-0 grid-cols-[minmax(0,1fr)_auto] items-center gap-3 bg-slate-50 px-3 py-3 ${
+        last ? "" : "border-b border-slate-200"
+      }`}
+    >
+      <span className="min-w-0 break-words text-sm font-bold leading-5 text-slate-600">
+        {label}
+      </span>
+
+      <span className="whitespace-nowrap text-right">
+        <span className="text-base font-black text-slate-950">
+          {formatDecimal(value, 2)}
+        </span>
+
+        <span className="ml-1 text-[11px] font-bold text-red-600">
+          net
+        </span>
+      </span>
+    </div>
+  );
+}
+
+function DesktopNetBox({
   label,
   value,
 }: {
@@ -1132,16 +1240,16 @@ function NetBox({
   value: number;
 }) {
   return (
-    <div className="flex min-w-0 items-center justify-between gap-3 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 px-3 py-3 sm:block sm:p-4">
-      <p className="min-w-0 flex-1 break-words pr-2 text-sm font-bold leading-5 text-slate-600 sm:pr-0 sm:text-xs sm:text-slate-500">
+    <div className="min-w-0 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+      <p className="min-w-0 break-words text-xs font-bold leading-5 text-slate-500">
         {label}
       </p>
 
-      <p className="shrink-0 whitespace-nowrap text-lg font-black leading-none text-slate-950 sm:mt-2 sm:text-2xl">
+      <p className="mt-2 text-2xl font-black text-slate-950">
         {formatDecimal(value, 2)}
       </p>
 
-      <p className="shrink-0 whitespace-nowrap text-xs font-bold text-red-600 sm:mt-1">
+      <p className="mt-1 text-xs font-bold text-red-600">
         net
       </p>
     </div>
