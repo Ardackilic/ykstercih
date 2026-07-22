@@ -217,7 +217,7 @@ export default function RankingSearchForm() {
             }}
             className={`flex min-h-12 items-center justify-center gap-2 rounded-xl px-3 text-sm font-black transition ${
               searchMode === "ranking"
-                ? "bg-white text-indigo-600 shadow-sm"
+                ? "bg-white text-red-600 shadow-sm"
                 : "text-slate-500 hover:text-slate-800"
             }`}
           >
@@ -233,7 +233,7 @@ export default function RankingSearchForm() {
             }}
             className={`flex min-h-12 items-center justify-center gap-2 rounded-xl px-3 text-sm font-black transition ${
               searchMode === "name"
-                ? "bg-white text-indigo-600 shadow-sm"
+                ? "bg-white text-red-600 shadow-sm"
                 : "text-slate-500 hover:text-slate-800"
             }`}
           >
@@ -249,22 +249,40 @@ export default function RankingSearchForm() {
                 Puan türünü seç
               </p>
 
-              <div className="grid grid-cols-5 gap-2">
-                {scoreTypes.map((type) => (
-                  <button
-                    key={type}
-                    type="button"
-                    onClick={() => setScoreType(type)}
-                    className={`h-12 rounded-xl border text-sm font-black transition ${
-                      scoreType === type
-                        ? "border-indigo-600 bg-indigo-600 text-white"
-                        : "border-slate-200 bg-slate-50 text-slate-600 hover:border-indigo-300"
-                    }`}
+                <div className="sm:hidden">
+                  <select
+                    value={scoreType}
+                    onChange={(event) =>
+                      setScoreType(event.target.value)
+                    }
+                    aria-label="Puan türünü seç"
+                    className="h-14 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 text-base font-black text-slate-700 outline-none transition focus:border-red-500"
                   >
-                    {type}
-                  </button>
-                ))}
-              </div>
+                    {scoreTypes.map((type) => (
+                      <option key={type} value={type}>
+                        {type}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div className="hidden grid-cols-5 gap-2 sm:grid">
+                  {scoreTypes.map((type) => (
+                    <button
+                      key={type}
+                      type="button"
+                      onClick={() => setScoreType(type)}
+                      aria-pressed={scoreType === type}
+                      className={`h-12 rounded-xl border text-sm font-black transition ${
+                        scoreType === type
+                          ? "border-red-600 bg-red-600 text-white shadow-sm"
+                          : "border-slate-200 bg-slate-50 text-slate-600 hover:border-red-300 hover:text-red-600"
+                      }`}
+                    >
+                      {type}
+                    </button>
+                  ))}
+                </div>
             </div>
 
             <div>
@@ -298,7 +316,7 @@ export default function RankingSearchForm() {
                   className={`h-14 w-full rounded-2xl border bg-slate-50 pl-12 pr-4 text-lg font-bold outline-none transition ${
                     error
                       ? "border-rose-400"
-                      : "border-slate-200 focus:border-indigo-500"
+                      : "border-slate-200 focus:border-red-500"
                   }`}
                 />
               </div>
@@ -314,7 +332,7 @@ export default function RankingSearchForm() {
               htmlFor="program-search"
               className="mb-3 block text-sm font-black text-slate-700"
             >
-              Bölüm, üniversite veya fakülte adı
+              Bölüm, üniversite, şehir veya ilçe
             </label>
 
             <div className="relative">
@@ -339,19 +357,19 @@ export default function RankingSearchForm() {
                 }}
                 onKeyDown={handleSearchKeyDown}
                 autoComplete="off"
-                placeholder="Bilgisayar Mühendisliği, ODTÜ, Tıp..."
+                placeholder="Tokat Erbaa devlet 2 yıllık, 100 bin SAY bilgisayar..."
                 aria-invalid={Boolean(error)}
                 className={`h-14 w-full rounded-2xl border bg-slate-50 pl-12 pr-12 text-base font-bold outline-none transition ${
                   error
                     ? "border-rose-400"
-                    : "border-slate-200 focus:border-indigo-500"
+                    : "border-slate-200 focus:border-red-500"
                 }`}
               />
 
               {searchLoading && (
                 <LoaderCircle
                   size={20}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 animate-spin text-indigo-600"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 animate-spin text-red-600"
                 />
               )}
             </div>
@@ -377,11 +395,11 @@ export default function RankingSearchForm() {
                       onClick={() => openProgram(program.code)}
                       className={`flex w-full items-start gap-3 rounded-xl px-4 py-3 text-left transition ${
                         activeIndex === index
-                          ? "bg-indigo-50"
+                          ? "bg-red-50"
                           : "hover:bg-slate-50"
                       }`}
                     >
-                      <div className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+                      <div className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-xl bg-red-50 text-red-600">
                         <GraduationCap size={19} />
                       </div>
 
@@ -404,7 +422,7 @@ export default function RankingSearchForm() {
                           </span>
 
                           {program.latestRanking !== null && (
-                            <span className="rounded-full bg-indigo-50 px-2.5 py-1 text-indigo-700">
+                            <span className="rounded-full bg-red-50 px-2.5 py-1 text-red-700">
                               Sıra:{" "}
                               {new Intl.NumberFormat("tr-TR").format(
                                 program.latestRanking
@@ -420,7 +438,7 @@ export default function RankingSearchForm() {
                 {suggestions.length > 0 && (
                   <button
                     type="submit"
-                    className="mt-2 flex w-full items-center justify-center gap-2 rounded-xl bg-slate-950 px-4 py-3 text-sm font-black !text-white transition hover:bg-indigo-600"
+                    className="mt-2 flex w-full items-center justify-center gap-2 rounded-xl bg-slate-950 px-4 py-3 text-sm font-black !text-white transition hover:bg-red-600"
                   >
                     Tüm sonuçları göster
                     <ArrowRight size={17} />
@@ -445,7 +463,7 @@ export default function RankingSearchForm() {
           <button
             type="submit"
             disabled={!ranking}
-            className="flex h-14 items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-7 font-black text-white transition hover:bg-indigo-700 disabled:cursor-not-allowed disabled:bg-slate-300"
+            className="flex h-14 items-center justify-center gap-2 rounded-2xl bg-red-600 px-7 font-black text-white transition hover:bg-red-700 disabled:cursor-not-allowed disabled:bg-slate-300"
           >
             {scoreType} bölümlerini bul
             <ArrowRight size={19} />

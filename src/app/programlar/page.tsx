@@ -55,6 +55,9 @@ type ApiResponse = {
     total: number;
     totalPages: number;
   };
+  filterOptions: {
+    cities: string[];
+  };
 };
 
 function normalizeScoreType(value: string) {
@@ -89,6 +92,9 @@ export default function ProgramsPage() {
   const [scoreType, setScoreType] = useState("");
   const [universityType, setUniversityType] = useState("");
   const [level, setLevel] = useState("");
+  const [city, setCity] = useState("");
+  const [teachingType, setTeachingType] = useState("");
+  const [cities, setCities] = useState<string[]>([]);
   const [ranking, setRanking] = useState("");
   const [page, setPage] = useState(1);
   const [pagination, setPagination] = useState({
@@ -123,6 +129,8 @@ export default function ProgramsPage() {
           scoreType?: string;
           universityType?: string;
           level?: string;
+          city?: string;
+          teachingType?: string;
           ranking?: string;
           page?: number;
           scrollY?: number;
@@ -134,6 +142,8 @@ export default function ProgramsPage() {
         );
         setUniversityType(savedState.universityType ?? "");
         setLevel(savedState.level ?? "");
+        setCity(savedState.city ?? "");
+        setTeachingType(savedState.teachingType ?? "");
         setRanking(savedState.ranking ?? "");
         setPage(
           typeof savedState.page === "number" &&
@@ -157,6 +167,9 @@ export default function ProgramsPage() {
     const urlUniversityType =
       params.get("universiteTuru") ?? "";
     const urlLevel = params.get("seviye") ?? "";
+    const urlCity = params.get("il") ?? "";
+    const urlTeachingType =
+      params.get("ogretimSekli") ?? "";
     const urlRanking = (
       params.get("siralama") ?? ""
     ).replace(/\D/g, "");
@@ -165,6 +178,8 @@ export default function ProgramsPage() {
     setScoreType(urlScoreType);
     setUniversityType(urlUniversityType);
     setLevel(urlLevel);
+    setCity(urlCity);
+    setTeachingType(urlTeachingType);
     setRanking(urlRanking);
     setPage(1);
     setFiltersInitialized(true);
@@ -187,6 +202,8 @@ export default function ProgramsPage() {
       if (scoreType) params.set("puanTuru", scoreType);
       if (universityType) params.set("universiteTuru", universityType);
       if (level) params.set("seviye", level);
+      if (city) params.set("il", city);
+      if (teachingType) params.set("ogretimSekli", teachingType);
       if (ranking) params.set("siralama", ranking);
 
       params.set("sayfa", String(page));
@@ -205,6 +222,7 @@ export default function ProgramsPage() {
 
         setPrograms(data.results);
         setPagination(data.pagination);
+        setCities(data.filterOptions.cities);
       } catch (error) {
         if (error instanceof Error && error.name !== "AbortError") {
           setError(error.message);
@@ -226,6 +244,8 @@ export default function ProgramsPage() {
     scoreType,
     universityType,
     level,
+    city,
+    teachingType,
     ranking,
     page,
   ]);
@@ -250,63 +270,134 @@ export default function ProgramsPage() {
     const savedStateRaw =
       window.sessionStorage.getItem(PROGRAMS_STATE_KEY);
 
-    const fallbackScrollY = Number(
+    const storedFallbackScrollY = Number(
       window.sessionStorage.getItem(PROGRAMS_SCROLL_KEY) ?? 0
     );
 
+    let programCode = "";
+    let fallbackScrollY = Number.isFinite(storedFallbackScrollY)
+      ? storedFallbackScrollY
+      : 0;
+
+    if (savedStateRaw) {
+      try {
+        const savedState = JSON.parse(savedStateRaw) as {
+          programCode?: string;
+          scrollY?: number;
+        };
+
+        programCode = savedState.programCode ?? "";
+
+        if (
+          typeof savedState.scrollY === "number" &&
+          Number.isFinite(savedState.scrollY)
+        ) {
+          fallbackScrollY = savedState.scrollY;
+        }
+      } catch {
+        window.sessionStorage.removeItem(PROGRAMS_STATE_KEY);
+      }
+    }
+
     scrollRestoredRef.current = true;
-    window.sessionStorage.removeItem(PROGRAMS_RETURN_KEY);
 
-    window.requestAnimationFrame(() => {
-      window.requestAnimationFrame(() => {
-        let programCode = "";
+    let cancelled = false;
+    let attemptCount = 0;
+    let retryTimeout: number | undefined;
 
-        if (savedStateRaw) {
-          try {
-            const savedState = JSON.parse(savedStateRaw) as {
-              programCode?: string;
-              scrollY?: number;
-            };
+    const maximumAttempts = 40;
+    const retryDelay = 50;
 
-            programCode = savedState.programCode ?? "";
-          } catch {
-            window.sessionStorage.removeItem(PROGRAMS_STATE_KEY);
-          }
-        }
+    function clearReturnState() {
+      window.sessionStorage.removeItem(PROGRAMS_RETURN_KEY);
 
-        const targetCard = programCode
-          ? document.getElementById(`program-${programCode}`)
-          : null;
+      const currentUrl = new URL(window.location.href);
 
-        if (targetCard) {
-          targetCard.scrollIntoView({
-            behavior: "auto",
-            block: "start",
-          });
+      if (currentUrl.searchParams.has("geri")) {
+        currentUrl.searchParams.delete("geri");
 
-          targetCard.classList.add(
-            "ring-2",
-            "ring-indigo-400",
-            "ring-offset-4"
-          );
+        const cleanUrl =
+          currentUrl.pathname +
+          (currentUrl.searchParams.toString()
+            ? `?${currentUrl.searchParams.toString()}`
+            : "") +
+          currentUrl.hash;
 
-          window.setTimeout(() => {
-            targetCard.classList.remove(
-              "ring-2",
-              "ring-indigo-400",
-              "ring-offset-4"
-            );
-          }, 1500);
+        window.history.replaceState(
+          window.history.state,
+          "",
+          cleanUrl
+        );
+      }
+    }
 
-          return;
-        }
+    function highlightCard(targetCard: HTMLElement) {
+      targetCard.classList.add(
+        "ring-2",
+        "ring-red-400",
+        "ring-offset-4"
+      );
 
-        window.scrollTo({
-          top: fallbackScrollY,
+      window.setTimeout(() => {
+        targetCard.classList.remove(
+          "ring-2",
+          "ring-red-400",
+          "ring-offset-4"
+        );
+      }, 1600);
+    }
+
+    function restorePosition() {
+      if (cancelled) {
+        return;
+      }
+
+      const targetCard = programCode
+        ? document.getElementById(`program-${programCode}`)
+        : null;
+
+      if (targetCard) {
+        targetCard.scrollIntoView({
           behavior: "auto",
+          block: "start",
+          inline: "nearest",
         });
+
+        highlightCard(targetCard);
+        clearReturnState();
+        return;
+      }
+
+      attemptCount += 1;
+
+      if (attemptCount < maximumAttempts) {
+        retryTimeout = window.setTimeout(
+          restorePosition,
+          retryDelay
+        );
+        return;
+      }
+
+      window.scrollTo({
+        top: Math.max(0, fallbackScrollY),
+        behavior: "auto",
       });
+
+      clearReturnState();
+    }
+
+    const firstFrame = window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(restorePosition);
     });
+
+    return () => {
+      cancelled = true;
+      window.cancelAnimationFrame(firstFrame);
+
+      if (retryTimeout !== undefined) {
+        window.clearTimeout(retryTimeout);
+      }
+    };
   }, [loading, programs]);
 
   function saveProgramsPosition(programCode: string) {
@@ -327,6 +418,8 @@ export default function ProgramsPage() {
         scoreType,
         universityType,
         level,
+        city,
+        teachingType,
         ranking,
         page,
         scrollY: window.scrollY,
@@ -344,6 +437,8 @@ export default function ProgramsPage() {
     setScoreType("");
     setUniversityType("");
     setLevel("");
+    setCity("");
+    setTeachingType("");
     setRanking("");
     setPage(1);
   }
@@ -363,7 +458,7 @@ export default function ProgramsPage() {
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex size-11 items-center justify-center rounded-2xl bg-indigo-600 !text-white">
+            <div className="flex size-11 items-center justify-center rounded-2xl bg-red-600 !text-white">
               <GraduationCap size={24} />
             </div>
 
@@ -375,7 +470,7 @@ export default function ProgramsPage() {
 
           <Link
             href="/"
-            className="flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold transition hover:border-indigo-300 hover:text-indigo-600"
+            className="flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold transition hover:border-red-300 hover:text-red-600"
           >
             <ArrowLeft size={17} />
             Ana sayfa
@@ -385,7 +480,7 @@ export default function ProgramsPage() {
 
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-7xl px-5 py-10 lg:px-8">
-          <p className="font-bold text-indigo-600">25.959 gerçek program</p>
+          <p className="font-bold text-red-600">25.959 gerçek program</p>
 
           <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-5xl">
             Sıralamana uygun programları bul
@@ -401,7 +496,7 @@ export default function ProgramsPage() {
       <div className="mx-auto grid max-w-7xl gap-7 px-5 py-8 lg:grid-cols-[290px_1fr] lg:px-8">
         <aside className="h-fit rounded-3xl border border-slate-200 bg-white p-5 lg:sticky lg:top-5">
           <div className="mb-5 flex items-center gap-2">
-            <SlidersHorizontal size={20} className="text-indigo-600" />
+            <SlidersHorizontal size={20} className="text-red-600" />
             <h2 className="text-lg font-black">Filtreler</h2>
           </div>
 
@@ -469,10 +564,44 @@ export default function ProgramsPage() {
             </select>
           </FilterField>
 
+          <FilterField label="İl">
+            <select
+              value={city}
+              onChange={(event) => {
+                setCity(event.target.value);
+                setPage(1);
+              }}
+              className="filter-input"
+            >
+              <option value="">Tüm iller</option>
+
+              {cities.map((cityName) => (
+                <option key={cityName} value={cityName}>
+                  {cityName}
+                </option>
+              ))}
+            </select>
+          </FilterField>
+
+          <FilterField label="Öğretim şekli">
+            <select
+              value={teachingType}
+              onChange={(event) => {
+                setTeachingType(event.target.value);
+                setPage(1);
+              }}
+              className="filter-input"
+            >
+              <option value="">Tümü</option>
+              <option value="orgun">Örgün öğretim</option>
+              <option value="acikogretim">Açıköğretim</option>
+            </select>
+          </FilterField>
+
           <button
             type="button"
             onClick={resetFilters}
-            className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm font-bold transition hover:border-indigo-300 hover:text-indigo-600"
+            className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm font-bold transition hover:border-red-300 hover:text-red-600"
           >
             Filtreleri temizle
           </button>
@@ -492,20 +621,20 @@ export default function ProgramsPage() {
                   setQuery(event.target.value);
                   setPage(1);
                 }}
-                placeholder="Bölüm, üniversite veya fakülte ara"
-                className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-11 pr-4 outline-none transition focus:border-indigo-500"
+                placeholder="Bölüm, şehir, ilçe veya doğal sorgu ara"
+                className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50 pl-11 pr-4 outline-none transition focus:border-red-500"
               />
             </div>
 
             <div className="flex items-center gap-2 text-sm font-bold text-slate-600">
-              <Filter size={17} className="text-indigo-600" />
+              <Filter size={17} className="text-red-600" />
               {format(pagination.total)} program bulundu
             </div>
           </div>
 
           {loading && (
             <div className="rounded-3xl border border-slate-200 bg-white px-6 py-16 text-center">
-              <div className="mx-auto size-9 animate-spin rounded-full border-4 border-slate-200 border-t-indigo-600" />
+              <div className="mx-auto size-9 animate-spin rounded-full border-4 border-slate-200 border-t-red-600" />
               <p className="mt-4 font-bold text-slate-600">
                 Programlar yükleniyor...
               </p>
@@ -612,7 +741,7 @@ export default function ProgramsPage() {
                   <div className="rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-16 text-center">
                     <Search size={38} className="mx-auto text-slate-300" />
                     <h2 className="mt-4 text-xl font-black">
-                      Program bulunamadı
+                      Aramana uygun program bulunamadı
                     </h2>
                     <p className="mt-2 text-slate-500">
                       Filtreleri değiştirerek tekrar dene.
@@ -646,7 +775,7 @@ export default function ProgramsPage() {
                           Math.min(pagination.totalPages, value + 1)
                         )
                       }
-                      className="flex items-center gap-2 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-bold !text-white disabled:cursor-not-allowed disabled:opacity-40"
+                      className="flex items-center gap-2 rounded-xl bg-red-600 px-4 py-2 text-sm font-bold !text-white disabled:cursor-not-allowed disabled:opacity-40"
                     >
                       Sonraki
                       <ChevronRight size={17} />
@@ -724,7 +853,7 @@ function ProgramCard({
     <article
       id={`program-${program.code}`}
       data-program-code={program.code}
-      className="scroll-mt-6 rounded-3xl border border-slate-200 bg-white p-5 transition hover:border-indigo-200 hover:shadow-lg sm:p-6"
+      className="scroll-mt-6 rounded-3xl border border-slate-200 bg-white p-5 transition hover:border-red-200 hover:shadow-lg sm:p-6"
     >
       <div className="flex items-start justify-between gap-4">
         <div className="min-w-0">
@@ -747,7 +876,7 @@ function ProgramCard({
           </h2>
 
           <p className="mt-2 flex items-start gap-2 font-semibold text-slate-600">
-            <Building2 size={17} className="mt-1 shrink-0 text-indigo-600" />
+            <Building2 size={17} className="mt-1 shrink-0 text-red-600" />
             {program.universityName}
           </p>
 
@@ -812,7 +941,7 @@ function ProgramCard({
             </span>
           )}
 
-          <span className="rounded-full bg-indigo-50 px-3 py-1.5 text-xs font-bold text-indigo-700">
+          <span className="rounded-full bg-red-50 px-3 py-1.5 text-xs font-bold text-red-700">
             Program kodu: {program.code}
           </span>
         </div>
@@ -820,7 +949,7 @@ function ProgramCard({
         <Link
           href={`/programlar/${program.code}`}
           onClick={onOpenProgram}
-          className="flex items-center justify-center gap-2 rounded-xl bg-slate-950 px-5 py-3 text-sm font-bold !text-white transition hover:bg-indigo-600 hover:!text-white"
+          className="flex items-center justify-center gap-2 rounded-xl bg-slate-950 px-5 py-3 text-sm font-bold !text-white transition hover:bg-red-600 hover:!text-white"
         >
           Programı incele
           <ChevronRight size={17} />
