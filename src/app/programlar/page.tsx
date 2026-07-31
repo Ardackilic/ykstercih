@@ -29,6 +29,31 @@ type HistoryItem = {
   generalQuota: number | null;
 };
 
+type Guide2026 = {
+  guideYear: number;
+  generalQuota: number | null;
+  schoolFirstQuota: number | null;
+  previousResultYear: number;
+  previousRanking: number | null;
+  previousBaseScore: number | null;
+  conditions: string | null;
+};
+
+type QuotaComparison2026 = {
+  quota2025: number | null;
+  quota2026: number | null;
+  difference: number | null;
+  percentage: number | null;
+  status:
+    | "increased"
+    | "decreased"
+    | "unchanged"
+    | "new"
+    | "removed"
+    | "unknown";
+  label: string;
+};
+
 type Program = {
   code: string;
   programName: string;
@@ -44,6 +69,10 @@ type Program = {
   latestRanking: number | null;
   latestBaseScore: number | null;
   latestQuota: number | null;
+  latestGuideYear?: number;
+  isActive2026?: boolean;
+  guide2026?: Guide2026;
+  quotaComparison2026?: QuotaComparison2026;
   history: Record<string, HistoryItem>;
 };
 
@@ -866,6 +895,19 @@ function ProgramCard({
   onOpenProgram: () => void;
 }) {
   const evaluation = getEvaluation(studentRanking, program.latestRanking);
+
+  const quotaComparison = program.quotaComparison2026;
+
+  const quota2026 =
+    program.guide2026?.generalQuota ??
+    quotaComparison?.quota2026 ??
+    program.latestQuota;
+
+  const quota2025 =
+    quotaComparison?.quota2025 ??
+    program.history["2025"]?.generalQuota ??
+    null;
+
   const years = Object.keys(program.history)
     .map(Number)
     .sort((a, b) => b - a);
@@ -920,7 +962,7 @@ function ProgramCard({
         />
       </div>
 
-      <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-5">
         <StatBox
           label={`${program.latestResultYear ?? "Son"} başarı sırası`}
           value={
@@ -940,9 +982,20 @@ function ProgramCard({
         />
 
         <StatBox
-          label="Kontenjan"
+          label="2026 kontenjanı"
           value={
-            program.latestQuota !== null ? String(program.latestQuota) : "Yok"
+            quota2026 !== null && quota2026 !== undefined
+              ? String(quota2026)
+              : "Yok"
+          }
+        />
+
+        <StatBox
+          label="2025 kontenjanı"
+          value={
+            quota2025 !== null && quota2025 !== undefined
+              ? String(quota2025)
+              : "Yok"
           }
         />
 
@@ -960,6 +1013,10 @@ function ProgramCard({
             >
               {evaluation.label}
             </span>
+          )}
+
+          {quotaComparison && (
+            <QuotaChangeBadge comparison={quotaComparison} />
           )}
 
           <span className="rounded-full bg-red-50 px-3 py-1.5 text-xs font-bold text-red-700">
@@ -1149,6 +1206,40 @@ function StatBox({ label, value }: { label: string; value: string }) {
       <p className="text-xs font-medium text-slate-500">{label}</p>
       <p className="mt-1 break-words text-lg font-black">{value}</p>
     </div>
+  );
+}
+
+function QuotaChangeBadge({
+  comparison,
+}: {
+  comparison: QuotaComparison2026;
+}) {
+  const styles: Record<QuotaComparison2026["status"], string> = {
+    increased: "bg-emerald-100 text-emerald-700",
+    decreased: "bg-rose-100 text-rose-700",
+    unchanged: "bg-slate-100 text-slate-700",
+    new: "bg-blue-100 text-blue-700",
+    removed: "bg-amber-100 text-amber-700",
+    unknown: "bg-slate-100 text-slate-600",
+  };
+
+  const percentageText =
+    comparison.percentage !== null &&
+    comparison.status !== "unchanged"
+      ? ` (%${Math.abs(comparison.percentage).toLocaleString("tr-TR", {
+          maximumFractionDigits: 2,
+        })})`
+      : "";
+
+  return (
+    <span
+      className={`rounded-full px-3 py-1.5 text-xs font-black ${
+        styles[comparison.status]
+      }`}
+    >
+      {comparison.label}
+      {percentageText}
+    </span>
   );
 }
 

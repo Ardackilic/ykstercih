@@ -31,6 +31,31 @@ type HistoryItem = {
   tuitionFee?: number | null;
 };
 
+type Guide2026 = {
+  guideYear: number;
+  generalQuota: number | null;
+  schoolFirstQuota: number | null;
+  previousResultYear: number;
+  previousRanking: number | null;
+  previousBaseScore: number | null;
+  conditions: string | null;
+};
+
+type QuotaComparison2026 = {
+  quota2025: number | null;
+  quota2026: number | null;
+  difference: number | null;
+  percentage: number | null;
+  status:
+    | "increased"
+    | "decreased"
+    | "unchanged"
+    | "new"
+    | "removed"
+    | "unknown";
+  label: string;
+};
+
 type NetItem = {
   yil: number;
   kilavuzKodu: number;
@@ -72,6 +97,10 @@ type Program = {
   latestResultYear: number | null;
   latestRanking: number | null;
   latestBaseScore: number | null;
+  latestQuota?: number | null;
+  isActive2026?: boolean;
+  guide2026?: Guide2026;
+  quotaComparison2026?: QuotaComparison2026;
   history: Record<string, HistoryItem>;
 };
 
@@ -174,6 +203,23 @@ export default async function ProgramDetailPage({
   }
 
   const lastPlacedNets = netPrograms[program.code] ?? null;
+
+  const guide2026 = program.guide2026 ?? null;
+  const quotaComparison = program.quotaComparison2026 ?? null;
+
+  const quota2025 =
+    quotaComparison?.quota2025 ??
+    program.history["2025"]?.generalQuota ??
+    null;
+
+  const quota2026 =
+    guide2026?.generalQuota ??
+    quotaComparison?.quota2026 ??
+    program.latestQuota ??
+    null;
+
+  const schoolFirstQuota2026 =
+    guide2026?.schoolFirstQuota ?? null;
 
   const historyRows = Object.entries(program.history)
     .map(([year, item]) => ({
@@ -408,21 +454,19 @@ export default async function ProgramDetailPage({
                 />
 
                 <HeroStat
-                  label="Genel kontenjan"
+                  label="2026 genel kontenjan"
                   value={
-                    latestHistory?.generalQuota !== null &&
-                    latestHistory?.generalQuota !== undefined
-                      ? String(latestHistory.generalQuota)
+                    quota2026 !== null
+                      ? String(quota2026)
                       : "Veri yok"
                   }
                 />
 
                 <HeroStat
-                  label="Okul birincisi"
+                  label="2026 okul birincisi"
                   value={
-                    latestHistory?.schoolFirstQuota !== null &&
-                    latestHistory?.schoolFirstQuota !== undefined
-                      ? String(latestHistory.schoolFirstQuota)
+                    schoolFirstQuota2026 !== null
+                      ? String(schoolFirstQuota2026)
                       : "Yok"
                   }
                 />
@@ -592,29 +636,47 @@ export default async function ProgramDetailPage({
           </Section>
 
           <Section
-            title="Kontenjan değişimi"
+            title="2025 → 2026 kontenjan değişimi"
             icon={<Users size={21} />}
           >
-            <div className="grid gap-3 sm:grid-cols-3">
-              {historyRows.map((item) => (
-                <div
-                  key={item.year}
-                  className="rounded-2xl bg-slate-50 p-5"
-                >
-                  <p className="text-sm font-bold text-slate-500">
-                    {item.year}
-                  </p>
+            <div className="grid gap-3 sm:grid-cols-2">
+              <div className="rounded-2xl bg-slate-50 p-5">
+                <p className="text-sm font-bold text-slate-500">
+                  2025 kontenjanı
+                </p>
 
-                  <p className="mt-2 text-3xl font-black">
-                    {item.generalQuota ?? "—"}
-                  </p>
+                <p className="mt-2 text-3xl font-black">
+                  {quota2025 ?? "—"}
+                </p>
 
-                  <p className="mt-1 text-xs font-bold text-slate-400">
-                    Genel kontenjan
-                  </p>
-                </div>
-              ))}
+                <p className="mt-1 text-xs font-bold text-slate-400">
+                  Önceki yılın genel kontenjanı
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-red-100 bg-red-50 p-5">
+                <p className="text-sm font-bold text-red-600">
+                  2026 kontenjanı
+                </p>
+
+                <p className="mt-2 text-3xl font-black text-red-700">
+                  {quota2026 ?? "—"}
+                </p>
+
+                <p className="mt-1 text-xs font-bold text-red-400">
+                  Yeni tercih kılavuzu kontenjanı
+                </p>
+              </div>
             </div>
+
+            {quotaComparison && (
+              <QuotaComparisonCard comparison={quotaComparison} />
+            )}
+
+            <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-xs font-semibold leading-5 text-amber-800">
+              Taban puan ve başarı sırası 2025 yerleştirme sonucudur.
+              Kontenjan bilgisi ise 2026 tercih kılavuzuna aittir.
+            </p>
           </Section>
 
           <Section
@@ -1252,6 +1314,81 @@ function DesktopNetBox({
       <p className="mt-1 text-xs font-bold text-red-600">
         net
       </p>
+    </div>
+  );
+}
+
+function QuotaComparisonCard({
+  comparison,
+}: {
+  comparison: QuotaComparison2026;
+}) {
+  const settings = {
+    increased: {
+      icon: TrendingUp,
+      title: "Kontenjan arttı",
+      className:
+        "border-emerald-200 bg-emerald-50 text-emerald-800",
+    },
+    decreased: {
+      icon: TrendingDown,
+      title: "Kontenjan azaldı",
+      className: "border-rose-200 bg-rose-50 text-rose-800",
+    },
+    unchanged: {
+      icon: BarChart3,
+      title: "Kontenjan değişmedi",
+      className: "border-slate-200 bg-slate-50 text-slate-700",
+    },
+    new: {
+      icon: Sparkles,
+      title: "Yeni açılan program",
+      className: "border-blue-200 bg-blue-50 text-blue-800",
+    },
+    removed: {
+      icon: TrendingDown,
+      title: "2026 kılavuzunda bulunmuyor",
+      className: "border-amber-200 bg-amber-50 text-amber-800",
+    },
+    unknown: {
+      icon: BarChart3,
+      title: "Karşılaştırma yapılamadı",
+      className: "border-slate-200 bg-slate-50 text-slate-700",
+    },
+  } satisfies Record<
+    QuotaComparison2026["status"],
+    {
+      icon: typeof BarChart3;
+      title: string;
+      className: string;
+    }
+  >;
+
+  const setting = settings[comparison.status];
+  const Icon = setting.icon;
+
+  const percentageText =
+    comparison.percentage !== null &&
+    comparison.status !== "unchanged"
+      ? ` (%${Math.abs(comparison.percentage).toLocaleString("tr-TR", {
+          maximumFractionDigits: 2,
+        })})`
+      : "";
+
+  return (
+    <div
+      className={`mt-4 flex items-start gap-3 rounded-2xl border p-4 ${setting.className}`}
+    >
+      <Icon size={22} className="mt-0.5 shrink-0" />
+
+      <div>
+        <p className="font-black">{setting.title}</p>
+
+        <p className="mt-1 text-sm font-semibold leading-6">
+          {comparison.label}
+          {percentageText}
+        </p>
+      </div>
     </div>
   );
 }
