@@ -14,6 +14,7 @@ import {
   ListChecks,
   Menu,
   Newspaper,
+  Sparkles,
   X,
 } from "lucide-react";
 
@@ -29,6 +30,12 @@ const navigationItems = [
     label: "Programlar",
     description: "Bölüm ve programları incele",
     icon: GraduationCap,
+  },
+  {
+    href: "/yeni-acilan-bolumler",
+    label: "Yeni Açılan Bölümler",
+    description: "2026'da ilk kez açılan programları incele",
+    icon: Sparkles,
   },
   {
     href: "/universiteler",

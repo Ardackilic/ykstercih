@@ -24,6 +24,31 @@ type Program = {
   city: string | null;
   district: string | null;
   isActive2025?: boolean;
+  isActive2026?: boolean;
+  latestGuideYear?: number;
+  guide2026?: {
+    guideYear: number;
+    generalQuota: number | null;
+    schoolFirstQuota: number | null;
+    previousResultYear: number;
+    previousRanking: number | null;
+    previousBaseScore: number | null;
+    conditions: string | null;
+  };
+  quotaComparison2026?: {
+    quota2025: number | null;
+    quota2026: number | null;
+    difference: number | null;
+    percentage: number | null;
+    status:
+      | "new"
+      | "increased"
+      | "decreased"
+      | "unchanged"
+      | "removed"
+      | "unknown";
+    label: string;
+  };
   searchText?: string;
   history: Record<string, HistoryItem>;
 };
@@ -362,6 +387,8 @@ export async function GET(request: NextRequest) {
     params.get("siralama") ?? ""
   );
 
+  const quotaStatus = params.get("quotaStatus") ?? "";
+
   const scoreType =
     explicitScoreType || parsed.scoreType;
 
@@ -393,7 +420,15 @@ export async function GET(request: NextRequest) {
     const { program, fields } = indexed;
 
     if (
+      !quotaStatus &&
       program.isActive2025 === false
+    ) {
+      continue;
+    }
+
+    if (
+      quotaStatus &&
+      program.quotaComparison2026?.status !== quotaStatus
     ) {
       continue;
     }
@@ -563,11 +598,16 @@ export async function GET(request: NextRequest) {
       latestRanking: program.latestRanking,
       latestBaseScore: program.latestBaseScore,
       latestQuota:
-        program.latestResultYear !== null
+        program.guide2026?.generalQuota ??
+        (program.latestResultYear !== null
           ? program.history[
               String(program.latestResultYear)
             ]?.generalQuota ?? null
-          : null,
+          : null),
+      latestGuideYear: program.latestGuideYear,
+      isActive2026: program.isActive2026,
+      guide2026: program.guide2026,
+      quotaComparison2026: program.quotaComparison2026,
       city: program.city,
       district: program.district,
       searchScore: score,
@@ -602,6 +642,7 @@ export async function GET(request: NextRequest) {
         ranking,
         categories:
           parsed.categoryKeywords,
+        quotaStatus,
       },
     },
   });
