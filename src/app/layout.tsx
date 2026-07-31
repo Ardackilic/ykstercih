@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import MobileNavigation from "@/components/mobile-navigation";
+import GuideNoticeModal from "@/components/guide-notice-modal";
 
 export const viewport = {
   width: "device-width",
@@ -148,6 +149,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <GuideNoticeModal />
           <MobileNavigation />
         <script
           type="application/ld+json"
