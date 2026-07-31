@@ -521,7 +521,7 @@ export default function ProgramsPage() {
 
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-7xl px-5 py-10 lg:px-8">
-          <p className="font-bold text-red-600">25.959 gerçek program</p>
+          <p className="font-bold text-red-600">23.235 gerçek program</p>
 
           <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-5xl">
             Sıralamana uygun programları bul
