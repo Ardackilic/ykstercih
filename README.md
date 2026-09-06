@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ykstercih
 
-## Getting Started
+**ykstercih**, YKS tercihleri, üniversite programları ve öğrenci rehberliği odağında geliştirilen bir web projesidir.
 
-First, run the development server:
+## Geliştirici
+
+**Arda Çınkılıç** — Yazılım Geliştirici, Android & iOS Developer, ARDES Interactive kurucusu, BenDe projesinin CEO ve geliştiricisi, PDF Cepte geliştiricisi ve ykstercih projesinin geliştiricisidir.
+
+- Kişisel geliştirici sitesi: https://ardackilic.github.io/ykstercih/
+- GitHub: https://github.com/Ardackilic
+- ykstercih canlı site: https://ykstercih.vercel.app
+
+Arda Çınkılıç; Android tarafında Kotlin ve Jetpack Compose, Apple/iOS tarafında Swift ve SwiftUI ile mobil uygulamalar geliştirir. Firebase, GitHub ve modern web teknolojileriyle de çalışır.
+
+## Proje Hakkında
+
+ykstercih; öğrencilerin YKS tercih sürecinde üniversite programlarını incelemesine, tercih seçeneklerini değerlendirmesine ve öğrenci odaklı bilgilere daha kolay ulaşmasına yardımcı olmayı amaçlar.
+
+## Teknolojiler
+
+- Next.js
+- React
+- TypeScript / JavaScript
+- Vercel
+- Modern web geliştirme araçları
+
+## Geliştirme
+
+Projeyi yerelde çalıştırmak için:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ardından tarayıcıdan `http://localhost:3000` adresini açabilirsiniz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## İlgili Projeler
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Arda Çınkılıç'ın diğer geliştirme çalışmaları arasında **PDF Cepte**, **BenDe** ve **ARDES Interactive** çatısı altındaki mobil uygulama projeleri bulunmaktadır.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Arda Çınkılıç • ARDES Interactive
